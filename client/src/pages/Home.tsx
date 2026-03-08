@@ -8,7 +8,7 @@ const featuredPosts = [
     href: "/blog/ayahuasca-retreats-peru",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
     category: "Wellness",
-    categoryColor: "bg-teal-600",
+    categoryColor: "bg-orange-500",
   },
   {
     title: "Asia Belly",
@@ -32,7 +32,7 @@ const featuredPosts = [
     href: "/blog/yoga-teacher-training-rishikesh",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/YogaTeacher.webp",
     category: "Wellness",
-    categoryColor: "bg-teal-600",
+    categoryColor: "bg-orange-500",
   },
 ];
 
@@ -97,13 +97,13 @@ export default function Home() {
       <section
         className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #0d3d35 0%, #0a2d28 40%, #1a0a05 100%)",
+          background: "linear-gradient(135deg, #0f0f0f 0%, #0f0f0f 40%, #1a0505 100%)",
         }}
         data-testid="hero-section"
       >
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
-            backgroundImage: `radial-gradient(circle at 25% 35%, rgba(45, 212, 191, 0.3) 0%, transparent 50%),
+            backgroundImage: `radial-gradient(circle at 25% 35%, rgba(255, 90, 50, 0.25) 0%, transparent 50%),
                              radial-gradient(circle at 75% 70%, rgba(217, 158, 20, 0.2) 0%, transparent 50%),
                              radial-gradient(circle at 50% 50%, rgba(220, 38, 38, 0.1) 0%, transparent 60%)`
           }} />
@@ -122,7 +122,7 @@ export default function Home() {
             data-testid="hero-headline"
           >
             Travel Stories.{" "}
-            <span className="text-teal-300">Itineraries.</span>
+            <span className="text-orange-300">Itineraries.</span>
             <br />
             Hacks. Tips.{" "}
             <span className="text-amber-400">Budget Friendly.</span>
@@ -136,7 +136,7 @@ export default function Home() {
             <Link
               href="/blog"
               data-testid="button-read-blog"
-              className="px-8 py-3.5 bg-teal-600 hover:bg-teal-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 flex items-center gap-2"
+              className="px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 flex items-center gap-2"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Read the Blog <ArrowRight size={16} />
@@ -159,7 +159,7 @@ export default function Home() {
 
       <section className="py-20 px-4 max-w-7xl mx-auto" data-testid="featured-posts-section">
         <div className="flex items-center gap-4 mb-12">
-          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-teal-600/30 to-transparent" />
+          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
           <h2
             className="text-3xl font-bold text-center"
             style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
@@ -167,7 +167,7 @@ export default function Home() {
           >
             Featured Posts
           </h2>
-          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-teal-600/30 to-transparent" />
+          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
               <div className="p-4">
                 <h3
-                  className="text-lg font-bold text-card-foreground mb-2 group-hover:text-teal-600 transition-colors"
+                  className="text-lg font-bold text-card-foreground mb-2 group-hover:text-orange-500 transition-colors"
                   style={{ fontFamily: "var(--font-serif)" }}
                 >
                   {post.title}
@@ -210,7 +210,7 @@ export default function Home() {
           <Link
             href="/blog"
             data-testid="button-view-all-posts"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             View All Posts <ArrowRight size={16} />
@@ -338,7 +338,7 @@ export default function Home() {
 
       <section
         className="py-20 px-4 text-center"
-        style={{ background: "linear-gradient(135deg, #0d3d35 0%, #0a2d28 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #0f0f0f 100%)" }}
         data-testid="cta-section"
       >
         <div className="max-w-2xl mx-auto">

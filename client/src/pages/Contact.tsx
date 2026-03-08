@@ -5,12 +5,12 @@ export default function Contact() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d3d35 0%, #1a0a05 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0505 100%)" }}
         data-testid="contact-hero"
       >
         <div className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "radial-gradient(circle at 40% 60%, rgba(45, 212, 191, 0.4) 0%, transparent 60%), radial-gradient(circle at 70% 30%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
+            backgroundImage: "radial-gradient(circle at 40% 60%, rgba(255, 90, 50, 0.35) 0%, transparent 60%), radial-gradient(circle at 70% 30%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
           }}
         />
         <div className="relative z-10 text-center">
@@ -35,7 +35,7 @@ export default function Contact() {
             style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
           >
             Hey Millennial,{" "}
-            <span className="text-teal-600">Let's Connect</span>
+            <span className="text-orange-500">Let's Connect</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-xl mx-auto">
             Whether you've got questions about a destination, want to share your own story, or just want to vibe about travel — my inbox is open. No forms. No bots. Just a real email to a real human.
@@ -47,8 +47,8 @@ export default function Contact() {
             className="p-8 rounded-2xl border border-card-border bg-card text-center hover-elevate transition-all duration-300"
             data-testid="contact-email-card"
           >
-            <div className="w-14 h-14 bg-teal-100 dark:bg-teal-900/30 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Mail size={28} className="text-teal-600" />
+            <div className="w-14 h-14 bg-orange-900/30 bg-orange-950/30 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <Mail size={28} className="text-orange-500" />
             </div>
             <h3
               className="font-bold text-foreground mb-2"
@@ -59,7 +59,7 @@ export default function Contact() {
             <a
               href="mailto:traveltipsexposed@gmail.com"
               data-testid="link-email"
-              className="text-teal-600 hover:text-teal-500 font-semibold text-sm break-all transition-colors"
+              className="text-orange-500 hover:text-orange-500 font-semibold text-sm break-all transition-colors"
             >
               traveltipsexposed@gmail.com
             </a>
@@ -116,7 +116,7 @@ export default function Contact() {
 
         <div
           className="p-10 rounded-2xl text-center"
-          style={{ background: "linear-gradient(135deg, #0d3d35, #1a0a05)" }}
+          style={{ background: "linear-gradient(135deg, #1a0a02 0%, #0f0f0f 100%)", border: "1px solid rgba(255,80,40,0.15)" }}
           data-testid="contact-cta-box"
         >
           <h3

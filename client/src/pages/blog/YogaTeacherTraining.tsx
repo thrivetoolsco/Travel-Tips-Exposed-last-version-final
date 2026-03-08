@@ -13,7 +13,7 @@ export default function YogaTeacherTraining() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="px-3 py-1 text-xs font-semibold bg-teal-600 text-white rounded-full"
+            <span className="px-3 py-1 text-xs font-semibold bg-orange-500 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Wellness</span>
             <span className="px-3 py-1 text-xs font-semibold bg-amber-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>India</span>
@@ -23,7 +23,7 @@ export default function YogaTeacherTraining() {
 
       <div className="max-w-4xl mx-auto px-4 py-12" data-testid="post-content">
         <Link href="/blog" data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-500 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}>
           <ArrowLeft size={16} /> Back to Blog
         </Link>
@@ -35,7 +35,7 @@ export default function YogaTeacherTraining() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-teal-500" />
+            <User size={14} className="text-orange-500" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -49,7 +49,7 @@ export default function YogaTeacherTraining() {
             I wanted an intensive training and I got just that at the Ashtanga school.
           </p>
 
-          <div className="my-6 p-6 border-l-4 border-teal-400 bg-teal-50 dark:bg-teal-900/20 rounded-r-xl">
+          <div className="my-6 p-6 border-l-4 border-orange-400 bg-orange-950/20 rounded-r-xl">
             <p className="text-lg font-semibold text-foreground leading-relaxed" style={{ fontFamily: "var(--font-serif)" }}>
               The best way I can describe that experience is that it was like a military training but for yoga.
             </p>
@@ -77,7 +77,7 @@ export default function YogaTeacherTraining() {
 
           <div className="space-y-5 my-8">
             <div className="flex gap-4 p-5 bg-card border border-card-border rounded-xl">
-              <span className="text-2xl font-bold text-teal-600" style={{ fontFamily: "var(--font-display)" }}>1.</span>
+              <span className="text-2xl font-bold text-orange-500" style={{ fontFamily: "var(--font-display)" }}>1.</span>
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Magnesium</p>
                 <p className="text-muted-foreground leading-relaxed">
@@ -121,12 +121,12 @@ export default function YogaTeacherTraining() {
             A friend of mine told me about this place in the mountains where the Dalai Lama went when he fled from Tibet. That town is called Dharamshala and it was my favorite spot I visited in India.
           </p>
 
-          <div className="my-10 p-6 border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/10 rounded-xl">
+          <div className="my-10 p-6 border border-orange-500/20 bg-orange-950/20 bg-orange-950/10 rounded-xl">
             <p className="text-foreground font-semibold mb-3" style={{ fontFamily: "var(--font-serif)" }}>
               I'll tell you why in the next blog post:
             </p>
             <Link href="/blog/rishikesh-to-dharamshala"
-              className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-500 font-semibold transition-colors">
+              className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 font-semibold transition-colors">
               Rishikesh to Dharamshala: Your Essential Guide to India's Spiritual Hub <ArrowRight size={16} />
             </Link>
           </div>
@@ -134,12 +134,12 @@ export default function YogaTeacherTraining() {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link href="/blog" data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link href="/blog/rishikesh-to-dharamshala" data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             Rishikesh to Dharamshala <ArrowRight size={16} />
           </Link>

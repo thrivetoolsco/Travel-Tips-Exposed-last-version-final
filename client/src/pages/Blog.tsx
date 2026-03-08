@@ -65,11 +65,11 @@ const blogPosts = [
 ];
 
 const categoryColors: Record<string, string> = {
-  "Islands": "bg-teal-100 text-teal-700 dark:bg-teal-900/50 dark:text-teal-300",
-  "Waves": "bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300",
-  "Airport": "bg-amber-100 text-amber-700 dark:bg-amber-900/50 dark:text-amber-700",
-  "Health": "bg-rose-100 text-rose-700 dark:bg-rose-900/50 dark:text-rose-300",
-  "Wellness": "bg-teal-100 text-teal-700 dark:bg-teal-900/50 dark:text-teal-300",
+  "Islands": "bg-orange-950/40 text-orange-300",
+  "Waves": "bg-blue-900/40 text-blue-300",
+  "Airport": "bg-amber-900/40 text-amber-300",
+  "Health": "bg-rose-900/40 text-rose-300",
+  "Wellness": "bg-orange-950/40 text-orange-300",
 };
 
 export default function Blog() {
@@ -78,7 +78,7 @@ export default function Blog() {
       <div
         className="relative py-24 px-4 text-center overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #0d3d35 0%, #0a2d28 60%, #1a0a05 100%)",
+          background: "linear-gradient(135deg, #0f0f0f 0%, #0f0f0f 60%, #1a0505 100%)",
         }}
         data-testid="blog-hero"
       >
@@ -89,7 +89,7 @@ export default function Blog() {
             backgroundPosition: "center",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0d3d35]/80 to-[#0a2d28]/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0f0f0f]/80 to-[#0f0f0f]/90" />
         <div className="relative z-10">
           <span className="inline-block text-xs font-semibold tracking-[0.25em] uppercase text-amber-400 border border-amber-400/30 px-4 py-1.5 rounded-full mb-4"
             style={{ fontFamily: "var(--font-display)" }}>
@@ -142,7 +142,7 @@ export default function Blog() {
               <div className="p-6">
                 <Link href={post.href} className="block mb-3">
                   <h2
-                    className="text-xl font-bold text-card-foreground group-hover:text-teal-600 transition-colors leading-snug"
+                    className="text-xl font-bold text-card-foreground group-hover:text-orange-500 transition-colors leading-snug"
                     style={{ fontFamily: "var(--font-serif)" }}
                     data-testid={`heading-post-${post.id}`}
                   >
@@ -155,7 +155,7 @@ export default function Blog() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4 text-xs text-muted-foreground">
                     <span className="flex items-center gap-1.5">
-                      <User size={12} className="text-teal-500" />
+                      <User size={12} className="text-orange-500" />
                       <span data-testid={`text-author-${post.id}`}>{post.author}</span>
                     </span>
                     <span className="flex items-center gap-1.5">
@@ -166,7 +166,7 @@ export default function Blog() {
                   <Link
                     href={post.href}
                     data-testid={`link-read-more-${post.id}`}
-                    className="flex items-center gap-1 text-xs font-semibold text-teal-600 hover:text-teal-500 transition-colors"
+                    className="flex items-center gap-1 text-xs font-semibold text-orange-500 hover:text-orange-500 transition-colors"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     Read More <ArrowRight size={12} />

@@ -21,7 +21,7 @@ export default function SkipTheLines() {
 
       <div className="max-w-4xl mx-auto px-4 py-12" data-testid="post-content">
         <Link href="/blog" data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-500 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}>
           <ArrowLeft size={16} /> Back to Blog
         </Link>
@@ -33,7 +33,7 @@ export default function SkipTheLines() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-teal-500" />
+            <User size={14} className="text-orange-500" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -70,7 +70,7 @@ export default function SkipTheLines() {
 
           <div className="space-y-8 my-10">
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-teal-600" style={{ fontFamily: "var(--font-serif)" }}>
+              <h3 className="text-xl font-bold mb-3 text-orange-500" style={{ fontFamily: "var(--font-serif)" }}>
                 1. The Digital VOA is Your Main Character Moment
               </h3>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
@@ -86,7 +86,7 @@ export default function SkipTheLines() {
                 Do this about 3 weeks out. Pay the fee, print the confirmation (just in case), and keep a screenshot on your phone.
               </p>
               <a href="https://evisa.imigrasi.go.id/" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-teal-600 hover:text-teal-500 font-semibold text-sm">
+                className="inline-flex items-center gap-1 text-orange-500 hover:text-orange-500 font-semibold text-sm">
                 Skip the Line: evisa.imigrasi.go.id <ArrowRight size={12} />
               </a>
             </div>
@@ -108,7 +108,7 @@ export default function SkipTheLines() {
                 Screenshot that receipt ASAP. Airport Wi-Fi is rarely your friend.
               </p>
               <a href="https://lovebali.baliprov.go.id/" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-teal-600 hover:text-teal-500 font-semibold text-sm">
+                className="inline-flex items-center gap-1 text-orange-500 hover:text-orange-500 font-semibold text-sm">
                 Pay the Levy Now: lovebali.baliprov.go.id <ArrowRight size={12} />
               </a>
             </div>
@@ -130,13 +130,13 @@ export default function SkipTheLines() {
                 Fill this out the day before your flight. You'll thank yourself later.
               </p>
               <a href="https://ecd.beacukai.go.id/" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-teal-600 hover:text-teal-500 font-semibold text-sm">
+                className="inline-flex items-center gap-1 text-orange-500 hover:text-orange-500 font-semibold text-sm">
                 Do the Digital Declaration: ecd.beacukai.go.id <ArrowRight size={12} />
               </a>
             </div>
 
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-teal-600" style={{ fontFamily: "var(--font-serif)" }}>
+              <h3 className="text-xl font-bold mb-3 text-orange-500" style={{ fontFamily: "var(--font-serif)" }}>
                 4. eSIM: Don't Be That Guy Buying a SIM at the Airport
               </h3>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
@@ -154,25 +154,25 @@ export default function SkipTheLines() {
             </div>
           </div>
 
-          <div className="my-10 p-6 border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/10 rounded-xl text-center">
+          <div className="my-10 p-6 border border-orange-500/20 bg-orange-950/20 bg-orange-950/10 rounded-xl text-center">
             <h3 className="text-xl font-bold mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
               The Payoff
             </h3>
             <p className="text-foreground leading-relaxed">
               When you follow these four steps, you'll breeze past the lines, look confident, and probably make some confused travelers side-eye you with envy.
             </p>
-            <p className="text-teal-600 font-bold text-lg mt-4">Your Indonesia trip is about to start. Go get that coconut.</p>
+            <p className="text-orange-500 font-bold text-lg mt-4">Your Indonesia trip is about to start. Go get that coconut.</p>
           </div>
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link href="/blog" data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link href="/blog/bali-belly-delhi-belly" data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             Bali Belly Guide <ArrowRight size={16} />
           </Link>

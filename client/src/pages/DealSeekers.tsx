@@ -7,37 +7,37 @@ const sections = [
     icon: Plane,
     emoji: "✈️",
     title: "Flights",
-    color: "text-teal-600",
-    bgColor: "bg-teal-50 dark:bg-teal-900/20",
-    borderColor: "border-teal-200 dark:border-teal-800",
+    color: "text-orange-500",
+    bgColor: "bg-orange-950/20",
+    borderColor: "border-orange-500/20",
     platforms: [
       {
         name: "Kayak",
         description: "My go-to for finding deals. Book 4 months out for the best prices on long-haul flights.",
         url: "https://www.kayak.com",
         tag: "Best for Long Haul",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "Skyscanner",
         description: "The best for flexible date searches. The 'Whole Month' view is a game-changer for finding the cheapest day to fly.",
         url: "https://www.skyscanner.com",
         tag: "Best for Flexibility",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "Google Flights",
         description: "Excellent for price tracking. Set alerts and get notified when prices drop for your route.",
         url: "https://flights.google.com",
         tag: "Price Alerts",
-        tagColor: "bg-blue-100 text-blue-700",
+        tagColor: "bg-blue-900/40 text-blue-300",
       },
       {
         name: "Kiwi.com",
         description: "Smart routing — finds creative combinations to get you there for less. Great for multi-city trips.",
         url: "https://www.kiwi.com",
         tag: "Multi-City",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
     ],
   },
@@ -47,36 +47,36 @@ const sections = [
     emoji: "🛏️",
     title: "Accommodations",
     color: "text-amber-600",
-    bgColor: "bg-amber-50 dark:bg-amber-900/20",
-    borderColor: "border-amber-200 dark:border-amber-800",
+    bgColor: "bg-amber-950/20",
+    borderColor: "border-amber-500/20",
     platforms: [
       {
         name: "Agoda",
         description: "The MVP for Southeast Asia. Best deals and the most flexible cancellation policies. For 45 days in Bali, accommodation came to around CAD $600.",
         url: "https://www.agoda.com",
         tag: "Best for SEA",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "Hostelworld",
         description: "The best for finding cheap shared rooms. I love shared rooms for meeting amazing people and instant connections.",
         url: "https://www.hostelworld.com",
         tag: "Budget Travel",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "Booking.com",
         description: "Massive inventory, trustworthy reviews, and great free cancellation options.",
         url: "https://www.booking.com",
         tag: "Best Selection",
-        tagColor: "bg-blue-100 text-blue-700",
+        tagColor: "bg-blue-900/40 text-blue-300",
       },
       {
         name: "Retreat Guru",
         description: "For the conscious travelers. Find yoga retreats, meditation centers, ayahuasca retreats, and spiritual escapes worldwide.",
         url: "https://retreat.guru",
         tag: "Spiritual Travel",
-        tagColor: "bg-purple-100 text-purple-700",
+        tagColor: "bg-purple-900/40 text-purple-300",
       },
     ],
   },
@@ -87,28 +87,28 @@ const sections = [
     title: "Work Exchange",
     color: "text-rose-600",
     bgColor: "bg-rose-50 dark:bg-rose-900/20",
-    borderColor: "border-rose-200 dark:border-rose-800",
+    borderColor: "border-rose-500/20",
     platforms: [
       {
         name: "Worldpackers",
         description: "Work a few hours a day in exchange for free accommodation. Perfect for extending trips on zero budget.",
         url: "https://www.worldpackers.com",
         tag: "Most Popular",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
       {
         name: "Workaway",
         description: "One of the original work exchange platforms. Thousands of hosts worldwide, from organic farms to eco-lodges.",
         url: "https://www.workaway.info",
         tag: "Huge Network",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "HelpX",
         description: "Help exchange — great for finding farm stays, homesteads, and eco-projects.",
         url: "https://www.helpx.net",
         tag: "Farm Stays",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
     ],
   },
@@ -117,30 +117,30 @@ const sections = [
     icon: Home,
     emoji: "🏘️",
     title: "Housesitting",
-    color: "text-teal-600",
-    bgColor: "bg-teal-50 dark:bg-teal-900/20",
-    borderColor: "border-teal-200 dark:border-teal-800",
+    color: "text-orange-500",
+    bgColor: "bg-orange-950/20",
+    borderColor: "border-orange-500/20",
     platforms: [
       {
         name: "TrustedHousesitters",
         description: "The gold standard. Get free accommodation in exchange for looking after someone's home and pets. It's a beautiful deal.",
         url: "https://www.trustedhousesitters.com",
         tag: "Gold Standard",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "Nomador",
         description: "European-centric platform with a more curated approach to house sitting.",
         url: "https://www.nomador.com",
         tag: "Europe Focus",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "HouseCarers",
         description: "Great selection globally, especially for longer-term sits.",
         url: "https://www.housecarers.com",
         tag: "Long-Term Sits",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
     ],
   },
@@ -150,36 +150,36 @@ const sections = [
     emoji: "🚙",
     title: "Transportation & Ride Shares",
     color: "text-amber-600",
-    bgColor: "bg-amber-50 dark:bg-amber-900/20",
-    borderColor: "border-amber-200 dark:border-amber-800",
+    bgColor: "bg-amber-950/20",
+    borderColor: "border-amber-500/20",
     platforms: [
       {
         name: "Grab",
         description: "The Uber of Southeast Asia. You can schedule your airport lift in advance, and the driver tracks your flight arrival. Life. Saver.",
         url: "https://www.grab.com",
         tag: "Essential for SEA",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "BlaBlaCar",
         description: "The best carpooling platform. Share rides across Europe and beyond for a fraction of train costs.",
         url: "https://www.blablacar.com",
         tag: "Europe Carpooling",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "Rome2Rio",
         description: "Compare all transport options — planes, trains, buses, ferries — from A to B worldwide. Essential for planning.",
         url: "https://www.rome2rio.com",
         tag: "Route Comparison",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
       {
         name: "12Go.Asia",
         description: "The best for booking trains, buses and ferries across Southeast Asia.",
         url: "https://12go.asia",
         tag: "SEA Transport",
-        tagColor: "bg-blue-100 text-blue-700",
+        tagColor: "bg-blue-900/40 text-blue-300",
       },
     ],
   },
@@ -190,28 +190,28 @@ const sections = [
     title: "Guided Tours",
     color: "text-rose-600",
     bgColor: "bg-rose-50 dark:bg-rose-900/20",
-    borderColor: "border-rose-200 dark:border-rose-800",
+    borderColor: "border-rose-500/20",
     platforms: [
       {
         name: "GetYourGuide",
         description: "The biggest library of tours, activities and experiences worldwide. Great free cancellation policies.",
         url: "https://www.getyourguide.com",
         tag: "Most Variety",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
       {
         name: "Viator",
         description: "TripAdvisor's tour platform. Excellent reviews system for vetting tours before you book.",
         url: "https://www.viator.com",
         tag: "Trusted Reviews",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "Airbnb Experiences",
         description: "Hosted by locals. For the authentic, off-the-beaten-path experiences that tour companies don't offer.",
         url: "https://www.airbnb.com/experiences",
         tag: "Local Experiences",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
     ],
   },
@@ -220,23 +220,23 @@ const sections = [
     icon: Shield,
     emoji: "🚑",
     title: "Travel Insurance",
-    color: "text-teal-600",
-    bgColor: "bg-teal-50 dark:bg-teal-900/20",
-    borderColor: "border-teal-200 dark:border-teal-800",
+    color: "text-orange-500",
+    bgColor: "bg-orange-950/20",
+    borderColor: "border-orange-500/20",
     platforms: [
       {
         name: "SafetyWing",
         description: "The digital nomad's insurance of choice. Affordable monthly plans that cover you globally with automatic renewal.",
         url: "https://safetywing.com",
         tag: "Best for Nomads",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "World Nomads",
         description: "Solid adventure travel insurance for the more extreme activities — surfing, trekking, scuba diving, etc.",
         url: "https://www.worldnomads.com",
         tag: "Adventure Coverage",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
     ],
   },
@@ -246,36 +246,36 @@ const sections = [
     emoji: "🥾",
     title: "Gear",
     color: "text-amber-600",
-    bgColor: "bg-amber-50 dark:bg-amber-900/20",
-    borderColor: "border-amber-200 dark:border-amber-800",
+    bgColor: "bg-amber-950/20",
+    borderColor: "border-amber-500/20",
     platforms: [
       {
         name: "Grayl Water Filter",
         description: "The only way I can travel guilt-free and belly-issue-free. Eliminates viruses, bacteria, and protozoa. Fast and durable. Non-negotiable for Asia and jungle travel.",
         url: "https://grayl.com",
         tag: "Essential Gear",
-        tagColor: "bg-teal-100 text-teal-700",
+        tagColor: "bg-orange-900/30 text-orange-700",
       },
       {
         name: "Just Thrive Probiotics",
         description: "Start taking a high quality probiotic before you leave home and don't skip a single day while traveling. Use code THRIVETOOLS for a discount.",
         url: "https://justthrivehealth.com/THRIVETOOLS",
         tag: "Health Essential",
-        tagColor: "bg-rose-100 text-rose-700",
+        tagColor: "bg-rose-900/40 text-rose-300",
       },
       {
         name: "Osprey Packs",
         description: "The backpack I'd trust my life with. Built to last years of hard travel. Their Farpoint series is the gold standard for travel backpacks.",
         url: "https://www.osprey.com",
         tag: "Best Backpack",
-        tagColor: "bg-amber-100 text-amber-700",
+        tagColor: "bg-amber-900/40 text-amber-300",
       },
       {
         name: "KnowRoaming eSIM",
         description: "Download an app, buy a data plan for any country, and install it instantly before you take off. The moment your plane lands, you have data. No SIM card fuss.",
         url: "https://www.knowroaming.com",
         tag: "Stay Connected",
-        tagColor: "bg-blue-100 text-blue-700",
+        tagColor: "bg-blue-900/40 text-blue-300",
       },
     ],
   },
@@ -305,12 +305,12 @@ export default function DealSeekers() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d3d35 0%, #1a0a05 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0505 100%)" }}
         data-testid="deal-seekers-hero"
       >
         <div className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(45, 212, 191, 0.4) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
+            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(255, 90, 50, 0.35) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
           }}
         />
         <div className="relative z-10 text-center">
@@ -340,7 +340,7 @@ export default function DealSeekers() {
                 key={section.id}
                 onClick={() => scrollTo(section.id)}
                 data-testid={`button-section-${section.id}`}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-card hover:border-teal-400 hover:text-teal-600 text-sm font-medium transition-all duration-200"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-card hover:border-orange-400 hover:text-orange-500 text-sm font-medium transition-all duration-200"
                 style={{ fontFamily: "var(--font-display)" }}
               >
                 <span>{section.emoji}</span>
@@ -382,12 +382,12 @@ export default function DealSeekers() {
                     >
                       <div className="flex items-start justify-between mb-3">
                         <h3
-                          className="text-lg font-bold text-card-foreground group-hover:text-teal-600 transition-colors"
+                          className="text-lg font-bold text-card-foreground group-hover:text-orange-500 transition-colors"
                           style={{ fontFamily: "var(--font-display)" }}
                         >
                           {platform.name}
                         </h3>
-                        <ExternalLink size={16} className="text-muted-foreground group-hover:text-teal-500 flex-shrink-0 mt-1 transition-colors" />
+                        <ExternalLink size={16} className="text-muted-foreground group-hover:text-orange-500 flex-shrink-0 mt-1 transition-colors" />
                       </div>
                       <span
                         className={`self-start px-2.5 py-1 text-xs font-semibold rounded-full mb-3 ${platform.tagColor}`}

@@ -289,12 +289,12 @@ export default function VisualJourneys() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d3d35 0%, #1a0a05 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0505 100%)" }}
         data-testid="visual-journeys-hero"
       >
         <div className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(45, 212, 191, 0.4) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(220, 38, 38, 0.3) 0%, transparent 60%)",
+            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(255, 90, 50, 0.35) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(255, 180, 0, 0.2) 0%, transparent 60%)",
           }}
         />
         <div className="relative z-10 text-center">
@@ -323,14 +323,14 @@ export default function VisualJourneys() {
               id={album.slug}
               onClick={() => setActiveAlbum(activeAlbum === album.slug ? null : album.slug)}
               data-testid={`button-album-${album.slug}`}
-              className="group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-orange-500"
             >
               <img
                 src={album.cover}
                 alt={album.country}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className={`absolute inset-0 transition-all duration-300 ${activeAlbum === album.slug ? "bg-teal-900/50" : "bg-gradient-to-t from-black/80 via-black/20 to-transparent"}`} />
+              <div className={`absolute inset-0 transition-all duration-300 ${activeAlbum === album.slug ? "bg-orange-950/40" : "bg-gradient-to-t from-black/80 via-black/20 to-transparent"}`} />
               <div className="absolute bottom-0 left-0 right-0 p-3 text-left">
                 <span
                   className="text-white font-bold text-sm block"
@@ -360,7 +360,7 @@ export default function VisualJourneys() {
             className={`mb-16 transition-all duration-300 ${activeAlbum === album.slug ? "block" : "hidden"}`}
           >
             <div className="flex items-center gap-4 mb-6">
-              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-teal-600/30 to-transparent" />
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
               <h2
                 className="text-2xl font-bold text-foreground"
                 style={{ fontFamily: "var(--font-serif)" }}
@@ -368,7 +368,7 @@ export default function VisualJourneys() {
               >
                 {album.country} <span className="text-muted-foreground text-lg font-normal">· {album.count} photos</span>
               </h2>
-              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-teal-600/30 to-transparent" />
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
               {album.images.map((imgUrl, idx) => (
@@ -376,7 +376,7 @@ export default function VisualJourneys() {
                   key={imgUrl}
                   onClick={() => openLightbox(album.slug, idx)}
                   data-testid={`button-image-${album.slug}-${idx}`}
-                  className="group relative aspect-square rounded-lg overflow-hidden bg-muted focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  className="group relative aspect-square rounded-lg overflow-hidden bg-muted focus:outline-none focus:ring-2 focus:ring-orange-500"
                 >
                   <GalleryImage src={imgUrl} alt={`${album.country} ${idx + 1}`} />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200" />

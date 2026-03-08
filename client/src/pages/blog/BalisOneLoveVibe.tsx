@@ -13,7 +13,7 @@ export default function BalisOneLoveVibe() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="px-3 py-1 text-xs font-semibold bg-teal-600 text-white rounded-full"
+            <span className="px-3 py-1 text-xs font-semibold bg-orange-500 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Islands</span>
             <span className="px-3 py-1 text-xs font-semibold bg-blue-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Waves</span>
@@ -23,7 +23,7 @@ export default function BalisOneLoveVibe() {
 
       <div className="max-w-4xl mx-auto px-4 py-12" data-testid="post-content">
         <Link href="/blog" data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-500 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}>
           <ArrowLeft size={16} /> Back to Blog
         </Link>
@@ -35,7 +35,7 @@ export default function BalisOneLoveVibe() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-teal-500" />
+            <User size={14} className="text-orange-500" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -57,7 +57,7 @@ export default function BalisOneLoveVibe() {
             It's so interesting to notice how I still get that mild fear sneaking in when I'm about to travel. Even after hitchhiking solo across North America and traveling to India alone, I still get that fear of the unknown. The thing is that I choose to embrace that fear because it's by overcoming it that I create the best version of myself. These travels are really not about finding myself but about creating myself.
           </p>
 
-          <p className="mb-10 text-xl font-bold text-teal-600">Indonesia, let's gooo!!!</p>
+          <p className="mb-10 text-xl font-bold text-orange-500">Indonesia, let's gooo!!!</p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             That Ubud Magic is REAL.
@@ -81,14 +81,14 @@ export default function BalisOneLoveVibe() {
 
           <div className="space-y-5 my-8">
             <div className="flex gap-4 p-5 bg-card border border-card-border rounded-xl">
-              <span className="text-2xl font-bold text-teal-600" style={{ fontFamily: "var(--font-display)" }}>1.</span>
+              <span className="text-2xl font-bold text-orange-500" style={{ fontFamily: "var(--font-display)" }}>1.</span>
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Get your e-VOA (Electronic Visa on Arrival) early</p>
                 <p className="text-muted-foreground leading-relaxed">
                   Don't be the person stuck in the 2 hour airport line. Do it online before you fly.
                 </p>
                 <a href="http://molina.imigrasi.go.id" target="_blank" rel="noopener noreferrer"
-                  className="text-teal-600 hover:text-teal-500 text-sm font-semibold mt-1 inline-flex items-center gap-1">
+                  className="text-orange-500 hover:text-orange-500 text-sm font-semibold mt-1 inline-flex items-center gap-1">
                   Official site: molina.imigrasi.go.id <ArrowRight size={12} />
                 </a>
               </div>
@@ -113,7 +113,7 @@ export default function BalisOneLoveVibe() {
             </div>
           </div>
 
-          <div className="my-10 p-6 border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-900/10 rounded-xl text-center">
+          <div className="my-10 p-6 border border-orange-500/20 bg-orange-950/20 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg leading-relaxed text-foreground" style={{ fontFamily: "var(--font-serif)" }}>
               I hope this inspires you to take that leap and get uncomfortable. Indonesia is truly one of the most budget friendly places on earth.
             </p>
@@ -124,12 +124,12 @@ export default function BalisOneLoveVibe() {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link href="/blog" data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link href="/blog/skip-lines-bali" data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             Skip The Lines <ArrowRight size={16} />
           </Link>
