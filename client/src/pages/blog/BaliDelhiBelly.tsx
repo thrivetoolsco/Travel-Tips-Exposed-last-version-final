@@ -24,7 +24,7 @@ export default function BaliDelhiBelly() {
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="px-3 py-1 text-xs font-semibold bg-rose-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Health</span>
-            <span className="px-3 py-1 text-xs font-semibold bg-violet-600 text-white rounded-full"
+            <span className="px-3 py-1 text-xs font-semibold bg-[#C4541C] text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Wellness</span>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function BaliDelhiBelly() {
 
       <div className="max-w-4xl mx-auto px-4 py-12" data-testid="post-content">
         <Link href="/blog" data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-400 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-[#C4541C] hover:text-[#C4541C] text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}>
           <ArrowLeft size={16} /> Back to Blog
         </Link>
@@ -44,7 +44,7 @@ export default function BaliDelhiBelly() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-violet-400" />
+            <User size={14} className="text-[#C4541C]" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -74,28 +74,28 @@ export default function BaliDelhiBelly() {
 
           <div className="space-y-4 mb-10">
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
-              <span className="text-violet-400 font-bold text-lg flex-shrink-0">•</span>
+              <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">The Ice and Infusion Veto</p>
                 <p className="text-muted-foreground leading-relaxed">This is non-negotiable. Never order ice in your drink (it's often made from tap water). Also, when that trendy-looking restaurant offers "infused water," politely pass. It's often just tap water with some questionable fruit slices.</p>
               </div>
             </div>
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
-              <span className="text-violet-400 font-bold text-lg flex-shrink-0">•</span>
+              <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">The Tap Water Ban (Yes, Even for Brushing)</p>
                 <p className="text-muted-foreground leading-relaxed">Just like you wouldn't drink it, don't use tap water to brush your teeth! A quick rinse with a bottle of water (or filtered water) is essential.</p>
               </div>
             </div>
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
-              <span className="text-violet-400 font-bold text-lg flex-shrink-0">•</span>
+              <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">The Sustainable Lifesaver</p>
                 <p className="text-muted-foreground leading-relaxed">Stop buying a thousand plastic bottles! Invest in a reliable water filter. I swear by my Grayl Water Filter. It's fast and eliminates viruses, bacteria, and protozoa. It's the only way I can travel guilt-free and belly-issue-free.</p>
               </div>
             </div>
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
-              <span className="text-violet-400 font-bold text-lg flex-shrink-0">•</span>
+              <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">Go Natural</p>
                 <p className="text-muted-foreground leading-relaxed">If you're over the filter life, the ultimate hydration hack is fresh coconut water. It's loaded with electrolytes and is generally safer than bottled water. Budget around 4 coconuts a day. They cost about 30,000 IDR (approx CAD $2) each in places like Bali.</p>
@@ -114,7 +114,7 @@ export default function BaliDelhiBelly() {
                 <p className="font-semibold text-foreground mb-1">The Daily Gut Guardian (Probiotics)</p>
                 <p className="text-muted-foreground leading-relaxed">Start taking a high quality probiotic before you leave, and don't skip a single day while you're traveling. It's like sending good troops to establish a base in your digestive system.</p>
                 <p className="text-sm text-muted-foreground mt-2">
-                  I get mine <a href="https://justthrivehealth.com/THRIVETOOLS" target="_blank" rel="noopener noreferrer" className="text-violet-400 hover:text-violet-400 font-semibold">HERE</a>. You can use my discount code <strong>THRIVETOOLS</strong>. They're a powerful strain of probiotics.
+                  I get mine <a href="https://justthrivehealth.com/THRIVETOOLS" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] hover:text-[#C4541C] font-semibold">HERE</a>. You can use my discount code <strong>THRIVETOOLS</strong>. They're a powerful strain of probiotics.
                 </p>
               </div>
             </div>
@@ -134,12 +134,12 @@ export default function BaliDelhiBelly() {
             </div>
           </div>
 
-          <div className="my-10 p-6 border border-violet-500/20 bg-violet-950/30 bg-orange-950/10 rounded-xl text-center">
+          <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg font-semibold text-foreground mb-4" style={{ fontFamily: "var(--font-serif)" }}>
               Ready to stop worrying about your gut and start enjoying your trip?
             </p>
             <Link href="/deal-seekers#deals-gear"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-600 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#C4541C] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}>
               Get the Gear <ArrowRight size={16} />
             </Link>
@@ -163,12 +163,12 @@ export default function BaliDelhiBelly() {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link href="/blog" data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-[#C4541C] text-[#C4541C] hover:bg-[#C4541C] hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link href="/blog/yoga-teacher-training-rishikesh" data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-600 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#C4541C] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
             Yoga Teacher Training <ArrowRight size={16} />
           </Link>

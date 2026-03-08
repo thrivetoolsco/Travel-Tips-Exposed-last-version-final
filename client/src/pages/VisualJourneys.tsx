@@ -289,7 +289,7 @@ export default function VisualJourneys() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
+        style={{ background: "#1A1008" }}
         data-testid="visual-journeys-hero"
       >
         <div className="absolute inset-0"
@@ -323,14 +323,14 @@ export default function VisualJourneys() {
               id={album.slug}
               onClick={() => setActiveAlbum(activeAlbum === album.slug ? null : album.slug)}
               data-testid={`button-album-${album.slug}`}
-              className="group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-violet-500"
+              className="group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-[#C4541C]"
             >
               <img
                 src={album.cover}
                 alt={album.country}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className={`absolute inset-0 transition-all duration-300 ${activeAlbum === album.slug ? "bg-violet-950/40" : "bg-gradient-to-t from-black/80 via-black/20 to-transparent"}`} />
+              <div className={`absolute inset-0 transition-all duration-300 ${activeAlbum === album.slug ? "bg-[#C4541C]/30" : "bg-gradient-to-t from-black/80 via-black/20 to-transparent"}`} />
               <div className="absolute bottom-0 left-0 right-0 p-3 text-left">
                 <span
                   className="text-white font-bold text-sm block"
@@ -376,7 +376,7 @@ export default function VisualJourneys() {
                   key={imgUrl}
                   onClick={() => openLightbox(album.slug, idx)}
                   data-testid={`button-image-${album.slug}-${idx}`}
-                  className="group relative aspect-square rounded-lg overflow-hidden bg-muted focus:outline-none focus:ring-2 focus:ring-violet-500"
+                  className="group relative aspect-square rounded-lg overflow-hidden bg-muted focus:outline-none focus:ring-2 focus:ring-[#C4541C]"
                 >
                   <GalleryImage src={imgUrl} alt={`${album.country} ${idx + 1}`} />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200" />

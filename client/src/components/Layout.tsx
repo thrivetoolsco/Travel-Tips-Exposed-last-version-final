@@ -13,36 +13,6 @@ const navLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
-function Logo() {
-  return (
-    <Link href="/" className="flex flex-col items-start no-underline group" data-testid="link-logo">
-      <span
-        className="text-xs tracking-[0.3em] uppercase text-violet-400 font-semibold"
-        style={{ fontFamily: "var(--font-display)" }}
-      >
-        Travel Tips
-      </span>
-      <div className="flex items-center gap-0">
-        <span
-          className="text-2xl md:text-3xl font-bold text-white tracking-widest uppercase leading-none"
-          style={{ fontFamily: "var(--font-display)", letterSpacing: "0.18em" }}
-        >
-          EXP
-        </span>
-        <span className="inline-flex items-center justify-center mx-0.5">
-          <YinYangSymbol size={28} color="#ffffff" bgColor="#0d0c1a" />
-        </span>
-        <span
-          className="text-2xl md:text-3xl font-bold text-white tracking-widest uppercase leading-none"
-          style={{ fontFamily: "var(--font-display)", letterSpacing: "0.18em" }}
-        >
-          SED
-        </span>
-      </div>
-    </Link>
-  );
-}
-
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -53,7 +23,7 @@ export default function Layout({ children }: LayoutProps) {
   const [location] = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
+    const handleScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -68,27 +38,57 @@ export default function Layout({ children }: LayoutProps) {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-[#080712] shadow-2xl shadow-violet-950/40 border-b border-violet-900/20"
-            : "bg-[#0d0c1a] border-b border-violet-900/20"
+            ? "bg-[#FAF7F2]/95 backdrop-blur-md shadow-md border-b border-[#E8DDD0]"
+            : "bg-[#FAF7F2] border-b border-[#E8DDD0]"
         }`}
         data-testid="header"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 md:h-20">
-            <Logo />
+        <div className="border-t-[3px] border-[#C4541C]" />
 
-            <nav className="hidden lg:flex items-center gap-1" data-testid="nav-desktop">
-              {navLinks.map((link) => {
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between py-3 lg:py-0 lg:pt-4 lg:flex-col lg:items-center">
+            <Link
+              href="/"
+              className="flex flex-col items-center no-underline group"
+              data-testid="link-logo"
+            >
+              <span
+                className="text-[10px] tracking-[0.45em] uppercase font-semibold text-[#C4541C] mb-0.5"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                ✦ Travel Tips ✦
+              </span>
+              <div className="flex items-center leading-none">
+                <span
+                  className="text-4xl md:text-5xl font-normal tracking-[0.06em] text-[#1A1008] group-hover:text-[#C4541C] transition-colors duration-300"
+                  style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}
+                >
+                  EXP
+                </span>
+                <span className="inline-flex items-center self-center mx-0.5 mt-0.5">
+                  <YinYangSymbol size={36} color="#1A1008" bgColor="#FAF7F2" />
+                </span>
+                <span
+                  className="text-4xl md:text-5xl font-normal tracking-[0.06em] text-[#1A1008] group-hover:text-[#C4541C] transition-colors duration-300"
+                  style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}
+                >
+                  SED
+                </span>
+              </div>
+            </Link>
+
+            <nav className="hidden lg:flex items-center gap-0 mt-2 border-t border-[#E8DDD0] w-full justify-center" data-testid="nav-desktop">
+              {navLinks.map((link, i) => {
                 const isActive = location === link.href;
                 return (
                   <Link
                     key={link.href}
                     href={link.href}
                     data-testid={`nav-link-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
-                    className={`px-4 py-2 text-sm font-medium tracking-wide transition-all duration-200 rounded-sm ${
+                    className={`px-5 py-2.5 text-xs font-semibold tracking-[0.18em] uppercase transition-all duration-200 border-r border-[#E8DDD0] ${i === 0 ? "border-l" : ""} ${
                       isActive
-                        ? "text-violet-400 border-b-2 border-violet-400"
-                        : "text-white/65 hover:text-violet-300 hover:bg-violet-900/20"
+                        ? "text-[#C4541C] bg-[#F0E8E0]"
+                        : "text-[#1A1008]/65 hover:text-[#C4541C] hover:bg-[#F6F0E8]"
                     }`}
                     style={{ fontFamily: "var(--font-display)" }}
                   >
@@ -96,26 +96,36 @@ export default function Layout({ children }: LayoutProps) {
                   </Link>
                 );
               })}
-            </nav>
-
-            <div className="flex items-center gap-3">
               <a
                 href="https://www.instagram.com/lifes.a.trip.huh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-instagram"
-                className="text-white/50 hover:text-violet-400 transition-colors p-2"
+                className="ml-4 px-3 py-2.5 text-[#1A1008]/40 hover:text-[#C4541C] transition-colors"
                 aria-label="Instagram"
               >
-                <SiInstagram size={20} />
+                <SiInstagram size={16} />
+              </a>
+            </nav>
+
+            <div className="flex items-center gap-3 lg:hidden">
+              <a
+                href="https://www.instagram.com/lifes.a.trip.huh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="link-instagram"
+                className="text-[#1A1008]/40 hover:text-[#C4541C] transition-colors p-2"
+                aria-label="Instagram"
+              >
+                <SiInstagram size={18} />
               </a>
               <button
-                className="lg:hidden text-white/65 hover:text-white p-2 transition-colors"
+                className="text-[#1A1008]/65 hover:text-[#C4541C] p-2 transition-colors"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Toggle menu"
                 data-testid="button-menu-toggle"
               >
-                {menuOpen ? <X size={24} /> : <Menu size={24} />}
+                {menuOpen ? <X size={22} /> : <Menu size={22} />}
               </button>
             </div>
           </div>
@@ -123,7 +133,7 @@ export default function Layout({ children }: LayoutProps) {
 
         {menuOpen && (
           <div
-            className="lg:hidden bg-[#080712] border-t border-violet-900/20 pb-4"
+            className="lg:hidden bg-[#FAF7F2] border-t border-[#E8DDD0] pb-4"
             data-testid="nav-mobile"
           >
             <nav className="max-w-7xl mx-auto px-4">
@@ -134,10 +144,10 @@ export default function Layout({ children }: LayoutProps) {
                     key={link.href}
                     href={link.href}
                     data-testid={`nav-mobile-link-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
-                    className={`block py-3 px-2 text-sm font-medium border-b border-violet-900/15 transition-colors ${
+                    className={`block py-3 px-2 text-xs font-semibold tracking-[0.18em] uppercase border-b border-[#EBE3DA] transition-colors ${
                       isActive
-                        ? "text-violet-400"
-                        : "text-white/55 hover:text-violet-300"
+                        ? "text-[#C4541C]"
+                        : "text-[#1A1008]/55 hover:text-[#C4541C]"
                     }`}
                     style={{ fontFamily: "var(--font-display)" }}
                   >
@@ -150,70 +160,67 @@ export default function Layout({ children }: LayoutProps) {
         )}
       </header>
 
-      <main className="flex-1 pt-16 md:pt-20" data-testid="main-content">
+      <main className="flex-1 pt-[88px] lg:pt-[110px]" data-testid="main-content">
         {children}
       </main>
 
-      <footer className="bg-[#06050f] text-white/50 py-12 border-t border-violet-900/20" data-testid="footer">
+      <footer className="bg-[#1A1008] text-white/50 py-12 border-t border-[#C4541C]/30" data-testid="footer">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <div className="mb-4">
-                <span className="text-xs tracking-[0.3em] uppercase text-violet-400 font-semibold block mb-1">Travel Tips</span>
-                <div className="flex items-center">
-                  <span className="text-xl font-bold text-white tracking-widest uppercase" style={{ fontFamily: "var(--font-display)" }}>
-                    EXP
-                  </span>
-                  <YinYangSymbol size={20} color="#ffffff" bgColor="#06050f" />
-                  <span className="text-xl font-bold text-white tracking-widest uppercase" style={{ fontFamily: "var(--font-display)" }}>
-                    SED
-                  </span>
-                </div>
-              </div>
-              <p className="text-sm leading-relaxed text-white/35">
-                Real travel stories, honest itineraries, and budget hacks for the bold millennial explorer.
-              </p>
+          <div className="flex flex-col items-center mb-10">
+            <span className="text-[10px] tracking-[0.45em] uppercase font-semibold text-[#C4541C] mb-1" style={{ fontFamily: "var(--font-display)" }}>
+              ✦ Travel Tips ✦
+            </span>
+            <div className="flex items-center leading-none">
+              <span className="text-3xl text-white/90 tracking-[0.06em]" style={{ fontFamily: "var(--font-impact)" }}>EXP</span>
+              <span className="inline-flex items-center self-center mx-0.5">
+                <YinYangSymbol size={28} color="#ffffff" bgColor="#1A1008" />
+              </span>
+              <span className="text-3xl text-white/90 tracking-[0.06em]" style={{ fontFamily: "var(--font-impact)" }}>SED</span>
             </div>
+            <p className="text-xs text-white/30 mt-3 max-w-xs text-center leading-relaxed">
+              Real travel stories, honest itineraries, and budget hacks for the bold explorer.
+            </p>
+          </div>
 
+          <div className="border-t border-white/10 pt-6 grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div>
-              <h3 className="text-white font-semibold mb-4 text-sm tracking-wider uppercase" style={{ fontFamily: "var(--font-display)" }}>Navigate</h3>
-              <ul className="space-y-2">
+              <h3 className="text-white/70 text-[10px] tracking-[0.3em] uppercase font-semibold mb-3" style={{ fontFamily: "var(--font-display)" }}>Navigate</h3>
+              <ul className="space-y-1.5">
                 {navLinks.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-sm text-violet-400/65 hover:text-violet-300 transition-colors">
+                    <Link href={link.href} className="text-xs text-white/50 hover:text-[#C4541C] transition-colors">
                       {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
-
             <div>
-              <h3 className="text-white font-semibold mb-4 text-sm tracking-wider uppercase" style={{ fontFamily: "var(--font-display)" }}>Connect</h3>
+              <h3 className="text-white/70 text-[10px] tracking-[0.3em] uppercase font-semibold mb-3" style={{ fontFamily: "var(--font-display)" }}>Connect</h3>
               <a
                 href="https://www.instagram.com/lifes.a.trip.huh/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/40 hover:text-violet-300 transition-colors mb-3"
+                className="flex items-center gap-2 text-xs text-white/35 hover:text-[#C4541C] transition-colors mb-2"
               >
-                <SiInstagram size={16} />
+                <SiInstagram size={14} />
                 @lifes.a.trip.huh
               </a>
-              <p className="text-sm text-white/40">
-                Questions or collabs?{" "}
-                <a href="mailto:traveltipsexposed@gmail.com" className="text-violet-400 hover:text-violet-300 transition-colors">
-                  traveltipsexposed@gmail.com
-                </a>
+              <a href="mailto:traveltipsexposed@gmail.com" className="text-xs text-[#C4541C]/70 hover:text-[#C4541C] transition-colors">
+                traveltipsexposed@gmail.com
+              </a>
+            </div>
+            <div>
+              <h3 className="text-white/70 text-[10px] tracking-[0.3em] uppercase font-semibold mb-3" style={{ fontFamily: "var(--font-display)" }}>Fine Print</h3>
+              <p className="text-xs text-white/25 leading-relaxed">
+                Some links are affiliate links — we only recommend what we genuinely use and love.
               </p>
             </div>
           </div>
 
-          <div className="border-t border-violet-900/15 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-white/25">
+          <div className="border-t border-white/10 pt-5 text-center">
+            <p className="text-xs text-white/20">
               &copy; {new Date().getFullYear()} Travel Tips Exposed. All rights reserved.
-            </p>
-            <p className="text-xs text-white/25">
-              Some links are affiliate links — we only recommend what we love.
             </p>
           </div>
         </div>

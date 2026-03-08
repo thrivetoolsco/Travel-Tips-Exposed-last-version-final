@@ -65,11 +65,11 @@ const blogPosts = [
 ];
 
 const categoryColors: Record<string, string> = {
-  "Islands": "bg-violet-950/40 text-violet-300",
-  "Waves": "bg-blue-900/40 text-blue-300",
-  "Airport": "bg-amber-900/40 text-amber-300",
-  "Health": "bg-rose-900/40 text-rose-300",
-  "Wellness": "bg-violet-950/40 text-violet-300",
+  "Islands": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
+  "Waves": "bg-sky-100 text-sky-700",
+  "Airport": "bg-amber-100 text-amber-700",
+  "Health": "bg-rose-100 text-rose-700",
+  "Wellness": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
 };
 
 export default function Blog() {
@@ -78,7 +78,7 @@ export default function Blog() {
       <div
         className="relative py-24 px-4 text-center overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #0d0c1a 0%, #100f22 60%, #1a0f2e 100%)",
+          background: "#1A1008",
         }}
         data-testid="blog-hero"
       >
@@ -89,7 +89,7 @@ export default function Blog() {
             backgroundPosition: "center",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0d0c1a]/80 to-[#0d0c1a]/90" />
+        <div className="absolute inset-0 bg-[#1A1008]/75" />
         <div className="relative z-10">
           <span className="inline-block text-xs font-semibold tracking-[0.25em] uppercase text-amber-400 border border-amber-400/30 px-4 py-1.5 rounded-full mb-4"
             style={{ fontFamily: "var(--font-display)" }}>
@@ -114,7 +114,7 @@ export default function Blog() {
             <article
               key={post.id}
               data-testid={`card-blog-post-${post.id}`}
-              className="group bg-card border border-card-border rounded-xl overflow-hidden hover-elevate transition-all duration-300"
+              className="group bg-card border border-[#E8DDD0] overflow-hidden hover:shadow-lg transition-all duration-300"
             >
               <Link href={post.href} className="block">
                 <div className="relative overflow-hidden aspect-[16/9]">
@@ -142,7 +142,7 @@ export default function Blog() {
               <div className="p-6">
                 <Link href={post.href} className="block mb-3">
                   <h2
-                    className="text-xl font-bold text-card-foreground group-hover:text-violet-400 transition-colors leading-snug"
+                    className="text-xl font-bold text-card-foreground group-hover:text-[#C4541C] transition-colors leading-snug"
                     style={{ fontFamily: "var(--font-serif)" }}
                     data-testid={`heading-post-${post.id}`}
                   >
@@ -155,7 +155,7 @@ export default function Blog() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4 text-xs text-muted-foreground">
                     <span className="flex items-center gap-1.5">
-                      <User size={12} className="text-violet-400" />
+                      <User size={12} className="text-[#C4541C]" />
                       <span data-testid={`text-author-${post.id}`}>{post.author}</span>
                     </span>
                     <span className="flex items-center gap-1.5">
@@ -166,7 +166,7 @@ export default function Blog() {
                   <Link
                     href={post.href}
                     data-testid={`link-read-more-${post.id}`}
-                    className="flex items-center gap-1 text-xs font-semibold text-violet-400 hover:text-violet-400 transition-colors"
+                    className="flex items-center gap-1 text-xs font-semibold text-[#C4541C] hover:text-[#A83F10] transition-colors"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     Read More <ArrowRight size={12} />

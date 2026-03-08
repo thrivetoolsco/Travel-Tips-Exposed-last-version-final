@@ -8,7 +8,7 @@ const featuredPosts = [
     href: "/blog/ayahuasca-retreats-peru",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
     category: "Wellness",
-    categoryColor: "bg-violet-600",
+    categoryColor: "bg-[#1D4A38]",
   },
   {
     title: "Asia Belly",
@@ -16,7 +16,7 @@ const featuredPosts = [
     href: "/blog/bali-belly-delhi-belly",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneBelly.webp",
     category: "Health",
-    categoryColor: "bg-amber-600",
+    categoryColor: "bg-[#C4541C]",
   },
   {
     title: "One Love Vibe",
@@ -24,7 +24,7 @@ const featuredPosts = [
     href: "/blog/balis-one-love-vibe",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneLove.webp",
     category: "Islands",
-    categoryColor: "bg-rose-600",
+    categoryColor: "bg-[#B04A2A]",
   },
   {
     title: "Yoga Teacher Training",
@@ -32,7 +32,7 @@ const featuredPosts = [
     href: "/blog/yoga-teacher-training-rishikesh",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/YogaTeacher.webp",
     category: "Wellness",
-    categoryColor: "bg-violet-600",
+    categoryColor: "bg-[#1D4A38]",
   },
 ];
 
@@ -40,42 +40,42 @@ const platforms = [
   {
     label: "Finding Cheap Flights",
     href: "/deal-seekers#deals-flights",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/finding-cheap-flights-1-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80",
   },
   {
     label: "Finding Accommodations",
     href: "/deal-seekers#deals-accommodations",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/finding-accommodations-1-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
   },
   {
     label: "Travel Work Exchange",
     href: "/deal-seekers#deals-work",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/travel-work-exchange-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
   },
   {
     label: "House Sitting",
     href: "/deal-seekers#deals-sitting",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/House-Sitting-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
   },
   {
     label: "Transportation & Ride Share",
     href: "/deal-seekers#deals-transport",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/ride-share-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
   },
   {
     label: "Guided Tours",
     href: "/deal-seekers#deals-tours",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/guided-tours-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80",
   },
   {
     label: "Travel Insurance",
     href: "/deal-seekers#deals-insurance",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/travel-insurance-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
   },
   {
     label: "Gear",
     href: "/deal-seekers#deals-gear",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/gear-1024x683.webp",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
   },
 ];
 
@@ -95,48 +95,68 @@ export default function Home() {
   return (
     <div className="bg-background">
       <section
-        className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
-        style={{
-          background: "linear-gradient(135deg, #0d0c1a 0%, #100f22 60%, #1a0f2e 100%)",
-        }}
+        className="relative min-h-[88vh] flex items-center justify-center overflow-hidden"
+        style={{ backgroundColor: "#1A1008" }}
         data-testid="hero-section"
       >
-        <div className="absolute inset-0">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `radial-gradient(circle at 20% 40%, rgba(139, 92, 246, 0.25) 0%, transparent 55%),
-                             radial-gradient(circle at 80% 60%, rgba(167, 139, 250, 0.12) 0%, transparent 50%),
-                             radial-gradient(circle at 55% 20%, rgba(245, 158, 11, 0.08) 0%, transparent 45%)`
-          }} />
-        </div>
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              radial-gradient(ellipse at 15% 50%, rgba(196,84,28,0.22) 0%, transparent 55%),
+              radial-gradient(ellipse at 85% 30%, rgba(196,84,28,0.12) 0%, transparent 50%),
+              radial-gradient(ellipse at 50% 85%, rgba(29,74,56,0.15) 0%, transparent 50%)
+            `,
+          }}
+        />
+
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-          <div className="mb-6">
-            <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-[0.25em] uppercase text-amber-400 border border-amber-400/30 rounded-full mb-8" style={{ fontFamily: "var(--font-display)" }}>
+          <div className="mb-8">
+            <span
+              className="inline-block px-5 py-1.5 text-[10px] font-semibold tracking-[0.35em] uppercase text-[#C4541C] border border-[#C4541C]/35 rounded-full"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
               Eden's Travel Universe
             </span>
           </div>
 
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight"
-            style={{ fontFamily: "var(--font-serif)" }}
+            className="leading-none mb-10 text-white"
+            style={{ fontFamily: "var(--font-impact)" }}
             data-testid="hero-headline"
           >
-            Travel Stories.{" "}
-            <span className="text-violet-300">Itineraries.</span>
-            <br />
-            Hacks. Tips.{" "}
-            <span className="text-amber-400">Budget Friendly.</span>
-            <br />
-            <span className="text-rose-400">Good Times Guaranteed.</span>
-            <br />
-            <span className="italic text-white/80">Ooh Yeaaah!!!</span>
+            <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white">
+              Travel Stories.
+            </span>
+            <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-[#C4541C]">
+              Itineraries.
+            </span>
+            <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white/80">
+              Hacks. Tips.
+            </span>
+            <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#D4A26A]">
+              Budget Friendly.
+            </span>
+            <span
+              className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white/60 mt-2"
+              style={{ fontFamily: "var(--font-serif)", fontStyle: "italic", fontWeight: 300 }}
+            >
+              Good Times Guaranteed.&nbsp; Ooh Yeaaah!!!
+            </span>
           </h1>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
             <Link
               href="/blog"
               data-testid="button-read-blog"
-              className="px-8 py-3.5 bg-violet-600 hover:bg-violet-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 flex items-center gap-2"
+              className="px-8 py-4 bg-[#C4541C] hover:bg-[#A83F10] text-white font-bold text-xs tracking-[0.25em] uppercase transition-all duration-200 flex items-center gap-2"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Read the Blog <ArrowRight size={16} />
@@ -144,7 +164,7 @@ export default function Home() {
             <Link
               href="/visual-journeys"
               data-testid="button-visual-journeys"
-              className="px-8 py-3.5 border border-amber-400/60 text-amber-400 hover:bg-amber-400/10 font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="px-8 py-4 border border-white/30 text-white hover:bg-white/10 font-bold text-xs tracking-[0.25em] uppercase transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Visual Journeys
@@ -152,31 +172,35 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-16" style={{
-          background: "linear-gradient(to top, hsl(var(--background)), transparent)"
-        }} />
+        <div
+          className="absolute bottom-0 left-0 right-0 h-20"
+          style={{ background: "linear-gradient(to top, hsl(var(--background)), transparent)" }}
+        />
       </section>
 
       <section className="py-20 px-4 max-w-7xl mx-auto" data-testid="featured-posts-section">
-        <div className="flex items-center gap-4 mb-12">
-          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
-          <h2
-            className="text-3xl font-bold text-center"
-            style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
-            data-testid="heading-featured-posts"
-          >
-            Featured Posts
-          </h2>
-          <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
+        <div className="flex items-center gap-6 mb-12">
+          <div className="h-px flex-1 bg-[#E8DDD0]" />
+          <div className="text-center">
+            <span className="block text-[10px] tracking-[0.35em] uppercase text-[#C4541C] font-semibold mb-1" style={{ fontFamily: "var(--font-display)" }}>From the Field</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold text-[#1A1008]"
+              style={{ fontFamily: "var(--font-serif)" }}
+              data-testid="heading-featured-posts"
+            >
+              Featured Posts
+            </h2>
+          </div>
+          <div className="h-px flex-1 bg-[#E8DDD0]" />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {featuredPosts.map((post) => (
             <Link
               key={post.href}
               href={post.href}
               data-testid={`card-featured-post-${post.title.toLowerCase().replace(/\s+/g, "-")}`}
-              className="group block rounded-xl overflow-hidden bg-card border border-card-border hover-elevate transition-all duration-300"
+              className="group block rounded-none overflow-hidden bg-card border border-[#E8DDD0] hover:shadow-lg transition-all duration-300"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
@@ -184,21 +208,21 @@ export default function Home() {
                   alt={post.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                <span className={`absolute top-3 left-3 px-2.5 py-1 text-xs font-semibold text-white rounded-full ${post.categoryColor}`}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                <span className={`absolute top-0 left-0 px-3 py-1.5 text-[10px] font-bold text-white tracking-wider uppercase ${post.categoryColor}`}
                   style={{ fontFamily: "var(--font-display)" }}>
                   {post.category}
                 </span>
               </div>
-              <div className="p-4">
+              <div className="p-4 border-t-2 border-[#E8DDD0] group-hover:border-[#C4541C] transition-colors duration-300">
                 <h3
-                  className="text-lg font-bold text-card-foreground mb-2 group-hover:text-violet-400 transition-colors"
+                  className="text-base font-bold text-[#1A1008] mb-2 group-hover:text-[#C4541C] transition-colors"
                   style={{ fontFamily: "var(--font-serif)" }}
                 >
                   {post.title}
                 </h3>
-                <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
-                  <MapPin size={12} className="text-rose-500" />
+                <div className="flex items-center gap-1.5 text-[#1A1008]/45 text-xs">
+                  <MapPin size={11} className="text-[#C4541C]" />
                   <span style={{ fontFamily: "var(--font-display)" }}>{post.location}</span>
                 </div>
               </div>
@@ -210,59 +234,59 @@ export default function Home() {
           <Link
             href="/blog"
             data-testid="button-view-all-posts"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-[#1A1008] text-[#1A1008] hover:bg-[#1A1008] hover:text-white font-bold text-xs tracking-[0.2em] uppercase transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            View All Posts <ArrowRight size={16} />
+            View All Posts <ArrowRight size={14} />
           </Link>
         </div>
       </section>
 
       <section
         className="py-20 px-4"
-        style={{ backgroundColor: "hsl(180 40% 97%)" }}
+        style={{ backgroundColor: "#F0E8DF" }}
         data-testid="favorite-platforms-section"
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-xs font-semibold tracking-[0.25em] uppercase text-amber-600 mb-3 block" style={{ fontFamily: "var(--font-display)" }}>
+            <span className="text-[10px] font-semibold tracking-[0.35em] uppercase text-[#C4541C] mb-2 block" style={{ fontFamily: "var(--font-display)" }}>
               Budget Hacks
             </span>
             <h2
-              className="text-3xl md:text-4xl font-bold"
-              style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
+              className="text-3xl md:text-4xl font-bold text-[#1A1008]"
+              style={{ fontFamily: "var(--font-serif)" }}
               data-testid="heading-favorite-platforms"
             >
               Favorite Platforms
             </h2>
-            <p className="mt-4 text-muted-foreground max-w-xl mx-auto text-sm">
+            <p className="mt-3 text-[#1A1008]/55 max-w-xl mx-auto text-sm" style={{ fontFamily: "var(--font-sans)" }}>
               These are the exact platforms I use to travel more for less. Every recommendation is tested and real.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {platforms.map((platform) => (
               <Link
                 key={platform.href}
                 href={platform.href}
                 data-testid={`card-platform-${platform.label.toLowerCase().replace(/[\s&]+/g, "-")}`}
-                className="group relative rounded-xl overflow-hidden aspect-[4/3] block"
+                className="group relative overflow-hidden aspect-[4/3] block"
               >
                 <img
                   src={platform.image}
                   alt={platform.label}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+                <div className="absolute inset-0 bg-[#C4541C]/0 group-hover:bg-[#C4541C]/25 transition-all duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-3">
                   <span
-                    className="text-white font-semibold text-sm leading-tight block"
+                    className="text-white font-bold text-sm leading-tight block"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     {platform.label}
                   </span>
                 </div>
-                <div className="absolute inset-0 border-2 border-amber-400/0 group-hover:border-amber-400/60 rounded-xl transition-all duration-300" />
               </Link>
             ))}
           </div>
@@ -271,10 +295,10 @@ export default function Home() {
             <Link
               href="/deal-seekers"
               data-testid="button-view-all-platforms"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-400 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#C4541C] hover:bg-[#A83F10] text-white font-bold text-xs tracking-[0.2em] uppercase transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Explore All Deals <ArrowRight size={16} />
+              Explore All Deals <ArrowRight size={14} />
             </Link>
           </div>
         </div>
@@ -282,35 +306,35 @@ export default function Home() {
 
       <section className="py-20 px-4 max-w-7xl mx-auto" data-testid="visual-journeys-section">
         <div className="text-center mb-12">
-          <span className="text-xs font-semibold tracking-[0.25em] uppercase text-rose-600 mb-3 block" style={{ fontFamily: "var(--font-display)" }}>
+          <span className="text-[10px] font-semibold tracking-[0.35em] uppercase text-[#1D4A38] mb-2 block" style={{ fontFamily: "var(--font-display)" }}>
             Photo Albums
           </span>
           <h2
-            className="text-3xl md:text-4xl font-bold"
-            style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
+            className="text-3xl md:text-4xl font-bold text-[#1A1008]"
+            style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-visual-journeys"
           >
             Visual Journeys
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-xl mx-auto text-sm">
+          <p className="mt-3 text-[#1A1008]/55 max-w-xl mx-auto text-sm">
             Raw, unfiltered snapshots from the road.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
           {visualJourneys.map((album) => (
             <Link
               key={album.slug}
               href={`/visual-journeys#${album.slug}`}
               data-testid={`card-album-${album.slug}`}
-              className="group relative rounded-xl overflow-hidden aspect-square block"
+              className="group relative overflow-hidden aspect-square block"
             >
               <img
                 src={album.image}
                 alt={album.country}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-3">
                 <span
                   className="text-white font-bold text-sm block"
@@ -318,7 +342,7 @@ export default function Home() {
                 >
                   {album.country}
                 </span>
-                <span className="text-white/60 text-xs">{album.count} photos</span>
+                <span className="text-white/50 text-xs">{album.count} photos</span>
               </div>
             </Link>
           ))}
@@ -328,36 +352,39 @@ export default function Home() {
           <Link
             href="/visual-journeys"
             data-testid="button-view-all-journeys"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-rose-500 text-rose-600 hover:bg-rose-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-[#1D4A38] text-[#1D4A38] hover:bg-[#1D4A38] hover:text-white font-bold text-xs tracking-[0.2em] uppercase transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            View All Albums <ArrowRight size={16} />
+            View All Albums <ArrowRight size={14} />
           </Link>
         </div>
       </section>
 
       <section
-        className="py-20 px-4 text-center"
-        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
+        className="py-24 px-4 text-center"
+        style={{ backgroundColor: "#1A1008" }}
         data-testid="cta-section"
       >
         <div className="max-w-2xl mx-auto">
+          <span className="block text-[10px] tracking-[0.35em] uppercase text-[#C4541C] mb-6 font-semibold" style={{ fontFamily: "var(--font-display)" }}>
+            Ready?
+          </span>
           <h2
-            className="text-3xl md:text-4xl font-bold text-white mb-4"
-            style={{ fontFamily: "var(--font-serif)" }}
+            className="text-5xl md:text-7xl font-normal text-white mb-6 leading-none"
+            style={{ fontFamily: "var(--font-impact)" }}
           >
-            Ready to Change Your Reality?
+            Change Your Reality.
           </h2>
-          <p className="text-white/60 mb-8 leading-relaxed">
+          <p className="text-white/45 mb-10 leading-relaxed text-sm max-w-lg mx-auto" style={{ fontFamily: "var(--font-sans)" }}>
             Budget travel, spiritual journeys, and unfiltered stories from someone who's actually doing it.
           </p>
           <Link
             href="/blog"
             data-testid="button-cta-start"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-amber-500 hover:bg-amber-400 text-white font-bold tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-10 py-4 bg-[#C4541C] hover:bg-[#A83F10] text-white font-bold tracking-[0.2em] uppercase text-xs transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Start Reading <ArrowRight size={18} />
+            Start Reading <ArrowRight size={16} />
           </Link>
         </div>
       </section>

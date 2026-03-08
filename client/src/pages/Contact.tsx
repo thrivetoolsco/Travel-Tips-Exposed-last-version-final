@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
+        style={{ background: "#1A1008" }}
         data-testid="contact-hero"
       >
         <div className="absolute inset-0"
@@ -35,7 +35,7 @@ export default function Contact() {
             style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
           >
             Hey Millennial,{" "}
-            <span className="text-violet-400">Let's Connect</span>
+            <span className="text-[#C4541C]">Let's Connect</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-xl mx-auto">
             Whether you've got questions about a destination, want to share your own story, or just want to vibe about travel — my inbox is open. No forms. No bots. Just a real email to a real human.
@@ -47,8 +47,8 @@ export default function Contact() {
             className="p-8 rounded-2xl border border-card-border bg-card text-center hover-elevate transition-all duration-300"
             data-testid="contact-email-card"
           >
-            <div className="w-14 h-14 bg-violet-900/30 bg-violet-950/30 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Mail size={28} className="text-violet-400" />
+            <div className="w-14 h-14 bg-[#C4541C]/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <Mail size={28} className="text-[#C4541C]" />
             </div>
             <h3
               className="font-bold text-foreground mb-2"
@@ -59,7 +59,7 @@ export default function Contact() {
             <a
               href="mailto:traveltipsexposed@gmail.com"
               data-testid="link-email"
-              className="text-violet-400 hover:text-violet-400 font-semibold text-sm break-all transition-colors"
+              className="text-[#C4541C] hover:text-[#A83F10] font-semibold text-sm break-all transition-colors"
             >
               traveltipsexposed@gmail.com
             </a>
@@ -116,7 +116,7 @@ export default function Contact() {
 
         <div
           className="p-10 rounded-2xl text-center"
-          style={{ background: "linear-gradient(135deg, #1a0f2e 0%, #0d0c1a 100%)", border: "1px solid rgba(139,92,246,0.2)" }}
+          style={{ background: "#F0E8DF", border: "1px solid #E8DDD0" }}
           data-testid="contact-cta-box"
         >
           <h3

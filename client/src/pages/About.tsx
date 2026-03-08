@@ -6,7 +6,7 @@ export default function About() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
+        style={{ background: "#1A1008" }}
         data-testid="about-hero"
       >
         <div className="absolute inset-0"
@@ -33,7 +33,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-amber-400/20 rounded-2xl" />
-            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-violet-500/20 rounded-2xl" />
+            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-[#C4541C]/20 rounded-2xl" />
             <img
               src="https://traveltipsexposed.com/wp-content/uploads/2026/01/about-image.webp"
               alt="Eden - Travel Tips Exposed"
@@ -49,7 +49,7 @@ export default function About() {
                 style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
               >
                 Hi, I'm{" "}
-                <span className="text-violet-400">Eden</span>, the face behind Travel Tips Exposed.
+                <span className="text-[#C4541C]">Eden</span>, the face behind Travel Tips Exposed.
               </h2>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
               <p className="text-foreground leading-relaxed text-lg" data-testid="text-bio">
@@ -64,7 +64,7 @@ export default function About() {
               {["World Traveler", "Music Head", "Psychonaut", "Breathwork", "Gardener", "Videographer"].map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1.5 text-xs font-semibold text-violet-300 bg-violet-950/30 rounded-full border border-violet-500/20"
+                  className="px-3 py-1.5 text-xs font-semibold text-[#D4855A] bg-[#C4541C]/10 rounded-full border border-[#C4541C]/20"
                   style={{ fontFamily: "var(--font-display)" }}
                   data-testid={`badge-tag-${tag.toLowerCase().replace(/\s+/g, "-")}`}
                 >
@@ -76,7 +76,7 @@ export default function About() {
             <Link
               href="/blog"
               data-testid="button-about-read-blog"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#A83F10] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Read the Blog <ArrowRight size={16} />
