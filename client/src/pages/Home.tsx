@@ -8,7 +8,7 @@ const featuredPosts = [
     href: "/blog/ayahuasca-retreats-peru",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
     category: "Wellness",
-    categoryColor: "bg-orange-500",
+    categoryColor: "bg-violet-600",
   },
   {
     title: "Asia Belly",
@@ -32,7 +32,7 @@ const featuredPosts = [
     href: "/blog/yoga-teacher-training-rishikesh",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/YogaTeacher.webp",
     category: "Wellness",
-    categoryColor: "bg-orange-500",
+    categoryColor: "bg-violet-600",
   },
 ];
 
@@ -97,15 +97,15 @@ export default function Home() {
       <section
         className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #0f0f0f 0%, #0f0f0f 40%, #1a0505 100%)",
+          background: "linear-gradient(135deg, #0d0c1a 0%, #100f22 60%, #1a0f2e 100%)",
         }}
         data-testid="hero-section"
       >
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0">
           <div className="absolute inset-0" style={{
-            backgroundImage: `radial-gradient(circle at 25% 35%, rgba(255, 90, 50, 0.25) 0%, transparent 50%),
-                             radial-gradient(circle at 75% 70%, rgba(217, 158, 20, 0.2) 0%, transparent 50%),
-                             radial-gradient(circle at 50% 50%, rgba(220, 38, 38, 0.1) 0%, transparent 60%)`
+            backgroundImage: `radial-gradient(circle at 20% 40%, rgba(139, 92, 246, 0.25) 0%, transparent 55%),
+                             radial-gradient(circle at 80% 60%, rgba(167, 139, 250, 0.12) 0%, transparent 50%),
+                             radial-gradient(circle at 55% 20%, rgba(245, 158, 11, 0.08) 0%, transparent 45%)`
           }} />
         </div>
 
@@ -122,7 +122,7 @@ export default function Home() {
             data-testid="hero-headline"
           >
             Travel Stories.{" "}
-            <span className="text-orange-300">Itineraries.</span>
+            <span className="text-violet-300">Itineraries.</span>
             <br />
             Hacks. Tips.{" "}
             <span className="text-amber-400">Budget Friendly.</span>
@@ -136,7 +136,7 @@ export default function Home() {
             <Link
               href="/blog"
               data-testid="button-read-blog"
-              className="px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 flex items-center gap-2"
+              className="px-8 py-3.5 bg-violet-600 hover:bg-violet-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 flex items-center gap-2"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Read the Blog <ArrowRight size={16} />
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
               <div className="p-4">
                 <h3
-                  className="text-lg font-bold text-card-foreground mb-2 group-hover:text-orange-500 transition-colors"
+                  className="text-lg font-bold text-card-foreground mb-2 group-hover:text-violet-400 transition-colors"
                   style={{ fontFamily: "var(--font-serif)" }}
                 >
                   {post.title}
@@ -210,7 +210,7 @@ export default function Home() {
           <Link
             href="/blog"
             data-testid="button-view-all-posts"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             View All Posts <ArrowRight size={16} />
@@ -338,7 +338,7 @@ export default function Home() {
 
       <section
         className="py-20 px-4 text-center"
-        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #0f0f0f 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
         data-testid="cta-section"
       >
         <div className="max-w-2xl mx-auto">

@@ -13,7 +13,7 @@ export default function RishikeshDharamshala() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="px-3 py-1 text-xs font-semibold bg-orange-500 text-white rounded-full"
+            <span className="px-3 py-1 text-xs font-semibold bg-violet-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Islands</span>
             <span className="px-3 py-1 text-xs font-semibold bg-blue-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Waves</span>
@@ -25,7 +25,7 @@ export default function RishikeshDharamshala() {
         <Link
           href="/blog"
           data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-400 text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}
         >
           <ArrowLeft size={16} /> Back to Blog
@@ -41,7 +41,7 @@ export default function RishikeshDharamshala() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-orange-500" />
+            <User size={14} className="text-violet-400" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -97,7 +97,7 @@ export default function RishikeshDharamshala() {
 
           <div className="space-y-6 my-8">
             <div className="flex gap-4 p-5 bg-card border border-card-border rounded-xl">
-              <span className="text-2xl font-bold text-orange-500" style={{ fontFamily: "var(--font-display)" }}>1.</span>
+              <span className="text-2xl font-bold text-violet-400" style={{ fontFamily: "var(--font-display)" }}>1.</span>
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Get on the local WhatsApp group</p>
                 <p className="text-muted-foreground leading-relaxed">
@@ -124,7 +124,7 @@ export default function RishikeshDharamshala() {
               </div>
             </div>
             <div className="flex gap-4 p-5 bg-card border border-card-border rounded-xl">
-              <span className="text-2xl font-bold text-orange-500" style={{ fontFamily: "var(--font-display)" }}>4.</span>
+              <span className="text-2xl font-bold text-violet-400" style={{ fontFamily: "var(--font-display)" }}>4.</span>
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Master the taxi negotiation exit strategy</p>
                 <p className="text-muted-foreground leading-relaxed">
@@ -134,13 +134,13 @@ export default function RishikeshDharamshala() {
             </div>
           </div>
 
-          <div className="my-10 p-6 border border-orange-500/20 bg-orange-950/20 bg-orange-950/10 rounded-xl text-center">
+          <div className="my-10 p-6 border border-violet-500/20 bg-violet-950/30 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg font-semibold text-foreground" style={{ fontFamily: "var(--font-serif)" }}>
               Ready to take the leap? If you need a personal push or have a question this post didn't cover, send me a message or leave a comment. I'm here to guide your journey!
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-violet-600 hover:bg-violet-600 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Get in Touch <ArrowRight size={16} />
@@ -152,7 +152,7 @@ export default function RishikeshDharamshala() {
           <Link
             href="/blog"
             data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             <ArrowLeft size={16} /> All Posts
@@ -160,7 +160,7 @@ export default function RishikeshDharamshala() {
           <Link
             href="/blog/yoga-teacher-training-rishikesh"
             data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-600 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Yoga Teacher Training <ArrowRight size={16} />

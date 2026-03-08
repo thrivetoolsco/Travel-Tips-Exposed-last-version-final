@@ -7,16 +7,16 @@ const sections = [
     icon: Plane,
     emoji: "✈️",
     title: "Flights",
-    color: "text-orange-500",
-    bgColor: "bg-orange-950/20",
-    borderColor: "border-orange-500/20",
+    color: "text-violet-400",
+    bgColor: "bg-violet-950/30",
+    borderColor: "border-violet-500/20",
     platforms: [
       {
         name: "Kayak",
         description: "My go-to for finding deals. Book 4 months out for the best prices on long-haul flights.",
         url: "https://www.kayak.com",
         tag: "Best for Long Haul",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "Skyscanner",
@@ -62,7 +62,7 @@ const sections = [
         description: "The best for finding cheap shared rooms. I love shared rooms for meeting amazing people and instant connections.",
         url: "https://www.hostelworld.com",
         tag: "Budget Travel",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "Booking.com",
@@ -108,7 +108,7 @@ const sections = [
         description: "Help exchange — great for finding farm stays, homesteads, and eco-projects.",
         url: "https://www.helpx.net",
         tag: "Farm Stays",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
     ],
   },
@@ -117,9 +117,9 @@ const sections = [
     icon: Home,
     emoji: "🏘️",
     title: "Housesitting",
-    color: "text-orange-500",
-    bgColor: "bg-orange-950/20",
-    borderColor: "border-orange-500/20",
+    color: "text-violet-400",
+    bgColor: "bg-violet-950/30",
+    borderColor: "border-violet-500/20",
     platforms: [
       {
         name: "TrustedHousesitters",
@@ -133,7 +133,7 @@ const sections = [
         description: "European-centric platform with a more curated approach to house sitting.",
         url: "https://www.nomador.com",
         tag: "Europe Focus",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "HouseCarers",
@@ -158,7 +158,7 @@ const sections = [
         description: "The Uber of Southeast Asia. You can schedule your airport lift in advance, and the driver tracks your flight arrival. Life. Saver.",
         url: "https://www.grab.com",
         tag: "Essential for SEA",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "BlaBlaCar",
@@ -211,7 +211,7 @@ const sections = [
         description: "Hosted by locals. For the authentic, off-the-beaten-path experiences that tour companies don't offer.",
         url: "https://www.airbnb.com/experiences",
         tag: "Local Experiences",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
     ],
   },
@@ -220,16 +220,16 @@ const sections = [
     icon: Shield,
     emoji: "🚑",
     title: "Travel Insurance",
-    color: "text-orange-500",
-    bgColor: "bg-orange-950/20",
-    borderColor: "border-orange-500/20",
+    color: "text-violet-400",
+    bgColor: "bg-violet-950/30",
+    borderColor: "border-violet-500/20",
     platforms: [
       {
         name: "SafetyWing",
         description: "The digital nomad's insurance of choice. Affordable monthly plans that cover you globally with automatic renewal.",
         url: "https://safetywing.com",
         tag: "Best for Nomads",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "World Nomads",
@@ -254,7 +254,7 @@ const sections = [
         description: "The only way I can travel guilt-free and belly-issue-free. Eliminates viruses, bacteria, and protozoa. Fast and durable. Non-negotiable for Asia and jungle travel.",
         url: "https://grayl.com",
         tag: "Essential Gear",
-        tagColor: "bg-orange-900/30 text-orange-700",
+        tagColor: "bg-violet-900/30 text-violet-300",
       },
       {
         name: "Just Thrive Probiotics",
@@ -305,12 +305,12 @@ export default function DealSeekers() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0505 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
         data-testid="deal-seekers-hero"
       >
-        <div className="absolute inset-0 opacity-10"
+        <div className="absolute inset-0"
           style={{
-            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(255, 90, 50, 0.35) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
+            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(139, 92, 246, 0.45) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
           }}
         />
         <div className="relative z-10 text-center">
@@ -340,7 +340,7 @@ export default function DealSeekers() {
                 key={section.id}
                 onClick={() => scrollTo(section.id)}
                 data-testid={`button-section-${section.id}`}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-card hover:border-orange-400 hover:text-orange-500 text-sm font-medium transition-all duration-200"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-card hover:border-violet-400 hover:text-violet-400 text-sm font-medium transition-all duration-200"
                 style={{ fontFamily: "var(--font-display)" }}
               >
                 <span>{section.emoji}</span>
@@ -382,12 +382,12 @@ export default function DealSeekers() {
                     >
                       <div className="flex items-start justify-between mb-3">
                         <h3
-                          className="text-lg font-bold text-card-foreground group-hover:text-orange-500 transition-colors"
+                          className="text-lg font-bold text-card-foreground group-hover:text-violet-400 transition-colors"
                           style={{ fontFamily: "var(--font-display)" }}
                         >
                           {platform.name}
                         </h3>
-                        <ExternalLink size={16} className="text-muted-foreground group-hover:text-orange-500 flex-shrink-0 mt-1 transition-colors" />
+                        <ExternalLink size={16} className="text-muted-foreground group-hover:text-violet-400 flex-shrink-0 mt-1 transition-colors" />
                       </div>
                       <span
                         className={`self-start px-2.5 py-1 text-xs font-semibold rounded-full mb-3 ${platform.tagColor}`}

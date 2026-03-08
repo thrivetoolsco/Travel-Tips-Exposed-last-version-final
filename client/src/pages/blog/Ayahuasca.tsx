@@ -20,7 +20,7 @@ export default function Ayahuasca() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="px-3 py-1 text-xs font-semibold bg-orange-500 text-white rounded-full"
+            <span className="px-3 py-1 text-xs font-semibold bg-violet-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Wellness</span>
             <span className="px-3 py-1 text-xs font-semibold bg-amber-600 text-white rounded-full"
               style={{ fontFamily: "var(--font-display)" }}>Peru</span>
@@ -32,7 +32,7 @@ export default function Ayahuasca() {
         <Link
           href="/blog"
           data-testid="link-back-to-blog"
-          className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-500 text-sm font-semibold mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-400 text-sm font-semibold mb-8 transition-colors"
           style={{ fontFamily: "var(--font-display)" }}
         >
           <ArrowLeft size={16} /> Back to Blog
@@ -48,7 +48,7 @@ export default function Ayahuasca() {
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">
           <span className="flex items-center gap-1.5">
-            <User size={14} className="text-orange-500" />
+            <User size={14} className="text-violet-400" />
             <span data-testid="text-author">Eden</span>
           </span>
           <span className="flex items-center gap-1.5">
@@ -186,7 +186,7 @@ export default function Ayahuasca() {
                 <p className="text-muted-foreground leading-relaxed">
                   If you want the authentic jungle experience, skip the tourist traps near Cusco. You're heading to the real hubs: Iquitos or Pucallpa. Do your homework on centers, the vibe and safety matter more than anything.
                 </p>
-                <Link href="/deal-seekers#deals-accommodations" className="text-orange-500 hover:text-orange-500 text-sm font-semibold mt-2 inline-flex items-center gap-1">
+                <Link href="/deal-seekers#deals-accommodations" className="text-violet-400 hover:text-violet-400 text-sm font-semibold mt-2 inline-flex items-center gap-1">
                   Get a feel for different retreat centers here <ArrowRight size={12} />
                 </Link>
               </div>
@@ -216,7 +216,7 @@ export default function Ayahuasca() {
           <Link
             href="/blog"
             data-testid="link-bottom-back-to-blog"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-violet-500 text-violet-400 hover:bg-violet-600 hover:text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             <ArrowLeft size={16} /> All Posts
@@ -224,7 +224,7 @@ export default function Ayahuasca() {
           <Link
             href="/blog/yoga-teacher-training-rishikesh"
             data-testid="link-next-post"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-600 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Next Post <ArrowRight size={16} />

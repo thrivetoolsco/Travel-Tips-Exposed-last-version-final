@@ -6,12 +6,12 @@ export default function About() {
     <div className="min-h-screen bg-background">
       <div
         className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0505 100%)" }}
+        style={{ background: "linear-gradient(135deg, #0d0c1a 0%, #1a0f2e 100%)" }}
         data-testid="about-hero"
       >
-        <div className="absolute inset-0 opacity-10"
+        <div className="absolute inset-0"
           style={{
-            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(255, 90, 50, 0.35) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
+            backgroundImage: "radial-gradient(circle at 30% 50%, rgba(139, 92, 246, 0.45) 0%, transparent 60%), radial-gradient(circle at 70% 50%, rgba(217, 158, 20, 0.3) 0%, transparent 60%)",
           }}
         />
         <div className="relative z-10 text-center">
@@ -33,7 +33,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-amber-400/20 rounded-2xl" />
-            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-orange-500/20 rounded-2xl" />
+            <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-violet-500/20 rounded-2xl" />
             <img
               src="https://traveltipsexposed.com/wp-content/uploads/2026/01/about-image.webp"
               alt="Eden - Travel Tips Exposed"
@@ -49,7 +49,7 @@ export default function About() {
                 style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
               >
                 Hi, I'm{" "}
-                <span className="text-orange-500">Eden</span>, the face behind Travel Tips Exposed.
+                <span className="text-violet-400">Eden</span>, the face behind Travel Tips Exposed.
               </h2>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
               <p className="text-foreground leading-relaxed text-lg" data-testid="text-bio">
@@ -64,7 +64,7 @@ export default function About() {
               {["World Traveler", "Music Head", "Psychonaut", "Breathwork", "Gardener", "Videographer"].map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1.5 text-xs font-semibold text-orange-300 bg-orange-950/30 rounded-full border border-orange-500/20"
+                  className="px-3 py-1.5 text-xs font-semibold text-violet-300 bg-violet-950/30 rounded-full border border-violet-500/20"
                   style={{ fontFamily: "var(--font-display)" }}
                   data-testid={`badge-tag-${tag.toLowerCase().replace(/\s+/g, "-")}`}
                 >
@@ -76,7 +76,7 @@ export default function About() {
             <Link
               href="/blog"
               data-testid="button-about-read-blog"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Read the Blog <ArrowRight size={16} />
