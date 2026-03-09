@@ -5,36 +5,28 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
       <div
-        className="relative py-24 px-4 overflow-hidden"
-        style={{ background: "#1A1008" }}
+        className="relative h-80 md:h-[26rem] overflow-hidden"
         data-testid="contact-hero"
       >
-        <div className="absolute inset-0"
-          style={{
-            backgroundImage: "radial-gradient(circle at 40% 60%, rgba(196, 84, 28, 0.2) 0%, transparent 60%), radial-gradient(circle at 70% 30%, rgba(217, 158, 20, 0.15) 0%, transparent 60%)",
-          }}
+        <img
+          src={contactHero}
+          alt="Traveler jumping with joy"
+          className="w-full h-full object-cover object-center"
         />
-        <div className="relative z-10 text-center">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/20" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <span className="inline-block text-xs font-semibold tracking-[0.25em] uppercase text-amber-400 border border-amber-400/30 px-4 py-1.5 rounded-full mb-4"
             style={{ fontFamily: "var(--font-display)" }}>
             Get in Touch
           </span>
           <h1
-            className="text-4xl md:text-5xl font-bold text-white mt-4"
+            className="text-4xl md:text-5xl font-bold text-white"
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-contact"
           >
             Contact
           </h1>
         </div>
-      </div>
-
-      <div className="w-full h-72 md:h-96 overflow-hidden" data-testid="contact-image">
-        <img
-          src={contactHero}
-          alt="Traveler jumping with joy"
-          className="w-full h-full object-cover object-center"
-        />
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-20" data-testid="contact-content">
