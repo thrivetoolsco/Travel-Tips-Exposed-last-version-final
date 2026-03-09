@@ -1,5 +1,9 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgFood1 from "@assets/1000038410_1773063241007.jpg";
+import imgFood2 from "@assets/1000038409_1773063241038.jpg";
+import imgFood3 from "@assets/1000038412_1773063241051.jpg";
+import imgFood4 from "@assets/1000038411_1773063241062.jpg";
 
 const postImages = [
   "https://traveltipsexposed.com/wp-content/uploads/2020/04/nik-shuliahin-UPapS5-R_rk-unsplash.jpg",
@@ -67,6 +71,13 @@ export default function BaliDelhiBelly() {
           <p className="mb-10 font-semibold text-foreground">
             I'm dropping my essential strategies below. Follow this simple playbook, and you can worry about finding the perfect photo op, not the nearest washroom.
           </p>
+
+          <div className="grid grid-cols-2 gap-3 my-10" data-testid="photo-grid-food">
+            <img src={imgFood1} alt="Eden eating at a Sikh temple langar" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood2} alt="Chana masala with roti" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood3} alt="Serving food at the langar" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood4} alt="Community meal at a Sikh temple" className="w-full h-56 object-cover rounded-xl" />
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             💧 The H2O Rules: Treat All Water Like It's Suspect
