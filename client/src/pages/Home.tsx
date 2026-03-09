@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <div className="bg-background">
       <section
-        className="relative min-h-[88vh] flex items-center justify-center overflow-hidden"
+        className="relative min-h-screen flex items-start justify-center overflow-hidden"
         style={{ backgroundColor: "#1A1008" }}
         data-testid="hero-section"
       >
@@ -121,14 +121,14 @@ export default function Home() {
           }}
         />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-16 pb-16">
           <div className="mb-8">
             <span
-              className="inline-block px-5 py-2 text-xs font-semibold tracking-[0.2em] uppercase text-[#C4541C] border border-[#C4541C]/35 rounded-full"
+              className="inline-block px-5 py-2 text-xs font-semibold tracking-[0.08em] uppercase text-[#C4541C] border border-[#C4541C]/35 rounded-full whitespace-nowrap"
               style={{ fontFamily: "var(--font-display)" }}
               data-testid="hero-tagline-badge"
             >
-              The Logistics of Staying Wild and Well.
+              The Logistics of Staying Wild &amp; Happy
             </span>
           </div>
 
