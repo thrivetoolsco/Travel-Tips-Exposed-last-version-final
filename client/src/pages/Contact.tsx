@@ -1,4 +1,5 @@
 import { Mail, Instagram } from "lucide-react";
+import contactHero from "@assets/pexels-woman-1868817_1920_1773060802116.jpg";
 
 export default function Contact() {
   return (
@@ -26,6 +27,14 @@ export default function Contact() {
             Contact
           </h1>
         </div>
+      </div>
+
+      <div className="w-full h-72 md:h-96 overflow-hidden" data-testid="contact-image">
+        <img
+          src={contactHero}
+          alt="Traveler jumping with joy"
+          className="w-full h-full object-cover object-center"
+        />
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-20" data-testid="contact-content">
