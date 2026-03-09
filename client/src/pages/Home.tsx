@@ -84,7 +84,7 @@ const platforms = [
 ];
 
 const visualJourneys = [
-  { country: "Indonesia", count: 8, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
+  { country: "Indonesia", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
   { country: "Canada", count: 62, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
   { country: "USA", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg", slug: "usa" },
   { country: "Jamaica", count: 5, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
@@ -92,7 +92,7 @@ const visualJourneys = [
   { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
   { country: "India", count: 75, image: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg", slug: "india" },
   { country: "Europe", count: 10, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
-  { country: "Gabon", count: 33, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },
+  { country: "Gabon", count: 26, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },
 ];
 
 export default function Home() {

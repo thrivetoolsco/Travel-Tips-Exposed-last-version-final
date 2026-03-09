@@ -58,6 +58,14 @@ import imgIn19 from "@assets/IMG-20230505-WA0018_Original_1773080040792.jpg";
 import imgIn20 from "@assets/IMG-20230515-WA0063_Original_1773080040792.jpg";
 import imgIn21 from "@assets/IMG-20230505-WA0020_Original_1773080040793.jpg";
 import imgIn22 from "@assets/20230519_155442_Original_1773080040793.jpg";
+import imgId1 from "@assets/Screenshot_20260304_084113_Drive_1773081913245.jpg";
+import imgId2 from "@assets/Screenshot_20260120_134406_Photos~2_1773081913246.jpg";
+import imgId3 from "@assets/lv_0_20260104142247_1773081913247.jpg";
+import imgId4 from "@assets/IMG-20251221-WA0001_1773081913248.jpg";
+import imgId5 from "@assets/20260103_152216_1773081913248.jpg";
+import imgId6 from "@assets/20260102_154015_1773081913249.jpg";
+import imgId7 from "@assets/20251230_194420_1773081913250.jpg";
+import imgId8 from "@assets/20251223_224423_1773081913250.jpg";
 import imgUs1 from "@assets/1000038773_1773079797890.jpg";
 import imgUs2 from "@assets/1000038772_1773079797891.jpg";
 import imgUs3 from "@assets/1000038771_1773079797891.jpg";
@@ -66,7 +74,7 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 8,
+    count: 16,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
@@ -77,6 +85,7 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-489.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-490.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-492.jpg",
+      imgId1, imgId2, imgId3, imgId4, imgId5, imgId6, imgId7, imgId8,
     ],
   },
   {
@@ -286,7 +295,7 @@ const albums = [
   {
     slug: "gabon",
     country: "Gabon",
-    count: 33,
+    count: 26,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-694.jpg",
@@ -310,13 +319,6 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-712.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-713.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-675.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-676.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-677.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-678.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-679.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-680.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-681.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-682.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-683.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-684.jpg",
