@@ -252,7 +252,7 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 76,
+    count: 75,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg",
     images: [
       ...Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
@@ -263,7 +263,6 @@ const albums = [
       "/india-video-2.mp4",
       "/india-video-3.mp4",
       "/india-video-4.mp4",
-      "/india-video-5.mp4",
     ],
   },
   {
@@ -341,15 +340,16 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
   if (error) return null;
 
   if (isVideo(src)) {
+    const poster = src.replace(/\.mp4$/, "-poster.jpg");
     return (
       <div className="w-full h-full relative flex items-center justify-center bg-black">
-        <video
-          src={src}
-          muted
-          playsInline
-          preload="none"
+        <img
+          src={poster}
+          alt={alt}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover"
-          onLoadedData={() => { setLoaded(true); onLoad?.(); }}
+          onLoad={() => onLoad?.()}
         />
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-10 h-10 rounded-full bg-black/60 flex items-center justify-center">
@@ -578,6 +578,7 @@ export default function VisualJourneys() {
               <video
                 key={currentAlbum.images[lightbox.imageIndex]}
                 src={currentAlbum.images[lightbox.imageIndex]}
+                poster={currentAlbum.images[lightbox.imageIndex].replace(/\.mp4$/, "-poster.jpg")}
                 controls
                 autoPlay
                 playsInline
