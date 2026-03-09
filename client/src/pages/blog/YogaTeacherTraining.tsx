@@ -120,13 +120,18 @@ export default function YogaTeacherTraining() {
 
           <img src={imgYogaClass} alt="Outdoor yoga class in the hills of Rishikesh" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "440px", objectPosition: "center" }} data-testid="img-yoga-class" />
 
-          <video
-            src="/yoga-rishikesh.mp4"
-            controls
-            playsInline
-            className="w-full rounded-xl my-8"
-            data-testid="video-yoga-rishikesh"
-          />
+          <figure className="my-8">
+            <video
+              src="/yoga-rishikesh.mp4"
+              controls
+              playsInline
+              className="w-full rounded-xl"
+              data-testid="video-yoga-rishikesh"
+            />
+            <figcaption className="text-center text-sm text-muted-foreground mt-3 italic">
+              My teacher showing me how to do some pranayama exercises
+            </figcaption>
+          </figure>
 
           <p className="mb-6 leading-relaxed">
             Other than that we had 1 day a week off. That day allowed me and the other students to explore Rishikesh.
