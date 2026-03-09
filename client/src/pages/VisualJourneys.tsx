@@ -53,6 +53,9 @@ import imgIn14 from "@assets/IMG-20230516-WA0007_Original_1773069017920.jpg";
 import imgIn15 from "@assets/IMG-20230522-WA0030_Original_1773069017936.jpg";
 import imgIn16 from "@assets/IMG-20230616-WA0026_Original_1773069017944.jpg";
 import imgIn17 from "@assets/IMG-20230515-WA0032_Original_1773069017953.jpg";
+import imgUs1 from "@assets/1000038773_1773079797890.jpg";
+import imgUs2 from "@assets/1000038772_1773079797891.jpg";
+import imgUs3 from "@assets/1000038771_1773079797891.jpg";
 
 const albums = [
   {
@@ -144,7 +147,7 @@ const albums = [
   {
     slug: "usa",
     country: "USA",
-    count: 8,
+    count: 11,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg",
@@ -155,6 +158,9 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/USA-555.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/USA-556.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/USA-557.jpg",
+      imgUs1,
+      imgUs2,
+      imgUs3,
     ],
   },
   {

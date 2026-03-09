@@ -85,10 +85,10 @@ const platforms = [
 
 const visualJourneys = [
   { country: "Indonesia", count: 8, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
-  { country: "Canada", count: 28, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
-  { country: "USA", count: 8, image: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg", slug: "usa" },
+  { country: "Canada", count: 62, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
+  { country: "USA", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg", slug: "usa" },
   { country: "Jamaica", count: 5, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
-  { country: "Morocco", count: 33, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg", slug: "morocco" },
+  { country: "Morocco", count: 36, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg", slug: "morocco" },
   { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
   { country: "India", count: 69, image: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg", slug: "india" },
   { country: "Europe", count: 10, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
