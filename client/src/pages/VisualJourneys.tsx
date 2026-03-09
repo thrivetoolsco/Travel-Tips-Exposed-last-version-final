@@ -66,6 +66,7 @@ import imgId5 from "@assets/20260103_152216_1773081913248.jpg";
 import imgId6 from "@assets/20260102_154015_1773081913249.jpg";
 import imgId7 from "@assets/20251230_194420_1773081913250.jpg";
 import imgId8 from "@assets/20251223_224423_1773081913250.jpg";
+import imgEu1 from "@assets/A_woman_with_brown_curly_hair__playing_shamanic_dr_delpmaspu_1773088332059.png";
 import imgUs1 from "@assets/1000038773_1773079797890.jpg";
 import imgUs2 from "@assets/1000038772_1773079797891.jpg";
 import imgUs3 from "@assets/1000038771_1773079797891.jpg";
@@ -280,7 +281,7 @@ const albums = [
   {
     slug: "europe",
     country: "Europe",
-    count: 10,
+    count: 11,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
@@ -293,6 +294,7 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-679.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-680.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-681.jpg",
+      imgEu1,
     ],
   },
   {
