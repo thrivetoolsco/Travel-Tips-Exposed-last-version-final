@@ -53,6 +53,11 @@ import imgIn14 from "@assets/IMG-20230516-WA0007_Original_1773069017920.jpg";
 import imgIn15 from "@assets/IMG-20230522-WA0030_Original_1773069017936.jpg";
 import imgIn16 from "@assets/IMG-20230616-WA0026_Original_1773069017944.jpg";
 import imgIn17 from "@assets/IMG-20230515-WA0032_Original_1773069017953.jpg";
+import imgIn18 from "@assets/20230506_114552_Original_1773080040788.jpg";
+import imgIn19 from "@assets/IMG-20230505-WA0018_Original_1773080040792.jpg";
+import imgIn20 from "@assets/IMG-20230515-WA0063_Original_1773080040792.jpg";
+import imgIn21 from "@assets/IMG-20230505-WA0020_Original_1773080040793.jpg";
+import imgIn22 from "@assets/20230519_155442_Original_1773080040793.jpg";
 import imgUs1 from "@assets/1000038773_1773079797890.jpg";
 import imgUs2 from "@assets/1000038772_1773079797891.jpg";
 import imgUs3 from "@assets/1000038771_1773079797891.jpg";
@@ -247,12 +252,13 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 69,
+    count: 74,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg",
     images: [
       ...Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
       imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
       imgIn10, imgIn11, imgIn12, imgIn13, imgIn14, imgIn15, imgIn16, imgIn17,
+      imgIn18, imgIn19, imgIn20, imgIn21, imgIn22,
       "/india-video-1.mp4",
       "/india-video-2.mp4",
       "/india-video-3.mp4",
