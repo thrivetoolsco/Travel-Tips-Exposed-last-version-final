@@ -73,12 +73,12 @@ export default function About() {
               </div>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
               <p className="text-foreground leading-relaxed text-base mb-4" data-testid="text-bio-1">
-                I spend my time moving through landscapes looking for the frequency that actually shifts something inside. Whether I'm scouting a remote spot for a plant medicine or finding a drum circle to dance and vibe, I'm looking for the raw evidence of a life well lived.
+                I spend my time moving through places looking for that vibe that actually shifts something inside. Whether I'm scouting a remote spot for a plant medicine or finding a drum circle to dance and have fun, I'm looking for the raw evidence of a life well lived.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-bio-2">
+              <p className="text-foreground leading-relaxed mb-4" data-testid="text-bio-2">
                 This space is for the seekers and the music heads who want to explore the planet without losing their edge or draining their resources.
               </p>
-              <p className="text-muted-foreground leading-relaxed" data-testid="text-bio-3">
+              <p className="text-foreground leading-relaxed" data-testid="text-bio-3">
                 I also curated a collection of evidence based biology and wellness tech I use to clear the fog, beat jet lag, and stay at a high frequency while on the move. You can also find me here:{" "}
                 <a
                   href="https://thrivetools.co/"

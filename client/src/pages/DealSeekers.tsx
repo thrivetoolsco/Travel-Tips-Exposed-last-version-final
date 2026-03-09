@@ -352,6 +352,22 @@ const sections: Section[] = [
         tag: "Eden's Wellness Hub",
         tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
       },
+      {
+        name: "Just Thrive Probiotics",
+        description: "Start taking a high quality probiotic before you leave home and don't skip a single day while traveling. Spore-based, shelf-stable, and the most effective probiotic I've ever used.",
+        url: "https://justthrivehealth.com/THRIVETOOLS",
+        tag: "Gut Health Essential",
+        tagColor: "bg-rose-100 text-rose-700",
+        discountCode: "THRIVETOOLS",
+      },
+      {
+        name: "IM8 Health",
+        description: "The most comprehensive daily health supplement I've found. One scoop covers your greens, adaptogens, vitamins, and minerals — perfect for travel days when your nutrition goes sideways.",
+        url: "https://im8health.com",
+        tag: "Daily Essentials",
+        tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
+        discountCode: "THRIVE10",
+      },
     ],
   },
 ];

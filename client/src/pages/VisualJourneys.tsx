@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { X, ChevronLeft, ChevronRight, Camera, ArrowUp } from "lucide-react";
 import imgCa1 from "@assets/20151207_193710_1773065104995.jpg";
 import imgCa2 from "@assets/DSC_6323_1773065105011.JPG";
@@ -74,7 +74,7 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 16,
+    count: 18,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
@@ -84,8 +84,10 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-488.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-489.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-490.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-492.jpg",
       imgId1, imgId2, imgId3, imgId4, imgId5, imgId6, imgId7, imgId8,
+      "/indonesia-video-1.mp4",
+      "/indonesia-video-2.mp4",
+      "/indonesia-video-3.mp4",
     ],
   },
   {
@@ -180,12 +182,11 @@ const albums = [
   {
     slug: "jamaica",
     country: "Jamaica",
-    count: 5,
+    count: 4,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-560.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-561.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-562.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-564.jpg",
     ],
@@ -281,15 +282,15 @@ const albums = [
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-663.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-664.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-665.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-666.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-667.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-668.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-669.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-670.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-671.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-672.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-673.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-674.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-676.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-677.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-678.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-679.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-680.jpg",
+      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-681.jpg",
     ],
   },
   {
@@ -378,6 +379,17 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
 export default function VisualJourneys() {
   const [lightbox, setLightbox] = useState<LightboxState | null>(null);
   const [activeAlbum, setActiveAlbum] = useState<string | null>(null);
+  const galleryRef = useRef<HTMLDivElement>(null);
+
+  const handleAlbumClick = (slug: string) => {
+    const next = activeAlbum === slug ? null : slug;
+    setActiveAlbum(next);
+    if (next) {
+      setTimeout(() => {
+        galleryRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 80);
+    }
+  };
 
   useEffect(() => {
     const hash = window.location.hash.replace("#", "");
@@ -460,7 +472,7 @@ export default function VisualJourneys() {
             <button
               key={album.slug}
               id={album.slug}
-              onClick={() => setActiveAlbum(activeAlbum === album.slug ? null : album.slug)}
+              onClick={() => handleAlbumClick(album.slug)}
               data-testid={`button-album-${album.slug}`}
               className="group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-[#C4541C]"
             >
@@ -492,6 +504,7 @@ export default function VisualJourneys() {
           ))}
         </div>
 
+        <div ref={galleryRef} className="scroll-mt-6">
         {albums.map((album) => (
           <div
             key={album.slug}
@@ -543,6 +556,7 @@ export default function VisualJourneys() {
             <p style={{ fontFamily: "var(--font-display)" }}>Click an album above to view the photos</p>
           </div>
         )}
+        </div>
       </div>
 
       {lightbox && currentAlbum && (

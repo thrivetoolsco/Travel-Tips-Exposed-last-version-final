@@ -2,3 +2,10 @@ attached_assets/lv_0_20260127140107_1773065252831.mp4 filter=lfs diff=lfs merge=
 client/public/canada-farm.mp4 filter=lfs diff=lfs merge=lfs -text
 attached_assets/DSCN8749_1773066492557.AVI filter=lfs diff=lfs merge=lfs -text
 attached_assets/DSCN8774_1773066492543.AVI filter=lfs diff=lfs merge=lfs -text
+attached_assets/lv_0_20251226164839_1773082010745.mp4 filter=lfs diff=lfs merge=lfs -text
+attached_assets/lv_0_20251226164839_1773083275718.mp4 filter=lfs diff=lfs merge=lfs -text
+attached_assets/lv_0_20260102094614_1773083404722.mp4 filter=lfs diff=lfs merge=lfs -text
+attached_assets/lv_0_20260304083336_1773083583973.mp4 filter=lfs diff=lfs merge=lfs -text
+client/public/indonesia-video-1.mp4 filter=lfs diff=lfs merge=lfs -text
+client/public/indonesia-video-2.mp4 filter=lfs diff=lfs merge=lfs -text
+client/public/indonesia-video-3.mp4 filter=lfs diff=lfs merge=lfs -text
