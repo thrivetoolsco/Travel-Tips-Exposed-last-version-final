@@ -90,7 +90,7 @@ const visualJourneys = [
   { country: "Jamaica", count: 5, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
   { country: "Morocco", count: 36, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg", slug: "morocco" },
   { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
-  { country: "India", count: 75, image: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg", slug: "india" },
+  { country: "India", count: 76, image: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg", slug: "india" },
   { country: "Europe", count: 10, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
   { country: "Gabon", count: 33, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },
 ];

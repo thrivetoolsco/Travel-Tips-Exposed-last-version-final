@@ -252,7 +252,7 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 75,
+    count: 76,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg",
     images: [
       ...Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
@@ -263,6 +263,7 @@ const albums = [
       "/india-video-2.mp4",
       "/india-video-3.mp4",
       "/india-video-4.mp4",
+      "/india-video-5.mp4",
     ],
   },
   {
