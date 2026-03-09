@@ -444,7 +444,7 @@ export default function VisualJourneys() {
               data-testid="img-lightbox"
             />
             <p className="text-white/50 text-sm text-center mt-3" style={{ fontFamily: "var(--font-display)" }}>
-              {currentAlbum.country} — {lightbox.imageIndex + 1} / {currentAlbum.images.length}
+              {currentAlbum.country}, {lightbox.imageIndex + 1} / {currentAlbum.images.length}
             </p>
           </div>
         </div>

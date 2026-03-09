@@ -91,7 +91,7 @@ export default function Contact() {
         </div>
 
         <p className="text-center text-muted-foreground text-sm mt-8" data-testid="text-contact-note">
-          I'm a solo traveler often in different time zones — I'll get back to you as soon as I can, usually within a few days.
+          I'm a solo traveler often in different time zones. I'll get back to you as soon as I can, usually within a few days.
         </p>
       </div>
     </div>

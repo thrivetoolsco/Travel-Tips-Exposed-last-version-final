@@ -54,7 +54,7 @@ const sections: Section[] = [
       },
       {
         name: "Kiwi.com",
-        description: "Smart routing — finds creative combinations to get you there for less. Great for multi-city trips.",
+        description: "Smart routing, finds creative combinations to get you there for less. Great for multi-city trips.",
         url: "https://www.kiwi.com",
         tag: "Multi-City",
         tagColor: "bg-rose-100 text-rose-700",
@@ -125,7 +125,7 @@ const sections: Section[] = [
       },
       {
         name: "HelpX",
-        description: "Help exchange — great for finding farm stays, homesteads, and eco-projects.",
+        description: "Help exchange, great for finding farm stays, homesteads, and eco-projects.",
         url: "https://www.helpx.net",
         tag: "Farm Stays",
         tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
@@ -189,7 +189,7 @@ const sections: Section[] = [
       },
       {
         name: "Rome2Rio",
-        description: "Compare all transport options — planes, trains, buses, ferries — from A to B worldwide. Essential for planning.",
+        description: "Compare all transport options. Planes, trains, buses, ferries, from A to B worldwide. Essential for planning.",
         url: "https://www.rome2rio.com",
         tag: "Route Comparison",
         tagColor: "bg-rose-100 text-rose-700",
@@ -253,7 +253,7 @@ const sections: Section[] = [
       },
       {
         name: "World Nomads",
-        description: "Solid adventure travel insurance for the more extreme activities — surfing, trekking, scuba diving, etc.",
+        description: "Solid adventure travel insurance for the more extreme activities. Surfing, trekking, scuba diving, etc.",
         url: "https://www.worldnomads.com",
         tag: "Adventure Coverage",
         tagColor: "bg-amber-100 text-amber-700",
@@ -322,14 +322,14 @@ const sections: Section[] = [
       },
       {
         name: "Peak Design",
-        description: "The world's best camera bags, straps, and organizers. Built for adventure travel — carries your camera securely while looking good doing it.",
+        description: "The world's best camera bags, straps, and organizers. Built for adventure travel, carries your camera securely while looking good doing it.",
         url: "https://www.peakdesign.com",
         tag: "Camera Gear",
         tagColor: "bg-amber-100 text-amber-700",
       },
       {
         name: "Anker Power Bank",
-        description: "A high-capacity portable charger is non-negotiable for long travel days. Anker is the most reliable brand — never lost a device to a dead battery since switching.",
+        description: "A high-capacity portable charger is non-negotiable for long travel days. Anker is the most reliable brand, never lost a device to a dead battery since switching.",
         url: "https://www.anker.com",
         tag: "Stay Powered",
         tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
@@ -347,7 +347,7 @@ const sections: Section[] = [
     platforms: [
       {
         name: "ThriveTools",
-        description: "Eden's dedicated wellness resource hub. Biohacking tools, grounding practices, supplements, and everything you need to optimize your health — whether you're home or on the road.",
+        description: "Eden's dedicated wellness resource hub. Biohacking tools, grounding practices, supplements, and everything you need to optimize your health, whether you're home or on the road.",
         url: "https://thrivetools.co",
         tag: "Eden's Wellness Hub",
         tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
