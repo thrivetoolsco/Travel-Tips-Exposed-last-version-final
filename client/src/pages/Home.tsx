@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
 import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
+import imgInsurance from "@assets/kormandallas-under-the-water-2141072_1920_1773059255037.jpg";
 
 const featuredPosts = [
   {
@@ -72,7 +73,7 @@ const platforms = [
   {
     label: "Travel Insurance",
     href: "/deal-seekers#deals-insurance",
-    image: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=80",
+    image: imgInsurance,
   },
   {
     label: "Gear",
