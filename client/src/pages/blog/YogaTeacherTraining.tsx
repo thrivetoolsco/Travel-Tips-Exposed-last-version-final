@@ -94,7 +94,7 @@ export default function YogaTeacherTraining() {
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Magnesium</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Your body will be so sore at the end of each day. Do yourself a favor and recover quick with the right dose of magnesium.
+                  Your body will be so sore at the end of each day. Do yourself a favor and recover quick with the right dose of magnesium. You can find the highest quality magnesium <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] underline underline-offset-2 hover:opacity-80 transition-opacity">here</a>.
                 </p>
               </div>
             </div>
