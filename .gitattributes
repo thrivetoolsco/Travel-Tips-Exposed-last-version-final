@@ -9,3 +9,5 @@ attached_assets/lv_0_20260304083336_1773083583973.mp4 filter=lfs diff=lfs merge=
 client/public/indonesia-video-1.mp4 filter=lfs diff=lfs merge=lfs -text
 client/public/indonesia-video-2.mp4 filter=lfs diff=lfs merge=lfs -text
 client/public/indonesia-video-3.mp4 filter=lfs diff=lfs merge=lfs -text
+attached_assets/lv_0_20251220154133~2_1773084292733.mp4 filter=lfs diff=lfs merge=lfs -text
+client/public/indonesia-video-4.mp4 filter=lfs diff=lfs merge=lfs -text
