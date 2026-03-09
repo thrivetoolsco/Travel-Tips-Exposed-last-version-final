@@ -3,6 +3,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
 import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
 import imgInsurance from "@assets/kormandallas-under-the-water-2141072_1920_1773059255037.jpg";
+import imgTours from "@assets/simon-high-altitude-mountain-tour-1578127_1920_(1)_1773059420629.jpg";
 
 const featuredPosts = [
   {
@@ -68,7 +69,7 @@ const platforms = [
   {
     label: "Guided Tours",
     href: "/deal-seekers#deals-tours",
-    image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80",
+    image: imgTours,
   },
   {
     label: "Travel Insurance",
