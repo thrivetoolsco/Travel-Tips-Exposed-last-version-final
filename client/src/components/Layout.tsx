@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { SiInstagram } from "react-icons/si";
 import { Menu, X } from "lucide-react";
+import YinYangNew from "./YinYangNew";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -64,13 +65,10 @@ export default function Layout({ children }: LayoutProps) {
                 <span>EXP</span>
                 <span
                   className="inline-flex items-center self-center mx-[0.02em]"
-                  style={{
-                    width: "1cap",
-                    height: "1cap",
-                    borderRadius: "50%",
-                    border: "0.07em solid #C4541C",
-                  }}
-                />
+                  style={{ width: "1cap", height: "1cap" }}
+                >
+                  <YinYangNew size="100%" color="currentColor" bgColor="#FAF7F2" />
+                </span>
                 <span>SED</span>
               </div>
             </Link>
@@ -172,13 +170,10 @@ export default function Layout({ children }: LayoutProps) {
               <span className="text-white/90">EXP</span>
               <span
                 className="inline-flex items-center self-center mx-[0.02em]"
-                style={{
-                  width: "1cap",
-                  height: "1cap",
-                  borderRadius: "50%",
-                  border: "0.07em solid rgba(255,255,255,0.75)",
-                }}
-              />
+                style={{ width: "1cap", height: "1cap" }}
+              >
+                <YinYangNew size="100%" color="#ffffff" bgColor="#1A1008" />
+              </span>
               <span className="text-white/90">SED</span>
             </div>
             <p className="text-xs text-white/30 mt-3 max-w-xs text-center leading-relaxed">
