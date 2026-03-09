@@ -174,7 +174,7 @@ export default function Layout({ children }: LayoutProps) {
               <span className="text-3xl text-white/90">SED</span>
             </div>
             <p className="text-xs text-white/30 mt-3 max-w-xs text-center leading-relaxed">
-              Real travel stories, honest itineraries, and budget hacks for the bold explorer.
+              Uncovering the raw, unfiltered truth behind global travel. From hidden alleyways to profound spiritual retreats, we're exploring the depth of the human journey.
             </p>
           </div>
 
@@ -209,7 +209,7 @@ export default function Layout({ children }: LayoutProps) {
             <div>
               <h3 className="text-white/70 text-[10px] tracking-[0.3em] uppercase font-semibold mb-3" style={{ fontFamily: "var(--font-display)" }}>Fine Print</h3>
               <p className="text-xs text-white/25 leading-relaxed">
-                Some links are affiliate links — we only recommend what we genuinely use and love.
+                Some links are affiliate links. I only recommend what I genuinely use &amp; love.
               </p>
             </div>
           </div>
