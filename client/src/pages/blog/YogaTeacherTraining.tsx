@@ -1,5 +1,11 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgFire from "@assets/1000038419_1773063453539.jpg";
+import imgYogaClass from "@assets/1000038416_1773063453595.jpg";
+import imgBreathwork from "@assets/1000038417_1773063453608.jpg";
+import imgNeti from "@assets/1000038418_1773063453620.jpg";
+import imgCrow from "@assets/1000038421_1773063453631.jpg";
+import imgGroup from "@assets/1000038420_1773063453643.jpg";
 
 export default function YogaTeacherTraining() {
   return (
@@ -55,6 +61,8 @@ export default function YogaTeacherTraining() {
             </p>
           </div>
 
+          <img src={imgFire} alt="Fire ceremony at the yoga school" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "480px", objectPosition: "center" }} data-testid="img-fire-ceremony" />
+
           <p className="mb-6 leading-relaxed">
             The days started at 6 every morning and ended up at 6 in the evening. Those days were packed with practices that didn't leave much space for the mind to wander off on anything that wasn't yoga related.
           </p>
@@ -66,6 +74,11 @@ export default function YogaTeacherTraining() {
           <p className="mb-6 leading-relaxed">
             At the end, I got exactly what I needed from that experience: I learned the ancient breathing techniques to influence my states of mind.
           </p>
+
+          <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-breathwork">
+            <img src={imgBreathwork} alt="Students practicing breathwork" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgNeti} alt="Student practicing nasal cleansing" className="w-full h-56 object-cover rounded-xl" />
+          </div>
 
           <p className="mb-10 leading-relaxed text-muted-foreground italic">
             Side note: the meals and accommodation were included in the school. The curriculum included theory and practice. It covered all the basics. We had many opportunities to practice holding space for others. Each student had the chance to guide breathwork and yoga classes while receiving valuable feedback from the teachers.
@@ -105,6 +118,8 @@ export default function YogaTeacherTraining() {
             </div>
           </div>
 
+          <img src={imgYogaClass} alt="Outdoor yoga class in the hills of Rishikesh" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "440px", objectPosition: "center" }} data-testid="img-yoga-class" />
+
           <p className="mb-6 leading-relaxed">
             Other than that we had 1 day a week off. That day allowed me and the other students to explore Rishikesh.
           </p>
@@ -113,6 +128,8 @@ export default function YogaTeacherTraining() {
             The Ganges are a trip! It's a different planet alongside that river. It's fascinating to witness humans in all their flavors! Yeah, you're in for a show when you go there. Especially during their festivals. It's so surreal!
           </p>
 
+          <img src={imgCrow} alt="Crow pose on a rock by the Ganges river" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "500px", objectPosition: "center top" }} data-testid="img-crow-pose" />
+
           <p className="mb-6 leading-relaxed">
             After 2 months in Rishikesh, I was absolutely ready for a change of scene.
           </p>
@@ -120,6 +137,8 @@ export default function YogaTeacherTraining() {
           <p className="mb-6 leading-relaxed">
             A friend of mine told me about this place in the mountains where the Dalai Lama went when he fled from Tibet. That town is called Dharamshala and it was my favorite spot I visited in India.
           </p>
+
+          <img src={imgGroup} alt="Group photo with the yoga school community" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "440px", objectPosition: "center" }} data-testid="img-group-photo" />
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl">
             <p className="text-foreground font-semibold mb-3" style={{ fontFamily: "var(--font-serif)" }}>
