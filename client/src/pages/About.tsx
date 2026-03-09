@@ -1,6 +1,8 @@
 import { Link } from "wouter";
 import { ArrowRight, Heart } from "lucide-react";
 
+const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork", "Gardener"];
+
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
@@ -50,14 +52,43 @@ export default function About() {
                 style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}
               >
                 Hi, I'm{" "}
-                <span className="text-[#C4541C]">Eden</span>, the face behind Travel Tips Exposed.
+                <span className="text-[#C4541C]">Eden</span>.
               </h2>
+              <div className="flex flex-wrap gap-2 mb-5">
+                {tags.map((tag) => (
+                  <span
+                    key={tag}
+                    data-testid={`badge-tag-${tag.toLowerCase().replace(/\s+/g, "-")}`}
+                    className="px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full border"
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      background: "rgba(196,84,28,0.08)",
+                      color: "#C4541C",
+                      borderColor: "rgba(196,84,28,0.25)",
+                    }}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
-              <p className="text-foreground leading-relaxed text-lg" data-testid="text-bio">
-                I'm a world traveler, music head, psychonaut, breathwork space holder, gardener and videographer.
+              <p className="text-foreground leading-relaxed text-base mb-4" data-testid="text-bio-1">
+                I spend my time moving through landscapes looking for the frequency that actually shifts something inside. Whether I'm scouting a remote spot for a plant medicine or finding a drum circle to dance and vibe, I'm looking for the raw evidence of a life well lived.
               </p>
-              <p className="text-muted-foreground leading-relaxed mt-4">
-                I created this blog to share with like minded people the coolest places I've found along the way with the exact tips and budget hacks I've used to explore them.
+              <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-bio-2">
+                This space is for the seekers and the music heads who want to explore the planet without losing their edge or draining their resources.
+              </p>
+              <p className="text-muted-foreground leading-relaxed" data-testid="text-bio-3">
+                I also curated a collection of evidence based biology and wellness tech I use to clear the fog, beat jet lag, and stay at a high frequency while on the move. You can also find me here:{" "}
+                <a
+                  href="https://thrivetools.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#C4541C] hover:underline font-semibold"
+                  data-testid="link-thrivetools"
+                >
+                  thrivetools.co
+                </a>
               </p>
             </div>
 
