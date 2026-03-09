@@ -1,5 +1,13 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgSadhu from "@assets/1000038424_1773064007556.jpg";
+import imgCarNight from "@assets/1000038427_1773064007594.jpg";
+import imgCookingRoad from "@assets/1000038430_1773064007606.jpg";
+import imgAutoRickshaw from "@assets/1000038425_1773064007617.jpg";
+import imgTukTukSelfie from "@assets/1000038439_1773064007628.jpg";
+import imgCow from "@assets/1000038422_1773064007639.jpg";
+import imgGroupNight from "@assets/1000038429_1773064007652.jpg";
+import imgStreetNight from "@assets/1000038428_1773064007664.jpg";
 
 export default function RishikeshDharamshala() {
   return (
@@ -53,9 +61,16 @@ export default function RishikeshDharamshala() {
             Getting to Dharamshala from Rishikesh was quite the adventure! You see, buses on time or even showing up are not a given in India. Even if you purchased your bus ticket in advance. Also, there's no bus station where you wait for the bus. You basically just sweat on the side of a noisy, dusty road, with absolutely no one (and I mean no one) communicating when, or if, your ride will show up.
           </p>
 
+          <img src={imgSadhu} alt="Sadhu walking along the road in India" className="w-full rounded-xl my-8" data-testid="img-sadhu" />
+
           <p className="mb-6 leading-relaxed">
             So I guess it was just another day in India when my bus was a no show. And yes, I was in the middle of the road, not knowing anyone or what was going on. But here's the magic of India: you're never alone. I quickly made friends with two equally bewildered travelers, and we did the sensible thing: pooled our cash and secured a cramped, slightly unsettling taxi for the all night drive up the mountain.
           </p>
+
+          <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-street">
+            <img src={imgGroupNight} alt="Group of travelers at night by a taxi" className="w-full rounded-xl" />
+            <img src={imgCow} alt="A cow wandering the streets of India" className="w-full rounded-xl" />
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             The Midnight Express to the Himalayas:
@@ -65,9 +80,26 @@ export default function RishikeshDharamshala() {
             This was where the journey truly earned its stripes. It was a long, dark, and classically sketchy drive that only makes sense when you're traveling like this. Our driver was a man of unusual habits, shall we say. To ensure the road trip flowed more peacefully (for us at least), I dosed myself and my new homies with a couple of strong weed gummies. It was a shared, silent decision that we just had to surrender to the driver's dramatic swerving and the Himalayan hairpin turns. You have to roll with it. What can you say?!
           </p>
 
+          <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" className="w-full rounded-xl my-8" data-testid="img-car-night" />
+
+          <figure className="my-8">
+            <video
+              src="/dharamshala-journey.mp4"
+              controls
+              playsInline
+              className="w-full rounded-xl"
+              data-testid="video-dharamshala"
+            />
+          </figure>
+
           <p className="mb-10 leading-relaxed">
             Anyways, fucking made it finally at around midday the next day. Utterly smashed! Could use some sleep but haven't booked anywhere. So I walk in town and found this cheap hostel that seemed to be well located. I like getting shared rooms sometimes as it helps me connect with more people. It's so awesome when you vibe well with your roommates. And this time, the travel gods smiled on me: my roommates and I all vibed instantly and were staying for a month. We became good homies instantly and decided to go for a walk and get some food.
           </p>
+
+          <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-eating">
+            <img src={imgStreetNight} alt="Friends eating together on the street at night" className="w-full rounded-xl" />
+            <img src={imgCookingRoad} alt="Cooking a meal on the road with a camp stove" className="w-full rounded-xl" />
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             The High Vibe Hub:
@@ -80,6 +112,11 @@ export default function RishikeshDharamshala() {
           <p className="mb-4 leading-relaxed">
             As if this wasn't exciting enough, the food was so cheap. I avoided street food not to get sick but still paid less than $5/meal in delicious, clean, restaurants. Everyone was so warm all the time and people don't hesitate to invite you to try their food when they're sitting beside you in the restaurant. That, my friends, is the real One Love Vibe: shared food, shared space.
           </p>
+
+          <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-transport">
+            <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl" />
+            <img src={imgTukTukSelfie} alt="Eden and a friend smiling inside a tuk-tuk" className="w-full rounded-xl" />
+          </div>
 
           <p className="mb-4 leading-relaxed">
             I guess these good vibes facilitated some serious heart openings within me as I had the most powerful breakthrough during a breathwork session there. I was able to let go of some pain that was weighing down my chest and it was a relief!
