@@ -1,5 +1,20 @@
 import { useState, useEffect } from "react";
 import { X, ChevronLeft, ChevronRight, Camera, ArrowUp } from "lucide-react";
+import imgCa1 from "@assets/20151207_193710_1773065104995.jpg";
+import imgCa2 from "@assets/DSC_6323_1773065105011.JPG";
+import imgCa3 from "@assets/20200819_073322_1773065105021.jpg";
+import imgCa4 from "@assets/20190521_204134_1773065105031.jpg";
+import imgCa5 from "@assets/20190912_214028_1773065105042.jpg";
+import imgCa6 from "@assets/20151119_114728_1773065105052.jpg";
+import imgCa7 from "@assets/20200903_195218_1773065105065.jpg";
+import imgCa8 from "@assets/20250520_124520_1773065105075.jpg";
+import imgCa9 from "@assets/20210616_192247_1773065105086.jpg";
+import imgCa10 from "@assets/20151204_130302_1773065105096.jpg";
+import imgCa11 from "@assets/295718_10150850256595596_749030595_20892884_1595593293_n-1_1773065105107.jpg";
+import imgCa12 from "@assets/20201019_162853_1773065113459.JPG";
+import imgCa13 from "@assets/20201011_172546_Original_1773065133247.jpg";
+import imgCa14 from "@assets/20200903_195924_1773065133271.jpg";
+import imgCa15 from "@assets/20190522_194500_1773065133282.jpg";
 
 const albums = [
   {
@@ -21,7 +36,7 @@ const albums = [
   {
     slug: "canada",
     country: "Canada",
-    count: 28,
+    count: 43,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
@@ -52,6 +67,21 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-543.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-544.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-545.jpg",
+      imgCa1,
+      imgCa2,
+      imgCa3,
+      imgCa4,
+      imgCa5,
+      imgCa6,
+      imgCa7,
+      imgCa8,
+      imgCa9,
+      imgCa10,
+      imgCa11,
+      imgCa12,
+      imgCa13,
+      imgCa14,
+      imgCa15,
     ],
   },
   {
