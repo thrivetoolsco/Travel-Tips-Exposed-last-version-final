@@ -68,7 +68,7 @@ export default function RishikeshDharamshala() {
           </p>
 
           <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-street">
-            <img src={imgGroupNight} alt="Group of travelers at night by a taxi" className="w-full rounded-xl" />
+            <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl" />
             <img src={imgCow} alt="A cow wandering the streets of India" className="w-full rounded-xl" />
           </div>
 
@@ -82,7 +82,7 @@ export default function RishikeshDharamshala() {
 
           <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" className="w-full rounded-xl my-8" data-testid="img-car-night" />
 
-          <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl my-8" data-testid="img-auto-rickshaw" />
+          <img src={imgGroupNight} alt="Group of travelers at night by a taxi" className="w-full rounded-xl my-8" data-testid="img-group-night" />
 
           <p className="mb-10 leading-relaxed">
             Anyways, fucking made it finally at around midday the next day. Utterly smashed! Could use some sleep but haven't booked anywhere. So I walk in town and found this cheap hostel that seemed to be well located. I like getting shared rooms sometimes as it helps me connect with more people. It's so awesome when you vibe well with your roommates. And this time, the travel gods smiled on me: my roommates and I all vibed instantly and were staying for a month. We became good homies instantly and decided to go for a walk and get some food.
