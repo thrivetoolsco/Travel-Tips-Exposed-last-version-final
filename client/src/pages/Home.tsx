@@ -1,6 +1,9 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
+import imgWorkExchange from "@assets/Screenshot_20260309_000535_Brave_1773057417957.jpg";
+import imgTransport from "@assets/Screenshot_20260309_000558_Brave_1773057417943.jpg";
+import imgToursInsuranceGear from "@assets/Screenshot_20260309_000623_Brave_1773057417912.jpg";
 
 const featuredPosts = [
   {
@@ -51,7 +54,8 @@ const platforms = [
   {
     label: "Travel Work Exchange",
     href: "/deal-seekers#deals-work",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
+    image: imgWorkExchange,
+    objectPosition: "50% 15%",
   },
   {
     label: "House Sitting",
@@ -61,22 +65,26 @@ const platforms = [
   {
     label: "Transportation & Ride Share",
     href: "/deal-seekers#deals-transport",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
+    image: imgTransport,
+    objectPosition: "50% 15%",
   },
   {
     label: "Guided Tours",
     href: "/deal-seekers#deals-tours",
-    image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80",
+    image: imgToursInsuranceGear,
+    objectPosition: "50% 2%",
   },
   {
     label: "Travel Insurance",
     href: "/deal-seekers#deals-insurance",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+    image: imgToursInsuranceGear,
+    objectPosition: "50% 47%",
   },
   {
     label: "Gear",
     href: "/deal-seekers#deals-gear",
-    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&q=80",
+    image: imgToursInsuranceGear,
+    objectPosition: "50% 90%",
   },
 ];
 
@@ -309,8 +317,10 @@ export default function Home() {
                   src={platform.image}
                   alt={platform.label}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  style={{ objectPosition: (platform as any).objectPosition ?? "center" }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-transparent" />
                 <div className="absolute inset-0 bg-[#C4541C]/0 group-hover:bg-[#C4541C]/25 transition-all duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-3">
                   <span
