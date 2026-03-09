@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
+import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
 
 const featuredPosts = [
   {
@@ -76,7 +77,7 @@ const platforms = [
   {
     label: "Gear",
     href: "/deal-seekers#deals-gear",
-    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&q=80",
+    image: imgGear,
   },
 ];
 
