@@ -84,7 +84,7 @@ const platforms = [
 ];
 
 const visualJourneys = [
-  { country: "Indonesia", count: 20, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
+  { country: "Indonesia", count: 22, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
   { country: "Canada", count: 58, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
   { country: "USA", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg", slug: "usa" },
   { country: "Jamaica", count: 4, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },

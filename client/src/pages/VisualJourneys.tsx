@@ -74,7 +74,7 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 20,
+    count: 22,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
@@ -90,6 +90,8 @@ const albums = [
       "/indonesia-video-3.mp4",
       "/indonesia-video-4.mp4",
       "/indonesia-video-5.mp4",
+      "/indonesia-video-6.mp4",
+      "/indonesia-video-7.mp4",
     ],
   },
   {

@@ -130,6 +130,13 @@ const sections: Section[] = [
         tag: "Farm Stays",
         tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
       },
+      {
+        name: "WWOOF",
+        description: "World Wide Opportunities on Organic Farms. Work on organic farms in exchange for food and accommodation. One of the best ways to connect with local culture and land.",
+        url: "https://wwoof.net",
+        tag: "Organic Farms",
+        tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
+      },
     ],
   },
   {
