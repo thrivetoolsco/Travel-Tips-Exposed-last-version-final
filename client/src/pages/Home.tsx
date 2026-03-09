@@ -7,7 +7,7 @@ const featuredPosts = [
     location: "Peru",
     href: "/blog/ayahuasca-retreats-peru",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
-    category: "Wellness",
+    category: "Spirituality",
     categoryColor: "bg-[#1D4A38]",
   },
   {
@@ -50,12 +50,12 @@ const platforms = [
   {
     label: "Travel Work Exchange",
     href: "/deal-seekers#deals-work",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
   },
   {
     label: "House Sitting",
     href: "/deal-seekers#deals-sitting",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=800&q=80",
   },
   {
     label: "Transportation & Ride Share",
@@ -75,7 +75,7 @@ const platforms = [
   {
     label: "Gear",
     href: "/deal-seekers#deals-gear",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&q=80",
   },
 ];
 
@@ -162,12 +162,12 @@ export default function Home() {
               Read the Blog <ArrowRight size={16} />
             </Link>
             <Link
-              href="/visual-journeys"
-              data-testid="button-visual-journeys"
+              href="/deal-seekers"
+              data-testid="button-deal-seekers"
               className="px-8 py-4 border border-white/30 text-white hover:bg-white/10 font-bold text-xs tracking-[0.25em] uppercase transition-all duration-200"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Visual Journeys
+              Deal Seekers
             </Link>
           </div>
         </div>

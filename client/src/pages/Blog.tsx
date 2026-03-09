@@ -7,7 +7,7 @@ const blogPosts = [
     title: "Rishikesh to Dharamshala: Your Essential Guide to India's Spiritual Hub",
     excerpt: "Getting to Dharamshala from Rishikesh was quite the adventure! You see, buses on time or even showing up are not a given in India. Even if you purchased your bus ticket in advance...",
     image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/Rishikesh-Header-768x439.webp",
-    categories: ["Islands", "Waves"],
+    categories: ["Spirituality", "Music"],
     date: "March 4, 2026",
     author: "Eden",
     href: "/blog/rishikesh-to-dharamshala",
@@ -70,6 +70,8 @@ const categoryColors: Record<string, string> = {
   "Airport": "bg-amber-100 text-amber-700",
   "Health": "bg-rose-100 text-rose-700",
   "Wellness": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
+  "Spirituality": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
+  "Music": "bg-[#C4541C]/10 text-[#C4541C] border border-[#C4541C]/25",
 };
 
 export default function Blog() {

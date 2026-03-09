@@ -39,6 +39,7 @@ export default function About() {
               alt="Eden - Travel Tips Exposed"
               className="relative w-full rounded-2xl object-cover shadow-xl"
               data-testid="img-about-portrait"
+              loading="eager"
             />
           </div>
 

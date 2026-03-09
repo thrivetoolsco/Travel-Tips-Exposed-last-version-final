@@ -58,22 +58,18 @@ export default function Layout({ children }: LayoutProps) {
               >
                 ✦ Travel Tips ✦
               </span>
-              <div className="flex items-center leading-none">
+              <div
+                className="flex items-center text-4xl md:text-5xl leading-none group-hover:text-[#C4541C] transition-colors duration-300"
+                style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em", color: "#1A1008" }}
+              >
+                <span>EXP</span>
                 <span
-                  className="text-4xl md:text-5xl font-normal tracking-[0.06em] text-[#1A1008] group-hover:text-[#C4541C] transition-colors duration-300"
-                  style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}
+                  className="inline-flex items-center self-center mx-px"
+                  style={{ width: "0.68em", height: "0.68em" }}
                 >
-                  EXP
+                  <YinYangSymbol size="100%" color="currentColor" bgColor="#FAF7F2" />
                 </span>
-                <span className="inline-flex items-center self-center mx-0.5 mt-0.5">
-                  <YinYangSymbol size={36} color="#1A1008" bgColor="#FAF7F2" />
-                </span>
-                <span
-                  className="text-4xl md:text-5xl font-normal tracking-[0.06em] text-[#1A1008] group-hover:text-[#C4541C] transition-colors duration-300"
-                  style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}
-                >
-                  SED
-                </span>
+                <span>SED</span>
               </div>
             </Link>
 
@@ -170,12 +166,12 @@ export default function Layout({ children }: LayoutProps) {
             <span className="text-[10px] tracking-[0.45em] uppercase font-semibold text-[#C4541C] mb-1" style={{ fontFamily: "var(--font-display)" }}>
               ✦ Travel Tips ✦
             </span>
-            <div className="flex items-center leading-none">
-              <span className="text-3xl text-white/90 tracking-[0.06em]" style={{ fontFamily: "var(--font-impact)" }}>EXP</span>
-              <span className="inline-flex items-center self-center mx-0.5">
-                <YinYangSymbol size={28} color="#ffffff" bgColor="#1A1008" />
+            <div className="flex items-center leading-none" style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}>
+              <span className="text-3xl text-white/90">EXP</span>
+              <span className="inline-flex items-center self-center mx-px" style={{ width: "0.72em", height: "0.72em", fontSize: "inherit" }}>
+                <YinYangSymbol size="100%" color="#ffffff" bgColor="#1A1008" />
               </span>
-              <span className="text-3xl text-white/90 tracking-[0.06em]" style={{ fontFamily: "var(--font-impact)" }}>SED</span>
+              <span className="text-3xl text-white/90">SED</span>
             </div>
             <p className="text-xs text-white/30 mt-3 max-w-xs text-center leading-relaxed">
               Real travel stories, honest itineraries, and budget hacks for the bold explorer.

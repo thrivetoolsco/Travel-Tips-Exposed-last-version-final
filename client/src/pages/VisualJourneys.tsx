@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { X, ChevronLeft, ChevronRight, Camera } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Camera, ArrowUp } from "lucide-react";
 
 const albums = [
   {
@@ -382,6 +382,18 @@ export default function VisualJourneys() {
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200" />
                 </button>
               ))}
+            </div>
+
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                data-testid={`button-back-to-top-${album.slug}`}
+                className="flex items-center gap-2 px-6 py-3 border border-[#C4541C]/40 text-[#C4541C] hover:bg-[#C4541C] hover:text-white font-bold text-xs tracking-[0.2em] uppercase transition-all duration-200"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                <ArrowUp size={14} />
+                Back to Top
+              </button>
             </div>
           </div>
         ))}

@@ -1,5 +1,5 @@
 interface YinYangSymbolProps {
-  size?: number;
+  size?: number | string;
   className?: string;
   color?: string;
   bgColor?: string;

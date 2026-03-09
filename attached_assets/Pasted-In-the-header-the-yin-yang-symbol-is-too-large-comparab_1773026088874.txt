@@ -1,0 +1,44 @@
+In the header, the yin yang symbol is too large comparable to the rest of the letters in the word "Exposed". Recreate it in a way that fits better with the rest of the letters.
+
+In the home page there's a button above "from the fields" that says "Visual journeys". Replace that button that says "visual journeys" by "Deal Seekers". The Deal Seekers button needs to lead to the deal seekers page.
+
+In the home page, the "Ayahuasca Retreats" displays "wellness" as a category. Replace the word "wellness" by "spirituality".
+
+In the home page change the pictures that are in the section "favorite platforms". Each picture needs to be accurate. The travel work exchange needs to have a wwoofing/ farming related picture. The house sitting needs to be replaced by a person and a dog standing by a house. The gear picture needs to be replaced by backpackers gear with camera gear.
+
+When we click on each album and get to the bottom (to the end) of the last picture, there needs to be an arrow that leads back to the top of the page. 
+
+In the blog page, change the categories of the blog post "Rishikesh to Dharamshala: Your Essential Guide to India's Spiritual Hub". The category needs to be "spirituality" and "music".
+
+In the about page the picture is taking too long to load when we open the page. Make sure it takes less time. And loads right away when we open that page.
+
+In the contact page, delete the section that says "the blog" . Only keep the email section and the instagram section.
+Delete "Hey Millennial, Let's Connect
+Whether you've got questions about a destination, want to share your own story, or just want to vibe about travel — my inbox is open. No forms. No bots. Just a real email to a real human". Replace instead instead by "
+Hey You, Let's Connect
+Whether you've got questions about a trip I've taken, or are curious about a retreat or plant medicine, or just want to vibe about travel, my inbox is open. No forms. No bots. Just a real email to a real human".
+
+Delete "Slide Into My Inbox
+Got a question about a trip I've taken? Want to know my honest opinion about a place? Curious about retreats or plant medicine? Hit me up. I read every message.traveltipsexposed@gmail.com"
+
+In the footer Delete "Some links are affiliate links — we only recommend what we genuinely use and love." replace it instead by "Some links are affiliate links. I only recommend what I genuinely use & love." 
+
+In the deal Seekers page, add more to the gear section. It needs to have photography and electronic gear as well as earthrunners. Make sure you add my discount code THRIVETOOLS to the earthrunners. People can easily copy past the discount codes.
+
+Delete 'Real travel stories, honest itineraries, and budget hacks for the bold explorer." Replace instead by "Uncovering the raw, unfiltered truth behind global travel. From hidden alleyways to profound spiritual retreats, we're exploring the depth of the human journey."
+
+In the deal seekers page, add under the gear section a section called ​🌱 Wellness Essentials. Add in it a link to my other website https://thrivetools.co 
+  
+
+Add this script to the the <header> of the website:
+<script>
+  (function (s, t, a, y, twenty, two) {
+    s.Stay22 = s.Stay22 || {};
+    s.Stay22.params = { lmaID: '69ab4f1efc5ef4d72985e011' };
+    twenty = t.createElement(a);
+    two = t.getElementsByTagName(a)[0];
+    twenty.async = 1;
+    twenty.src = y;
+    two.parentNode.insertBefore(twenty, two);
+  })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+</script>
