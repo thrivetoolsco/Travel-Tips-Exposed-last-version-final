@@ -61,19 +61,6 @@ export default function About() {
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-3">
-              {["World Traveler", "Music Head", "Psychonaut", "Breathwork", "Gardener", "Videographer"].map((tag) => (
-                <span
-                  key={tag}
-                  className="px-3 py-1.5 text-xs font-semibold text-[#D4855A] bg-[#C4541C]/10 rounded-full border border-[#C4541C]/20"
-                  style={{ fontFamily: "var(--font-display)" }}
-                  data-testid={`badge-tag-${tag.toLowerCase().replace(/\s+/g, "-")}`}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-
             <Link
               href="/blog"
               data-testid="button-about-read-blog"

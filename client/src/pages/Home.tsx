@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
+import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
 
 const featuredPosts = [
   {
@@ -178,6 +179,38 @@ export default function Home() {
         />
       </section>
 
+      <section className="py-20 px-4" data-testid="intro-section">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex-shrink-0">
+              <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#E8DDD0] shadow-lg">
+                <img
+                  src={edenPhoto}
+                  alt="Eden, the face behind Travel Tips Exposed"
+                  className="w-full h-full object-cover object-top"
+                  data-testid="img-eden"
+                />
+              </div>
+            </div>
+            <div>
+              <h2
+                className="text-3xl md:text-4xl font-bold text-[#1A1008] mb-4"
+                style={{ fontFamily: "var(--font-serif)" }}
+                data-testid="heading-intro"
+              >
+                Hi, I'm Eden, the face behind Travel Tips Exposed.
+              </h2>
+              <p className="text-[#1A1008]/70 text-base leading-relaxed mb-3">
+                I'm a world traveler, music head, psychonaut, breathwork space holder, gardener and videographer.
+              </p>
+              <p className="text-[#1A1008]/70 text-base leading-relaxed">
+                I created this blog to share with like minded people the coolest places I've found along the way with the exact tips and budget hacks I've used to explore them.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 max-w-7xl mx-auto" data-testid="featured-posts-section">
         <div className="flex items-center gap-6 mb-12">
           <div className="h-px flex-1 bg-[#E8DDD0]" />
@@ -257,7 +290,7 @@ export default function Home() {
               style={{ fontFamily: "var(--font-serif)" }}
               data-testid="heading-favorite-platforms"
             >
-              Favorite Platforms
+              My Favorite Platforms
             </h2>
             <p className="mt-3 text-[#1A1008]/55 max-w-xl mx-auto text-sm" style={{ fontFamily: "var(--font-sans)" }}>
               These are the exact platforms I use to travel more for less. Every recommendation is tested and real.
