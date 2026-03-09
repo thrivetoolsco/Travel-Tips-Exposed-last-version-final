@@ -33,6 +33,9 @@ import imgCa30 from "@assets/IMG009_1773065252778.jpg";
 import imgCa31 from "@assets/IMG012_1773065252789.jpg";
 import imgCa32 from "@assets/received_2289262894475677_1773065252798.jpeg";
 import imgCa33 from "@assets/received_10155721876940596_1773065252808.jpeg";
+import imgMo1 from "@assets/IMG_1297_1773065713784.JPG";
+import imgMo2 from "@assets/IMG_6715_1773065713805.JPG";
+import imgMo3 from "@assets/IMG_5413_1773065713859.jpg";
 
 const albums = [
   {
@@ -153,7 +156,7 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 33,
+    count: 36,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
@@ -189,6 +192,9 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-594.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-595.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-597.jpg",
+      imgMo1,
+      imgMo2,
+      imgMo3,
     ],
   },
   {
