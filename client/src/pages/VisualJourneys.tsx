@@ -74,7 +74,7 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 19,
+    count: 20,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
@@ -89,19 +89,16 @@ const albums = [
       "/indonesia-video-2.mp4",
       "/indonesia-video-3.mp4",
       "/indonesia-video-4.mp4",
+      "/indonesia-video-5.mp4",
     ],
   },
   {
     slug: "canada",
     country: "Canada",
-    count: 62,
+    count: 58,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-519.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-520.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-521.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-522.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-523.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-524.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-525.jpg",
@@ -195,7 +192,7 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 36,
+    count: 35,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
@@ -230,7 +227,6 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-593.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-594.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-595.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-597.jpg",
       imgMo1,
       imgMo2,
       imgMo3,
