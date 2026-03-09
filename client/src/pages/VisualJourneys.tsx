@@ -36,6 +36,23 @@ import imgCa33 from "@assets/received_10155721876940596_1773065252808.jpeg";
 import imgMo1 from "@assets/IMG_1297_1773065713784.JPG";
 import imgMo2 from "@assets/IMG_6715_1773065713805.JPG";
 import imgMo3 from "@assets/IMG_5413_1773065713859.jpg";
+import imgIn1 from "@assets/20230602_184608_Original_1773069017785.jpg";
+import imgIn2 from "@assets/IMG-20230516-WA0011_Original_1773069017795.jpg";
+import imgIn3 from "@assets/IMG-20230616-WA0019_Original_1773069017821.jpg";
+import imgIn4 from "@assets/IMG-20230515-WA0053_Original_1773069017829.jpg";
+import imgIn5 from "@assets/IMG-20230516-WA0018_Original_1773069017837.jpg";
+import imgIn6 from "@assets/IMG-20230515-WA0035_Original_1773069017845.jpg";
+import imgIn7 from "@assets/IMG-20230522-WA0056_Original_1773069017853.jpg";
+import imgIn8 from "@assets/IMG-20230522-WA0054_Original_1773069017861.jpg";
+import imgIn9 from "@assets/IMG-20230530-WA0025_Original_1773069017877.jpg";
+import imgIn10 from "@assets/IMG-20230528-WA0014_Original_1773069017885.jpg";
+import imgIn11 from "@assets/IMG-20230515-WA0063_Original_1773069017895.jpg";
+import imgIn12 from "@assets/IMG-20230528-WA0019_Original~2_1773069017904.jpg";
+import imgIn13 from "@assets/IMG-20230515-WA0057_Original_1773069017912.jpg";
+import imgIn14 from "@assets/IMG-20230516-WA0007_Original_1773069017920.jpg";
+import imgIn15 from "@assets/IMG-20230522-WA0030_Original_1773069017936.jpg";
+import imgIn16 from "@assets/IMG-20230616-WA0026_Original_1773069017944.jpg";
+import imgIn17 from "@assets/IMG-20230515-WA0032_Original_1773069017953.jpg";
 
 const albums = [
   {
@@ -224,9 +241,16 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 49,
+    count: 69,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg",
-    images: Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
+    images: [
+      ...Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
+      imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
+      imgIn10, imgIn11, imgIn12, imgIn13, imgIn14, imgIn15, imgIn16, imgIn17,
+      "/india-video-1.mp4",
+      "/india-video-2.mp4",
+      "/india-video-3.mp4",
+    ],
   },
   {
     slug: "europe",
