@@ -1,9 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
-import imgWorkExchange from "@assets/Screenshot_20260309_000535_Brave_1773057417957.jpg";
-import imgTransport from "@assets/Screenshot_20260309_000558_Brave_1773057417943.jpg";
-import imgToursInsuranceGear from "@assets/Screenshot_20260309_000623_Brave_1773057417912.jpg";
 
 const featuredPosts = [
   {
@@ -54,8 +51,7 @@ const platforms = [
   {
     label: "Travel Work Exchange",
     href: "/deal-seekers#deals-work",
-    image: imgWorkExchange,
-    objectPosition: "50% 15%",
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
   },
   {
     label: "House Sitting",
@@ -65,26 +61,22 @@ const platforms = [
   {
     label: "Transportation & Ride Share",
     href: "/deal-seekers#deals-transport",
-    image: imgTransport,
-    objectPosition: "50% 15%",
+    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
   },
   {
     label: "Guided Tours",
     href: "/deal-seekers#deals-tours",
-    image: imgToursInsuranceGear,
-    objectPosition: "50% 2%",
+    image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80",
   },
   {
     label: "Travel Insurance",
     href: "/deal-seekers#deals-insurance",
-    image: imgToursInsuranceGear,
-    objectPosition: "50% 47%",
+    image: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=80",
   },
   {
     label: "Gear",
     href: "/deal-seekers#deals-gear",
-    image: imgToursInsuranceGear,
-    objectPosition: "50% 90%",
+    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&q=80",
   },
 ];
 
@@ -197,6 +189,8 @@ export default function Home() {
                   alt="Eden, the face behind Travel Tips Exposed"
                   className="w-full h-full object-cover object-top"
                   data-testid="img-eden"
+                  fetchpriority="high"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -317,10 +311,8 @@ export default function Home() {
                   src={platform.image}
                   alt={platform.label}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  style={{ objectPosition: (platform as any).objectPosition ?? "center" }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20" />
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
                 <div className="absolute inset-0 bg-[#C4541C]/0 group-hover:bg-[#C4541C]/25 transition-all duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-3">
                   <span

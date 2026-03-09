@@ -13,10 +13,8 @@ export default function RishikeshDharamshala() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="px-3 py-1 text-xs font-semibold bg-[#C4541C] text-white rounded-full"
-              style={{ fontFamily: "var(--font-display)" }}>Islands</span>
-            <span className="px-3 py-1 text-xs font-semibold bg-blue-600 text-white rounded-full"
-              style={{ fontFamily: "var(--font-display)" }}>Waves</span>
+            <span className="px-3 py-1 text-xs font-semibold bg-[#1D4A38]/80 text-white rounded-full"
+              style={{ fontFamily: "var(--font-display)" }}>Getting Around</span>
           </div>
         </div>
       </div>

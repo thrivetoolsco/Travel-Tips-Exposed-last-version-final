@@ -67,6 +67,7 @@ const blogPosts = [
 const categoryColors: Record<string, string> = {
   "Islands": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Waves": "bg-sky-100 text-sky-700",
+  "Getting Around": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Airport": "bg-amber-100 text-amber-700",
   "Health": "bg-rose-100 text-rose-700",
   "Wellness": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
