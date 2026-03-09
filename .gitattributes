@@ -1,0 +1,2 @@
+attached_assets/lv_0_20260127140107_1773065252831.mp4 filter=lfs diff=lfs merge=lfs -text
+client/public/canada-farm.mp4 filter=lfs diff=lfs merge=lfs -text

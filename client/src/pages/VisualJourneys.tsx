@@ -15,6 +15,24 @@ import imgCa12 from "@assets/20201019_162853_1773065113459.JPG";
 import imgCa13 from "@assets/20201011_172546_Original_1773065133247.jpg";
 import imgCa14 from "@assets/20200903_195924_1773065133271.jpg";
 import imgCa15 from "@assets/20190522_194500_1773065133282.jpg";
+import imgCa16 from "@assets/20190617_210908_1773065252576.jpg";
+import imgCa17 from "@assets/20200824_062913_1773065252587.jpg";
+import imgCa18 from "@assets/IMG_1945_1773065252597.JPG";
+import imgCa19 from "@assets/2018-07-18_16_18_41.468_1773065252605.JPG";
+import imgCa20 from "@assets/IMG_1884_1773065252614.JPG";
+import imgCa21 from "@assets/IMG_2177~3_1773065252623.JPG";
+import imgCa22 from "@assets/IMG013_1773065252636.jpg";
+import imgCa23 from "@assets/IMG_2053_1773065252647.JPG";
+import imgCa24 from "@assets/IMG_2537_1773065252668.JPG";
+import imgCa25 from "@assets/IMG_20200713_114937_1773065252702.jpg";
+import imgCa26 from "@assets/IMG_1951_1773065252723.jpg";
+import imgCa27 from "@assets/IMG_20241007_055933_973_1773065252740.jpg";
+import imgCa28 from "@assets/IMG_2180~2_1773065252752.jpg";
+import imgCa29 from "@assets/IMG_1895_1773065252769.JPG";
+import imgCa30 from "@assets/IMG009_1773065252778.jpg";
+import imgCa31 from "@assets/IMG012_1773065252789.jpg";
+import imgCa32 from "@assets/received_2289262894475677_1773065252798.jpeg";
+import imgCa33 from "@assets/received_10155721876940596_1773065252808.jpeg";
 
 const albums = [
   {
@@ -36,7 +54,7 @@ const albums = [
   {
     slug: "canada",
     country: "Canada",
-    count: 43,
+    count: 62,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
@@ -82,6 +100,25 @@ const albums = [
       imgCa13,
       imgCa14,
       imgCa15,
+      imgCa16,
+      imgCa17,
+      imgCa18,
+      imgCa19,
+      imgCa20,
+      imgCa21,
+      imgCa22,
+      imgCa23,
+      imgCa24,
+      imgCa25,
+      imgCa26,
+      imgCa27,
+      imgCa28,
+      imgCa29,
+      imgCa30,
+      imgCa31,
+      imgCa32,
+      imgCa33,
+      "/canada-farm.mp4",
     ],
   },
   {
@@ -249,11 +286,32 @@ interface LightboxState {
   imageIndex: number;
 }
 
+const isVideo = (src: string) => src.endsWith(".mp4") || src.endsWith(".mov") || src.endsWith(".webm");
+
 function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?: () => void }) {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
 
   if (error) return null;
+
+  if (isVideo(src)) {
+    return (
+      <div className="w-full h-full relative flex items-center justify-center bg-black">
+        <video
+          src={src}
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+          onLoadedData={() => { setLoaded(true); onLoad?.(); }}
+        />
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="w-10 h-10 rounded-full bg-black/60 flex items-center justify-center">
+            <svg className="w-5 h-5 text-white fill-white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <img
@@ -467,12 +525,24 @@ export default function VisualJourneys() {
           </button>
 
           <div className="max-w-5xl max-h-[90vh] px-16" onClick={(e) => e.stopPropagation()}>
-            <img
-              src={currentAlbum.images[lightbox.imageIndex]}
-              alt={`${currentAlbum.country} ${lightbox.imageIndex + 1}`}
-              className="max-h-[85vh] max-w-full object-contain rounded-lg"
-              data-testid="img-lightbox"
-            />
+            {isVideo(currentAlbum.images[lightbox.imageIndex]) ? (
+              <video
+                key={currentAlbum.images[lightbox.imageIndex]}
+                src={currentAlbum.images[lightbox.imageIndex]}
+                controls
+                autoPlay
+                playsInline
+                className="max-h-[85vh] max-w-full rounded-lg"
+                data-testid="video-lightbox"
+              />
+            ) : (
+              <img
+                src={currentAlbum.images[lightbox.imageIndex]}
+                alt={`${currentAlbum.country} ${lightbox.imageIndex + 1}`}
+                className="max-h-[85vh] max-w-full object-contain rounded-lg"
+                data-testid="img-lightbox"
+              />
+            )}
             <p className="text-white/50 text-sm text-center mt-3" style={{ fontFamily: "var(--font-display)" }}>
               {currentAlbum.country}, {lightbox.imageIndex + 1} / {currentAlbum.images.length}
             </p>
