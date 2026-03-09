@@ -59,17 +59,12 @@ export default function Layout({ children }: LayoutProps) {
                 ✦ Travel Tips ✦
               </span>
               <div
-                className="flex items-baseline text-4xl md:text-5xl leading-none group-hover:text-[#C4541C] transition-colors duration-300"
+                className="text-4xl md:text-5xl leading-none group-hover:text-[#C4541C] transition-colors duration-300"
                 style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em", color: "#1A1008" }}
               >
-                <span>EXP</span>
-                <span
-                  className="inline-flex items-center self-center mx-[0.02em]"
-                  style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)", transform: "translateY(1mm)" }}
-                >
-                  <YinYangNew size="100%" color="currentColor" bgColor="#FAF7F2" />
-                </span>
-                <span>SED</span>
+                EXP<span
+                  style={{ display: "inline-block", width: "0.68em", height: "1cap", verticalAlign: "baseline" }}
+                ><YinYangNew size="100%" color="currentColor" bgColor="#FAF7F2" /></span>SED
               </div>
             </Link>
 
@@ -166,15 +161,10 @@ export default function Layout({ children }: LayoutProps) {
             <span className="text-[10px] tracking-[0.45em] uppercase font-semibold text-[#C4541C] mb-1" style={{ fontFamily: "var(--font-display)" }}>
               ✦ Travel Tips ✦
             </span>
-            <div className="flex items-baseline text-3xl leading-none" style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}>
-              <span className="text-white/90">EXP</span>
-              <span
-                className="inline-flex items-center self-center mx-[0.02em]"
-                style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)", transform: "translateY(1mm)" }}
-              >
-                <YinYangNew size="100%" color="#ffffff" bgColor="#1A1008" />
-              </span>
-              <span className="text-white/90">SED</span>
+            <div className="text-3xl leading-none text-white/90" style={{ fontFamily: "var(--font-impact)", letterSpacing: "0.06em" }}>
+              EXP<span
+                style={{ display: "inline-block", width: "0.68em", height: "1cap", verticalAlign: "baseline" }}
+              ><YinYangNew size="100%" color="#ffffff" bgColor="#1A1008" /></span>SED
             </div>
             <p className="text-xs text-white/30 mt-3 max-w-xs text-center leading-relaxed">
               Uncovering the raw, unfiltered truth behind global travel. From hidden alleyways to profound spiritual retreats, we're exploring the depth of the human journey.
