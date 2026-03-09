@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { ArrowRight, Heart } from "lucide-react";
 
-const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork", "Gardener"];
+const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork Space Holder", "Gardener"];
 
 export default function About() {
   return (
