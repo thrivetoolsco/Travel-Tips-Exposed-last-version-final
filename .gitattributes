@@ -1,2 +1,4 @@
 attached_assets/lv_0_20260127140107_1773065252831.mp4 filter=lfs diff=lfs merge=lfs -text
 client/public/canada-farm.mp4 filter=lfs diff=lfs merge=lfs -text
+attached_assets/DSCN8749_1773066492557.AVI filter=lfs diff=lfs merge=lfs -text
+attached_assets/DSCN8774_1773066492543.AVI filter=lfs diff=lfs merge=lfs -text

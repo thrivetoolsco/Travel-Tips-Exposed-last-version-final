@@ -249,7 +249,7 @@ const albums = [
   {
     slug: "gabon",
     country: "Gabon",
-    count: 31,
+    count: 33,
     cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg",
     images: [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-694.jpg",
@@ -283,6 +283,8 @@ const albums = [
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-682.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-683.jpg",
       "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-684.jpg",
+      "/gabon-video-1.mp4",
+      "/gabon-video-2.mp4",
     ],
   },
 ];
