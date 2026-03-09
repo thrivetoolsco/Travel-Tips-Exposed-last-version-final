@@ -82,15 +82,7 @@ export default function RishikeshDharamshala() {
 
           <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" className="w-full rounded-xl my-8" data-testid="img-car-night" />
 
-          <figure className="my-8">
-            <video
-              src="/dharamshala-journey.mp4"
-              controls
-              playsInline
-              className="w-full rounded-xl"
-              data-testid="video-dharamshala"
-            />
-          </figure>
+          <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl my-8" data-testid="img-auto-rickshaw" />
 
           <p className="mb-10 leading-relaxed">
             Anyways, fucking made it finally at around midday the next day. Utterly smashed! Could use some sleep but haven't booked anywhere. So I walk in town and found this cheap hostel that seemed to be well located. I like getting shared rooms sometimes as it helps me connect with more people. It's so awesome when you vibe well with your roommates. And this time, the travel gods smiled on me: my roommates and I all vibed instantly and were staying for a month. We became good homies instantly and decided to go for a walk and get some food.
@@ -113,10 +105,17 @@ export default function RishikeshDharamshala() {
             As if this wasn't exciting enough, the food was so cheap. I avoided street food not to get sick but still paid less than $5/meal in delicious, clean, restaurants. Everyone was so warm all the time and people don't hesitate to invite you to try their food when they're sitting beside you in the restaurant. That, my friends, is the real One Love Vibe: shared food, shared space.
           </p>
 
-          <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-transport">
-            <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl" />
-            <img src={imgTukTukSelfie} alt="Eden and a friend smiling inside a tuk-tuk" className="w-full rounded-xl" />
-          </div>
+          <figure className="my-8">
+            <video
+              src="/dharamshala-journey.mp4"
+              controls
+              playsInline
+              className="w-full rounded-xl"
+              data-testid="video-dharamshala"
+            />
+          </figure>
+
+          <img src={imgTukTukSelfie} alt="Eden and a friend smiling inside a tuk-tuk" className="w-full rounded-xl my-8" data-testid="img-tuktuk-selfie" />
 
           <p className="mb-4 leading-relaxed">
             I guess these good vibes facilitated some serious heart openings within me as I had the most powerful breakthrough during a breathwork session there. I was able to let go of some pain that was weighing down my chest and it was a relief!
