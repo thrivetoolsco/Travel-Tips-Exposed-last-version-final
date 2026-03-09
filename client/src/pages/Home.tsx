@@ -124,10 +124,11 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
           <div className="mb-8">
             <span
-              className="inline-block px-5 py-1.5 text-[10px] font-semibold tracking-[0.35em] uppercase text-[#C4541C] border border-[#C4541C]/35 rounded-full"
+              className="inline-block px-5 py-2 text-xs font-semibold tracking-[0.2em] uppercase text-[#C4541C] border border-[#C4541C]/35 rounded-full"
               style={{ fontFamily: "var(--font-display)" }}
+              data-testid="hero-tagline-badge"
             >
-              Eden's Travel Universe
+              The Logistics of Staying Wild and Well.
             </span>
           </div>
 
