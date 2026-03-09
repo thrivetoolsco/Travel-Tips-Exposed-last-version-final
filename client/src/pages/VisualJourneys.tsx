@@ -307,6 +307,7 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
           src={src}
           muted
           playsInline
+          preload="none"
           className="w-full h-full object-cover"
           onLoadedData={() => { setLoaded(true); onLoad?.(); }}
         />
@@ -323,6 +324,8 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
     <img
       src={src}
       alt={alt}
+      loading="lazy"
+      decoding="async"
       className={`w-full h-full object-cover transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
       onLoad={() => { setLoaded(true); onLoad?.(); }}
       onError={() => setError(true)}

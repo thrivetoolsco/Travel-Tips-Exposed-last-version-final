@@ -66,7 +66,7 @@ export default function BalisOneLoveVibe() {
               height="710"
               frameBorder="0"
               scrolling="no"
-              allowTransparency={true}
+              allowtransparency="true"
               allow="encrypted-media"
               className="rounded-xl max-w-full"
             />

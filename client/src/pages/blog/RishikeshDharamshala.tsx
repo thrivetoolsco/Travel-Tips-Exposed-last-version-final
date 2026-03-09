@@ -61,15 +61,15 @@ export default function RishikeshDharamshala() {
             Getting to Dharamshala from Rishikesh was quite the adventure! You see, buses on time or even showing up are not a given in India. Even if you purchased your bus ticket in advance. Also, there's no bus station where you wait for the bus. You basically just sweat on the side of a noisy, dusty road, with absolutely no one (and I mean no one) communicating when, or if, your ride will show up.
           </p>
 
-          <img src={imgSadhu} alt="Sadhu walking along the road in India" className="w-full rounded-xl my-8" data-testid="img-sadhu" />
+          <img src={imgSadhu} alt="Sadhu walking along the road in India" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-sadhu" />
 
           <p className="mb-6 leading-relaxed">
             So I guess it was just another day in India when my bus was a no show. And yes, I was in the middle of the road, not knowing anyone or what was going on. But here's the magic of India: you're never alone. I quickly made friends with two equally bewildered travelers, and we did the sensible thing: pooled our cash and secured a cramped, slightly unsettling taxi for the all night drive up the mountain.
           </p>
 
           <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-street">
-            <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" className="w-full rounded-xl" />
-            <img src={imgCow} alt="A cow wandering the streets of India" className="w-full rounded-xl" />
+            <img src={imgAutoRickshaw} alt="Blue auto-rickshaws parked under an overpass" loading="lazy" className="w-full rounded-xl" />
+            <img src={imgCow} alt="A cow wandering the streets of India" loading="lazy" className="w-full rounded-xl" />
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
@@ -80,17 +80,17 @@ export default function RishikeshDharamshala() {
             This was where the journey truly earned its stripes. It was a long, dark, and classically sketchy drive that only makes sense when you're traveling like this. Our driver was a man of unusual habits, shall we say. To ensure the road trip flowed more peacefully (for us at least), I dosed myself and my new homies with a couple of strong weed gummies. It was a shared, silent decision that we just had to surrender to the driver's dramatic swerving and the Himalayan hairpin turns. You have to roll with it. What can you say?!
           </p>
 
-          <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" className="w-full rounded-xl my-8" data-testid="img-car-night" />
+          <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-car-night" />
 
-          <img src={imgGroupNight} alt="Group of travelers at night by a taxi" className="w-full rounded-xl my-8" data-testid="img-group-night" />
+          <img src={imgGroupNight} alt="Group of travelers at night by a taxi" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-group-night" />
 
           <p className="mb-10 leading-relaxed">
             Anyways, fucking made it finally at around midday the next day. Utterly smashed! Could use some sleep but haven't booked anywhere. So I walk in town and found this cheap hostel that seemed to be well located. I like getting shared rooms sometimes as it helps me connect with more people. It's so awesome when you vibe well with your roommates. And this time, the travel gods smiled on me: my roommates and I all vibed instantly and were staying for a month. We became good homies instantly and decided to go for a walk and get some food.
           </p>
 
           <div className="grid grid-cols-2 gap-3 my-8" data-testid="img-grid-eating">
-            <img src={imgStreetNight} alt="Friends eating together on the street at night" className="w-full rounded-xl" />
-            <img src={imgCookingRoad} alt="Cooking a meal on the road with a camp stove" className="w-full rounded-xl" />
+            <img src={imgStreetNight} alt="Friends eating together on the street at night" loading="lazy" className="w-full rounded-xl" />
+            <img src={imgCookingRoad} alt="Cooking a meal on the road with a camp stove" loading="lazy" className="w-full rounded-xl" />
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
@@ -115,7 +115,7 @@ export default function RishikeshDharamshala() {
             />
           </figure>
 
-          <img src={imgTukTukSelfie} alt="Eden and a friend smiling inside a tuk-tuk" className="w-full rounded-xl my-8" data-testid="img-tuktuk-selfie" />
+          <img src={imgTukTukSelfie} alt="Eden and a friend smiling inside a tuk-tuk" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-tuktuk-selfie" />
 
           <p className="mb-4 leading-relaxed">
             I guess these good vibes facilitated some serious heart openings within me as I had the most powerful breakthrough during a breathwork session there. I was able to let go of some pain that was weighing down my chest and it was a relief!

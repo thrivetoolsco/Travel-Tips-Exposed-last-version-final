@@ -73,10 +73,10 @@ export default function BaliDelhiBelly() {
           </p>
 
           <div className="grid grid-cols-2 gap-3 my-10" data-testid="photo-grid-food">
-            <img src={imgFood1} alt="Eden eating at a Sikh temple langar" className="w-full h-56 object-cover rounded-xl" />
-            <img src={imgFood2} alt="Chana masala with roti" className="w-full h-56 object-cover rounded-xl" />
-            <img src={imgFood3} alt="Serving food at the langar" className="w-full h-56 object-cover rounded-xl" />
-            <img src={imgFood4} alt="Community meal at a Sikh temple" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood1} alt="Eden eating at a Sikh temple langar" loading="lazy" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood2} alt="Chana masala with roti" loading="lazy" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood3} alt="Serving food at the langar" loading="lazy" className="w-full h-56 object-cover rounded-xl" />
+            <img src={imgFood4} alt="Community meal at a Sikh temple" loading="lazy" className="w-full h-56 object-cover rounded-xl" />
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
