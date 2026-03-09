@@ -57,7 +57,20 @@ export default function BalisOneLoveVibe() {
             It's so interesting to notice how I still get that mild fear sneaking in when I'm about to travel. Even after hitchhiking solo across North America and traveling to India alone, I still get that fear of the unknown. The thing is that I choose to embrace that fear because it's by overcoming it that I create the best version of myself. These travels are really not about finding myself but about creating myself.
           </p>
 
-          <p className="mb-10 text-xl font-bold text-[#C4541C]">Indonesia, let's gooo!!!</p>
+          <p className="mb-8 text-xl font-bold text-[#C4541C]">Indonesia, let's gooo!!!</p>
+
+          <div className="flex justify-center my-8" data-testid="embed-instagram-reel">
+            <iframe
+              src="https://www.instagram.com/reel/DTn0UaEE1C1/embed/"
+              width="400"
+              height="710"
+              frameBorder="0"
+              scrolling="no"
+              allowTransparency={true}
+              allow="encrypted-media"
+              className="rounded-xl max-w-full"
+            />
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             That Ubud Magic is REAL.
