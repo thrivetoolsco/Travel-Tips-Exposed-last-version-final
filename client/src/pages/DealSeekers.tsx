@@ -369,7 +369,7 @@ const sections: Section[] = [
       },
       {
         name: "IM8 Health",
-        description: "The most comprehensive daily health supplement I've found. One scoop covers your greens, adaptogens, vitamins, and minerals — perfect for travel days when your nutrition goes sideways.",
+        description: "The most comprehensive daily health supplement I've found. One scoop covers your greens, adaptogens, vitamins, and minerals. Perfect for travel days when your nutrition goes sideways.",
         url: "https://im8health.com",
         tag: "Daily Essentials",
         tagColor: "bg-[#1D4A38]/15 text-[#1D4A38]",
