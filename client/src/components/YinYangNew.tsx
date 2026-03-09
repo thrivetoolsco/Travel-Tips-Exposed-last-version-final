@@ -22,7 +22,7 @@ export default function YinYangNew({
     >
       <circle cx="50" cy="50" r="49" fill={bgColor} />
 
-      <g transform="rotate(45 50 50)">
+      <g>
         <path
           d="M50,1 A49,49 0 0,1 50,99 A24.5,24.5 0 0,1 50,50 A24.5,24.5 0 0,0 50,1Z"
           fill={color}
