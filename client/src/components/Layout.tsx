@@ -65,7 +65,7 @@ export default function Layout({ children }: LayoutProps) {
                 <span>EXP</span>
                 <span
                   className="inline-flex items-center self-center mx-[0.02em]"
-                  style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)" }}
+                  style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)", transform: "translateY(1mm)" }}
                 >
                   <YinYangNew size="100%" color="currentColor" bgColor="#FAF7F2" />
                 </span>
@@ -170,7 +170,7 @@ export default function Layout({ children }: LayoutProps) {
               <span className="text-white/90">EXP</span>
               <span
                 className="inline-flex items-center self-center mx-[0.02em]"
-                style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)" }}
+                style={{ width: "calc(1cap + 2mm)", height: "calc(1cap + 2mm)", transform: "translateY(1mm)" }}
               >
                 <YinYangNew size="100%" color="#ffffff" bgColor="#1A1008" />
               </span>
