@@ -481,7 +481,7 @@ export default function DealSeekers() {
                       style={{ fontFamily: "var(--font-serif)" }}
                       data-testid={`heading-${section.id}`}
                     >
-                      {section.emoji} {section.title}
+                      {section.title}
                     </h2>
                   </div>
                 </div>
