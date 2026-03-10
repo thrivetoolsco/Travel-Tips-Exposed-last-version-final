@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgRishikeshHeader from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
 import imgSadhu from "@assets/1000038424_1773064007556.jpg";
 import imgCarNight from "@assets/1000038427_1773064007594.jpg";
 import imgCookingRoad from "@assets/1000038430_1773064007606.jpg";
@@ -14,7 +15,7 @@ export default function RishikeshDharamshala() {
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/03/Rishikesh-Header.webp"
+          src={imgRishikeshHeader}
           alt="Rishikesh Header"
           className="w-full h-full object-cover"
         />

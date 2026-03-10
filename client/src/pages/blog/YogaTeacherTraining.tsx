@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgYogaHeader from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgFire from "@assets/1000038419_1773063453539.jpg";
 import imgYogaClass from "@assets/1000038416_1773063453595.jpg";
 import imgBreathwork from "@assets/1000038417_1773063453608.jpg";
@@ -12,7 +13,7 @@ export default function YogaTeacherTraining() {
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/02/YogaTeacher.webp"
+          src={imgYogaHeader}
           alt="Yoga Teacher Training"
           className="w-full h-full object-cover"
         />

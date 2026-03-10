@@ -58,6 +58,23 @@ import imgIn19 from "@assets/IMG-20230505-WA0018_Original_1773080040792.jpg";
 import imgIn20 from "@assets/IMG-20230515-WA0063_Original_1773080040792.jpg";
 import imgIn21 from "@assets/IMG-20230505-WA0020_Original_1773080040793.jpg";
 import imgIn22 from "@assets/20230519_155442_Original_1773080040793.jpg";
+import imgIn23 from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
+import imgIn24 from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
+import imgIn25 from "@assets/IMG-20230515-WA0048_Original_1773171507086.jpg";
+import imgIn26 from "@assets/IMG-20230515-WA0023_Original_1773171507103.jpg";
+import imgIn27 from "@assets/IMG-20230515-WA0004_Original_1773171507111.jpg";
+import imgIn28 from "@assets/IMG-20230512-WA0005_Original_1773171507118.jpg";
+import imgIn29 from "@assets/IMG-20230511-WA0000_Original_1773171507127.jpg";
+import imgIn30 from "@assets/IMG-20230505-WA0025_Original_1773171507135.jpg";
+import imgIn31 from "@assets/IMG-20230505-WA0013_Original_1773171507144.jpg";
+import imgIn32 from "@assets/IMG-20230505-WA0023_Original_1773171507152.jpg";
+import imgIn33 from "@assets/IMG-20230505-WA0007_Original_1773171507159.jpg";
+import imgIn34 from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
+import imgIn35 from "@assets/IMG-20230504-WA0062_Original_1773171507175.jpg";
+import imgIn36 from "@assets/IMG-20230504-WA0061_Original_1773171507183.jpg";
+import imgIn37 from "@assets/IMG-20230504-WA0068_Original_1773171507191.jpg";
+import imgIn38 from "@assets/IMG-20230504-WA0057_Original_1773171507200.jpg";
+import imgIn39 from "@assets/IMG-20230504-WA0056_Original_1773171507208.jpg";
 import imgId1 from "@assets/Screenshot_20260304_084113_Drive_1773081913245.jpg";
 import imgId2 from "@assets/Screenshot_20260120_134406_Photos~2_1773081913246.jpg";
 import imgId3 from "@assets/lv_0_20260104142247_1773081913247.jpg";
@@ -268,13 +285,14 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 76,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/India-661.jpg",
+    count: 44,
+    cover: imgIn30,
     images: [
-      ...Array.from({ length: 49 }, (_, i) => `https://traveltipsexposed.com/wp-content/grand-media/image/India-${613 + i}.jpg`),
       imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
       imgIn10, imgIn11, imgIn12, imgIn13, imgIn14, imgIn15, imgIn16, imgIn17,
       imgIn18, imgIn19, imgIn20, imgIn21, imgIn22,
+      imgIn23, imgIn24, imgIn25, imgIn26, imgIn27, imgIn28, imgIn29, imgIn30,
+      imgIn31, imgIn32, imgIn33, imgIn34, imgIn35, imgIn36, imgIn37, imgIn38, imgIn39,
       "/india-video-1.mp4",
       "/india-video-2.mp4",
       "/india-video-3.mp4",

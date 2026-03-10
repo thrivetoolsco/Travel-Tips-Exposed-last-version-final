@@ -1,12 +1,14 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowRight } from "lucide-react";
+import imgRishikeshThumb from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
+import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 
 const blogPosts = [
   {
     id: "rishikesh-to-dharamshala",
     title: "Rishikesh to Dharamshala: Your Essential Guide to India's Spiritual Hub",
     excerpt: "Getting to Dharamshala from Rishikesh was quite the adventure! You see, buses on time or even showing up are not a given in India. Even if you purchased your bus ticket in advance...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/03/Rishikesh-Header-768x439.webp",
+    image: imgRishikeshThumb,
     categories: ["Spirituality", "Music"],
     date: "March 4, 2026",
     author: "Eden",
@@ -46,7 +48,7 @@ const blogPosts = [
     id: "yoga-teacher-training-rishikesh",
     title: "Ashtanga Yoga Teacher Training in Rishikesh: An Honest Review of the Experience",
     excerpt: "I wanted an intensive training and I got just that at the Ashtanga school. The best way I can describe that experience is that it was like a military training but for yoga...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/YogaTeacher.webp",
+    image: imgYogaThumb,
     categories: ["Wellness"],
     date: "December 2025",
     author: "Eden",
