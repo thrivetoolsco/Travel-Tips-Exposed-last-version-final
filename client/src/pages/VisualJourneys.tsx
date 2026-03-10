@@ -69,6 +69,20 @@ import imgGa15 from "@assets/DSCN8626_1773173919684.JPG";
 import imgGa16 from "@assets/DSCN8656_1773173919696.JPG";
 import imgGa17 from "@assets/DSCN8624_1773173919709.JPG";
 import imgGa18 from "@assets/DSCN8623_1773173919721.JPG";
+import imgGa19 from "@assets/DSCN8503_1773174186269.JPG";
+import imgGa20 from "@assets/DSCN8506_1773174186259.JPG";
+import imgGa21 from "@assets/DSCN8507_1773174186251.JPG";
+import imgGa22 from "@assets/DSCN8508_1773174186242.JPG";
+import imgGa23 from "@assets/DSCN8509_1773174186234.JPG";
+import imgGa24 from "@assets/DSCN8510_1773174186226.JPG";
+import imgGa25 from "@assets/DSCN8528_1773174186218.JPG";
+import imgGa26 from "@assets/DSCN8536_1773174186209.JPG";
+import imgGa27 from "@assets/DSCN8543_1773174186202.JPG";
+import imgGa28 from "@assets/DSCN8545_1773174186194.JPG";
+import imgGa29 from "@assets/DSCN8567_1773174186186.JPG";
+import imgGa30 from "@assets/DSCN8588_1773174186179.JPG";
+import imgGa31 from "@assets/DSCN8595_1773174186172.JPG";
+import imgGa32 from "@assets/DSCN8608_1773174186159.JPG";
 import imgJa1 from "@assets/jamaica-263_1773173598174.jpg";
 import imgJa2 from "@assets/jamaica-222_1773173598200.jpg";
 import imgJa3 from "@assets/jamaica-209_1773173598214.jpg";
@@ -364,11 +378,13 @@ const albums = [
   {
     slug: "gabon",
     country: "Gabon",
-    count: 18,
+    count: 32,
     cover: imgGa3,
     images: [
       imgGa1, imgGa2, imgGa3, imgGa4, imgGa5, imgGa6, imgGa7, imgGa8, imgGa9,
       imgGa10, imgGa11, imgGa12, imgGa13, imgGa14, imgGa15, imgGa16, imgGa17, imgGa18,
+      imgGa19, imgGa20, imgGa21, imgGa22, imgGa23, imgGa24, imgGa25, imgGa26, imgGa27,
+      imgGa28, imgGa29, imgGa30, imgGa31, imgGa32,
       "/gabon-video-1.mp4",
       "/gabon-video-2.mp4",
     ],

@@ -100,7 +100,7 @@ const visualJourneys = [
   { country: "Peru", count: 16, image: imgPeruCover, slug: "peru" },
   { country: "India", count: 73, image: imgIndiaCover, slug: "india" },
   { country: "Europe", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
-  { country: "Gabon", count: 18, image: imgGabonCover, slug: "gabon" },
+  { country: "Gabon", count: 32, image: imgGabonCover, slug: "gabon" },
 ];
 
 export default function Home() {
