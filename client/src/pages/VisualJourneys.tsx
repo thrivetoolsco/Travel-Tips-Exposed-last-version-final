@@ -94,6 +94,21 @@ import imgIn56 from "@assets/20230602_181315_Original_1773171886718.jpg";
 import imgIn57 from "@assets/20230516_113503_Original_1773171886726.jpg";
 import imgIn58 from "@assets/20230515_094323_Original_1773171886735.jpg";
 import imgIn59 from "@assets/20230514_154128_Original_1773171886745.jpg";
+import imgIn60 from "@assets/20230510_121722_Original_1773172177874.jpg";
+import imgIn61 from "@assets/20230505_165415_Original_1773172204602.jpg";
+import imgIn62 from "@assets/20230505_165406_Original_1773172204630.jpg";
+import imgIn63 from "@assets/20230505_160828_Original_1773172204638.jpg";
+import imgIn64 from "@assets/20230505_163815_Original_1773172204648.jpg";
+import imgIn65 from "@assets/20230505_115303_Original_1773172204657.jpg";
+import imgIn66 from "@assets/20230504_164441_Original_1773172204665.jpg";
+import imgIn67 from "@assets/20230504_170238_Original_1773172204676.jpg";
+import imgIn68 from "@assets/20230504_113421_Original_1773172204684.jpg";
+import imgIn69 from "@assets/20230504_080121_Original_1773172204694.jpg";
+import imgIn70 from "@assets/20230503_124447_Original_2_1773172204703.jpg";
+import imgIn71 from "@assets/20230429_140639_Original_2_1773172204713.jpg";
+import imgIn72 from "@assets/20230428_134054_Original_2_1773172204721.jpg";
+import imgIn73 from "@assets/20230428_133952_Original_2_1773172204728.jpg";
+import imgIn74 from "@assets/20230501_212021_Original_1773172204736.jpg";
 import imgId1 from "@assets/Screenshot_20260304_084113_Drive_1773081913245.jpg";
 import imgId2 from "@assets/Screenshot_20260120_134406_Photos~2_1773081913246.jpg";
 import imgId3 from "@assets/lv_0_20260104142247_1773081913247.jpg";
@@ -304,7 +319,7 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 58,
+    count: 73,
     cover: imgIn30,
     images: [
       imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
@@ -314,7 +329,9 @@ const albums = [
       imgIn31, imgIn32, imgIn33, imgIn34, imgIn35, imgIn36, imgIn37, imgIn38, imgIn39,
       imgIn40, imgIn41, imgIn42, imgIn43, imgIn44, imgIn45, imgIn46, imgIn47,
       imgIn48, imgIn49, imgIn50, imgIn51, imgIn52, imgIn53, imgIn54, imgIn55,
-      imgIn56, imgIn57, imgIn58, imgIn59,
+      imgIn56, imgIn57, imgIn58, imgIn59, imgIn60, imgIn61, imgIn62, imgIn63,
+      imgIn64, imgIn65, imgIn66, imgIn67, imgIn68, imgIn69, imgIn70, imgIn71,
+      imgIn72, imgIn73, imgIn74,
       "/india-video-1.mp4",
       "/india-video-2.mp4",
       "/india-video-3.mp4",
