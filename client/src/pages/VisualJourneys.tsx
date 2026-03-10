@@ -33,6 +33,25 @@ import imgCa30 from "@assets/IMG009_1773065252778.jpg";
 import imgCa31 from "@assets/IMG012_1773065252789.jpg";
 import imgCa32 from "@assets/received_2289262894475677_1773065252798.jpeg";
 import imgCa33 from "@assets/received_10155721876940596_1773065252808.jpeg";
+import imgCa34 from "@assets/IMGP3304_1773174802075.JPG";
+import imgCa35 from "@assets/IMGP3289_1773174802096.JPG";
+import imgCa36 from "@assets/IMGP3280_1773174802107.JPG";
+import imgCa37 from "@assets/Screenshot_20251029_195217_Photos_1773174802117.jpg";
+import imgCa38 from "@assets/20251120_103359~8_1773174802128.jpg";
+import imgCa39 from "@assets/lv_0_20251120145108~2_1773174802140.jpg";
+import imgCa40 from "@assets/IMGP3338_1773174802153.JPG";
+import imgCa41 from "@assets/IMG-20250718-WA0013_1773174802163.jpg";
+import imgCa42 from "@assets/IMGP3308_1773174802177.JPG";
+import imgCa43 from "@assets/IMGP3281_1773174802189.JPG";
+import imgCa44 from "@assets/IMG315_1773174802200.jpg";
+import imgCa45 from "@assets/IMGP3284_1773174802210.JPG";
+import imgCa46 from "@assets/IMGP3323_1773174802221.JPG";
+import imgCa47 from "@assets/DSCN8881_1773174802232.JPG";
+import imgCa48 from "@assets/IMG_0090_1773174802244.JPG";
+import imgCa49 from "@assets/DSCN8778_1773174802265.JPG";
+import imgCa50 from "@assets/DSCN8891_1773174802277.JPG";
+import imgCa51 from "@assets/f_1773174802290.jpg";
+import imgCa52 from "@assets/DSCN8333_1773174802302.JPG";
 import imgMo1 from "@assets/IMG_1297_1773065713784.JPG";
 import imgMo2 from "@assets/IMG_6715_1773065713805.JPG";
 import imgMo3 from "@assets/IMG_5413_1773065713859.jpg";
@@ -225,66 +244,16 @@ const albums = [
   {
     slug: "canada",
     country: "Canada",
-    count: 58,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
+    count: 52,
+    cover: imgCa50,
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-523.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-524.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-525.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-526.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-527.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-528.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-529.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-530.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-531.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-532.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-533.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-534.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-535.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-536.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-537.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-538.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-539.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-540.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-541.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-542.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-543.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-544.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-545.jpg",
-      imgCa1,
-      imgCa2,
-      imgCa3,
-      imgCa4,
-      imgCa5,
-      imgCa6,
-      imgCa7,
-      imgCa8,
-      imgCa9,
-      imgCa10,
-      imgCa11,
-      imgCa12,
-      imgCa13,
-      imgCa14,
-      imgCa15,
-      imgCa16,
-      imgCa17,
-      imgCa18,
-      imgCa19,
-      imgCa20,
-      imgCa21,
-      imgCa22,
-      imgCa23,
-      imgCa24,
-      imgCa25,
-      imgCa26,
-      imgCa27,
-      imgCa28,
-      imgCa29,
-      imgCa30,
-      imgCa31,
-      imgCa32,
-      imgCa33,
+      imgCa1, imgCa2, imgCa3, imgCa4, imgCa5, imgCa6, imgCa7, imgCa8, imgCa9,
+      imgCa10, imgCa11, imgCa12, imgCa13, imgCa14, imgCa15, imgCa16, imgCa17, imgCa18,
+      imgCa19, imgCa20, imgCa21, imgCa22, imgCa23, imgCa24, imgCa25, imgCa26, imgCa27,
+      imgCa28, imgCa29, imgCa30, imgCa31, imgCa32, imgCa33,
+      imgCa34, imgCa35, imgCa36, imgCa37, imgCa38, imgCa39, imgCa40, imgCa41, imgCa42,
+      imgCa43, imgCa44, imgCa45, imgCa46, imgCa47, imgCa48, imgCa49, imgCa50, imgCa51,
+      imgCa52,
       "/canada-farm.mp4",
     ],
   },
