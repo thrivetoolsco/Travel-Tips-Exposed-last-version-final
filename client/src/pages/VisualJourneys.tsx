@@ -36,6 +36,21 @@ import imgCa33 from "@assets/received_10155721876940596_1773065252808.jpeg";
 import imgMo1 from "@assets/IMG_1297_1773065713784.JPG";
 import imgMo2 from "@assets/IMG_6715_1773065713805.JPG";
 import imgMo3 from "@assets/IMG_5413_1773065713859.jpg";
+import imgMo4 from "@assets/IMG_5284_1773172642828.JPG";
+import imgMo5 from "@assets/IMG_5278_1773172642835.JPG";
+import imgMo6 from "@assets/IMG_3846_1773172642842.jpg";
+import imgMo7 from "@assets/IMG_3028_1773172642850.JPG";
+import imgMo8 from "@assets/IMG_2725_1773172642857.JPG";
+import imgMo9 from "@assets/IMG_2527_1773172642865.JPG";
+import imgMo10 from "@assets/IMG_3026_1773172642873.JPG";
+import imgMo11 from "@assets/IMG_2525_1773172642881.JPG";
+import imgMo12 from "@assets/IMG_2434_1773172642891.JPG";
+import imgMo13 from "@assets/IMG_2187_1773172642900.JPG";
+import imgMo14 from "@assets/IMG_1888_1773172642908.JPG";
+import imgMo15 from "@assets/IMG_1873_1773172642916.PNG";
+import imgMo16 from "@assets/IMG_1830_1773172642924.JPG";
+import imgMo17 from "@assets/IMG_1306_2_1773172642931.JPG";
+import imgMo18 from "@assets/IMG_1297_2_1773172642948.JPG";
 import imgIn1 from "@assets/20230602_184608_Original_1773069017785.jpg";
 import imgIn2 from "@assets/IMG-20230516-WA0011_Original_1773069017795.jpg";
 import imgIn3 from "@assets/IMG-20230616-WA0019_Original_1773069017821.jpg";
@@ -252,44 +267,11 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 35,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
+    count: 18,
+    cover: imgMo14,
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-565.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-566.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-567.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-568.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-569.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-570.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-571.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-572.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-573.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-574.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-575.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-576.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-577.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-578.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-579.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-580.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-581.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-582.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-583.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-584.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-585.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-586.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-587.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-588.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-589.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-590.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-591.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-592.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-593.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-594.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-595.jpg",
-      imgMo1,
-      imgMo2,
-      imgMo3,
+      imgMo1, imgMo2, imgMo3, imgMo4, imgMo5, imgMo6, imgMo7, imgMo8, imgMo9,
+      imgMo10, imgMo11, imgMo12, imgMo13, imgMo14, imgMo15, imgMo16, imgMo17, imgMo18,
     ],
   },
   {

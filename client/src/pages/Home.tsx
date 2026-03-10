@@ -7,6 +7,7 @@ import imgTours from "@assets/simon-high-altitude-mountain-tour-1578127_1920_(1)
 import imgUsaCover from "@assets/SantaMonica-133_1773169036752.jpg";
 import imgIndiaCover from "@assets/IMG-20230505-WA0025_Original_1773171507135.jpg";
 import imgYogaFeatured from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
+import imgMoroccoCover from "@assets/IMG_1888_1773172642908.JPG";
 
 const featuredPosts = [
   {
@@ -91,9 +92,9 @@ const visualJourneys = [
   { country: "Canada", count: 58, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
   { country: "USA", count: 9, image: imgUsaCover, slug: "usa" },
   { country: "Jamaica", count: 4, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
-  { country: "Morocco", count: 35, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg", slug: "morocco" },
+  { country: "Morocco", count: 18, image: imgMoroccoCover, slug: "morocco" },
   { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
-  { country: "India", count: 44, image: imgIndiaCover, slug: "india" },
+  { country: "India", count: 73, image: imgIndiaCover, slug: "india" },
   { country: "Europe", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
   { country: "Gabon", count: 26, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },
 ];
