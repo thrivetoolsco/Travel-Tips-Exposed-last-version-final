@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
-import imgRishikeshHeader from "@assets/IMG-20230505-WA0007_Original_1773171507159.jpg";
+import imgRishikeshHeader from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
 import imgSadhu from "@assets/1000038424_1773064007556.jpg";
 import imgCarNight from "@assets/1000038427_1773064007594.jpg";
 import imgCookingRoad from "@assets/1000038430_1773064007606.jpg";
