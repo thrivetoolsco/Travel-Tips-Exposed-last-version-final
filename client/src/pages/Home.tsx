@@ -13,7 +13,7 @@ import imgAyaFeatured from "@assets/IMG_2330_1773173146748.JPG";
 import imgJamaicaCover from "@assets/jamaica-222_1773173598200.jpg";
 import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
-import imgIndonesiaCover from "@assets/20251216_132617~2_1773175452225.jpg";
+import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
 import imgEuropeCover from "@assets/IMG_6279_1773175746521.JPG";
 import imgOneLoveFeatured from "@assets/generated_images/bali-one-love-hero.png";
 import imgBellyFeatured from "@assets/generated_images/bali-belly-hero.png";

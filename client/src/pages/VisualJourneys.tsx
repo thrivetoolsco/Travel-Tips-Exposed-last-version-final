@@ -242,7 +242,7 @@ const albums = [
     slug: "indonesia",
     country: "Indonesia",
     count: 15,
-    cover: imgId13,
+    cover: imgId7,
     images: [
       imgId1, imgId2, imgId3, imgId4, imgId5, imgId6, imgId7, imgId8,
       imgId9, imgId10, imgId11, imgId12, imgId13, imgId14, imgId15,
