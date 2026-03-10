@@ -15,7 +15,7 @@ import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
 import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
 import imgEuropeCover from "@assets/IMG_6279_1773175746521.JPG";
-import imgOneLoveFeatured from "@assets/stock_images/beach_friends_hangout.jpg";
+import imgOneLoveFeatured from "@assets/Boho_chic_people_hanging_out_by_the_beach_someone__delpmaspu_1773180012712.png";
 import imgBellyFeatured from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 
 const featuredPosts = [
