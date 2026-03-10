@@ -11,6 +11,7 @@ import imgMoroccoCover from "@assets/IMG_1888_1773172642908.JPG";
 import imgPeruCover from "@assets/IMG_2314_1773173146791.JPG";
 import imgAyaFeatured from "@assets/IMG_2330_1773173146748.JPG";
 import imgJamaicaCover from "@assets/jamaica-222_1773173598200.jpg";
+import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 
 const featuredPosts = [
   {
@@ -99,7 +100,7 @@ const visualJourneys = [
   { country: "Peru", count: 16, image: imgPeruCover, slug: "peru" },
   { country: "India", count: 73, image: imgIndiaCover, slug: "india" },
   { country: "Europe", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
-  { country: "Gabon", count: 26, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },
+  { country: "Gabon", count: 18, image: imgGabonCover, slug: "gabon" },
 ];
 
 export default function Home() {

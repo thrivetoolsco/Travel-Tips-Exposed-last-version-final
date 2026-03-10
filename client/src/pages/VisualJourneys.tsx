@@ -51,6 +51,24 @@ import imgMo15 from "@assets/IMG_1873_1773172642916.PNG";
 import imgMo16 from "@assets/IMG_1830_1773172642924.JPG";
 import imgMo17 from "@assets/IMG_1306_2_1773172642931.JPG";
 import imgMo18 from "@assets/IMG_1297_2_1773172642948.JPG";
+import imgGa1 from "@assets/DSCN8809_1773173919480.JPG";
+import imgGa2 from "@assets/DSCN8795_1773173919501.JPG";
+import imgGa3 from "@assets/DSCN8758_(1)_1773173919513.JPG";
+import imgGa4 from "@assets/DSCN8754_(1)_1773173919528.JPG";
+import imgGa5 from "@assets/DSCN8794_1773173919539.JPG";
+import imgGa6 from "@assets/DSCN8699_1773173919576.JPG";
+import imgGa7 from "@assets/DSCN8751_1773173919589.JPG";
+import imgGa8 from "@assets/DSCN8692_1773173919601.JPG";
+import imgGa9 from "@assets/DSCN8691_1773173919615.JPG";
+import imgGa10 from "@assets/DSCN8690_1773173919627.JPG";
+import imgGa11 from "@assets/DSCN8686_1773173919638.JPG";
+import imgGa12 from "@assets/DSCN8685_1773173919647.JPG";
+import imgGa13 from "@assets/DSCN8667_1773173919658.JPG";
+import imgGa14 from "@assets/DSCN8659_1773173919670.JPG";
+import imgGa15 from "@assets/DSCN8626_1773173919684.JPG";
+import imgGa16 from "@assets/DSCN8656_1773173919696.JPG";
+import imgGa17 from "@assets/DSCN8624_1773173919709.JPG";
+import imgGa18 from "@assets/DSCN8623_1773173919721.JPG";
 import imgJa1 from "@assets/jamaica-263_1773173598174.jpg";
 import imgJa2 from "@assets/jamaica-222_1773173598200.jpg";
 import imgJa3 from "@assets/jamaica-209_1773173598214.jpg";
@@ -346,33 +364,11 @@ const albums = [
   {
     slug: "gabon",
     country: "Gabon",
-    count: 26,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg",
+    count: 18,
+    cover: imgGa3,
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-694.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-695.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-696.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-697.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-698.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-699.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-700.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-701.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-702.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-703.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-704.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-705.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-706.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-707.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-708.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-709.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-710.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-711.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-712.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-713.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-682.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-683.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-684.jpg",
+      imgGa1, imgGa2, imgGa3, imgGa4, imgGa5, imgGa6, imgGa7, imgGa8, imgGa9,
+      imgGa10, imgGa11, imgGa12, imgGa13, imgGa14, imgGa15, imgGa16, imgGa17, imgGa18,
       "/gabon-video-1.mp4",
       "/gabon-video-2.mp4",
     ],
