@@ -51,6 +51,11 @@ import imgMo15 from "@assets/IMG_1873_1773172642916.PNG";
 import imgMo16 from "@assets/IMG_1830_1773172642924.JPG";
 import imgMo17 from "@assets/IMG_1306_2_1773172642931.JPG";
 import imgMo18 from "@assets/IMG_1297_2_1773172642948.JPG";
+import imgJa1 from "@assets/jamaica-263_1773173598174.jpg";
+import imgJa2 from "@assets/jamaica-222_1773173598200.jpg";
+import imgJa3 from "@assets/jamaica-209_1773173598214.jpg";
+import imgJa4 from "@assets/jamaica-137_1773173598227.jpg";
+import imgJa5 from "@assets/jamaica_ngmhhn-107_1773173598237.jpg";
 import imgPe1 from "@assets/IMG_2333_1773173146730.JPG";
 import imgPe2 from "@assets/IMG_2330_1773173146748.JPG";
 import imgPe3 from "@assets/IMG_2329_1773173146756.JPG";
@@ -271,14 +276,9 @@ const albums = [
   {
     slug: "jamaica",
     country: "Jamaica",
-    count: 4,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg",
-    images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-560.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-562.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-564.jpg",
-    ],
+    count: 5,
+    cover: imgJa2,
+    images: [imgJa1, imgJa2, imgJa3, imgJa4, imgJa5],
   },
   {
     slug: "morocco",
