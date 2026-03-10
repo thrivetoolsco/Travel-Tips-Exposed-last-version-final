@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, Heart } from "lucide-react";
+import aboutImg from "@assets/IMG-20251218-WA0018_1773174404095.jpg";
 
 const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork Space Holder", "Gardener"];
 
@@ -37,7 +38,7 @@ export default function About() {
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-amber-400/20 rounded-2xl" />
             <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-[#C4541C]/20 rounded-2xl" />
             <img
-              src="https://traveltipsexposed.com/wp-content/uploads/2026/01/about-image.webp"
+              src={aboutImg}
               alt="Eden - Travel Tips Exposed"
               className="relative w-full rounded-2xl object-cover shadow-xl"
               data-testid="img-about-portrait"
