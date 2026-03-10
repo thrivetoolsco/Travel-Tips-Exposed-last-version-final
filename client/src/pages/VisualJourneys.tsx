@@ -417,6 +417,7 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
 export default function VisualJourneys() {
   const [lightbox, setLightbox] = useState<LightboxState | null>(null);
   const [activeAlbum, setActiveAlbum] = useState<string | null>(null);
+  const [lightboxLoading, setLightboxLoading] = useState(false);
   const galleryRef = useRef<HTMLDivElement>(null);
 
   const handleAlbumClick = (slug: string) => {
@@ -465,10 +466,12 @@ export default function VisualJourneys() {
     const album = albums.find((a) => a.slug === lightbox.albumSlug);
     if (!album) return;
     const newIndex = (lightbox.imageIndex + dir + album.images.length) % album.images.length;
+    setLightboxLoading(true);
     setLightbox({ ...lightbox, imageIndex: newIndex });
   };
 
   const openLightbox = (albumSlug: string, imageIndex: number) => {
+    setLightboxLoading(true);
     setLightbox({ albumSlug, imageIndex });
   };
 
@@ -546,10 +549,11 @@ export default function VisualJourneys() {
 
         <div ref={galleryRef} className="scroll-mt-6">
         {albums.map((album) => (
+          activeAlbum !== album.slug ? null : (
           <div
             key={album.slug}
             data-testid={`album-gallery-${album.slug}`}
-            className={`mb-16 transition-all duration-300 ${activeAlbum === album.slug ? "block" : "hidden"}`}
+            className="mb-16"
           >
             <div className="flex items-center gap-4 mb-6">
               <div className="h-px flex-1 bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
@@ -588,6 +592,7 @@ export default function VisualJourneys() {
               </button>
             </div>
           </div>
+          )
         ))}
 
         {!activeAlbum && (
@@ -642,13 +647,31 @@ export default function VisualJourneys() {
                 data-testid="video-lightbox"
               />
             ) : (
-              <img
-                src={currentAlbum.images[lightbox.imageIndex]}
-                alt={`${currentAlbum.country} ${lightbox.imageIndex + 1}`}
-                className="max-h-[85vh] max-w-full object-contain rounded-lg"
-                data-testid="img-lightbox"
-              />
+              <div className="relative flex items-center justify-center">
+                {lightboxLoading && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-10 h-10 border-4 border-white/20 border-t-white rounded-full animate-spin" />
+                  </div>
+                )}
+                <img
+                  key={currentAlbum.images[lightbox.imageIndex]}
+                  src={currentAlbum.images[lightbox.imageIndex]}
+                  alt={`${currentAlbum.country} ${lightbox.imageIndex + 1}`}
+                  className={`max-h-[85vh] max-w-full object-contain rounded-lg transition-opacity duration-200 ${lightboxLoading ? "opacity-0" : "opacity-100"}`}
+                  onLoad={() => setLightboxLoading(false)}
+                  data-testid="img-lightbox"
+                />
+              </div>
             )}
+            {(() => {
+              const imgs = currentAlbum.images;
+              const cur = lightbox.imageIndex;
+              const next = (cur + 1) % imgs.length;
+              const prev = (cur - 1 + imgs.length) % imgs.length;
+              return [imgs[next], imgs[prev]].filter(s => !isVideo(s) && s !== imgs[cur]).map(src => (
+                <link key={src} rel="preload" as="image" href={src} />
+              ));
+            })()}
             <p className="text-white/50 text-sm text-center mt-3" style={{ fontFamily: "var(--font-display)" }}>
               {currentAlbum.captions?.[lightbox.imageIndex] ? (
                 <span>{currentAlbum.captions[lightbox.imageIndex]} · {currentAlbum.country} {lightbox.imageIndex + 1} / {currentAlbum.images.length}</span>
