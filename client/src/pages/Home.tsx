@@ -4,6 +4,7 @@ import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
 import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
 import imgInsurance from "@assets/kormandallas-under-the-water-2141072_1920_1773059255037.jpg";
 import imgTours from "@assets/simon-high-altitude-mountain-tour-1578127_1920_(1)_1773059420629.jpg";
+import imgUsaCover from "@assets/SantaMonica-133_1773169036752.jpg";
 
 const featuredPosts = [
   {
@@ -86,7 +87,7 @@ const platforms = [
 const visualJourneys = [
   { country: "Indonesia", count: 24, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
   { country: "Canada", count: 58, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Canada-550.jpg", slug: "canada" },
-  { country: "USA", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/USA-558.jpg", slug: "usa" },
+  { country: "USA", count: 9, image: imgUsaCover, slug: "usa" },
   { country: "Jamaica", count: 4, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
   { country: "Morocco", count: 35, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Morocco-596.jpg", slug: "morocco" },
   { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
