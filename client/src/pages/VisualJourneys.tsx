@@ -217,6 +217,16 @@ import imgId13 from "@assets/20251216_132617~2_1773175452225.jpg";
 import imgId14 from "@assets/20251219_190311~3_1773175452235.jpg";
 import imgId15 from "@assets/20251220_124548~3_1773175452246.jpg";
 import imgEu1 from "@assets/A_woman_with_brown_curly_hair__playing_shamanic_dr_delpmaspu_1773088332059.png";
+import imgEu2 from "@assets/IMG_6385_1773175746411.JPG";
+import imgEu3 from "@assets/IMG_6347_1773175746445.JPG";
+import imgEu4 from "@assets/IMG_6327_1773175746485.JPG";
+import imgEu5 from "@assets/IMG_6288_1773175746497.JPG";
+import imgEu6 from "@assets/IMG_6311_1773175746510.JPG";
+import imgEu7 from "@assets/IMG_6279_1773175746521.JPG";
+import imgEu8 from "@assets/IMG_6251_1773175746532.JPG";
+import imgEu9 from "@assets/IMG_6274_1773175746543.JPG";
+import imgEu10 from "@assets/IMG_6273_1773175746555.JPG";
+import imgEu11 from "@assets/IMG_0137_1773175746567.JPG";
 import imgUs1 from "@assets/1000038773_1773079797890.jpg";
 import imgUs2 from "@assets/1000038772_1773079797891.jpg";
 import imgUs3 from "@assets/1000038771_1773079797891.jpg";
@@ -335,19 +345,10 @@ const albums = [
     slug: "europe",
     country: "Europe",
     count: 11,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
+    cover: imgEu7,
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-672.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-673.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-674.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-676.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-677.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-678.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-679.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-680.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-681.jpg",
-      imgEu1,
+      imgEu1, imgEu2, imgEu3, imgEu4, imgEu5, imgEu6, imgEu7, imgEu8, imgEu9,
+      imgEu10, imgEu11,
     ],
   },
   {
