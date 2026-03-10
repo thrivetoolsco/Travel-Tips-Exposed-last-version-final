@@ -209,6 +209,13 @@ import imgId5 from "@assets/20260103_152216_1773081913248.jpg";
 import imgId6 from "@assets/20260102_154015_1773081913249.jpg";
 import imgId7 from "@assets/20251230_194420_1773081913250.jpg";
 import imgId8 from "@assets/20251223_224423_1773081913250.jpg";
+import imgId9 from "@assets/20251211_082729~2_1773175452162.jpg";
+import imgId10 from "@assets/20251211_114958_1773175452185.jpg";
+import imgId11 from "@assets/20251215_160430_1773175452195.jpg";
+import imgId12 from "@assets/20251212_164134~3_1773175452216.jpg";
+import imgId13 from "@assets/20251216_132617~2_1773175452225.jpg";
+import imgId14 from "@assets/20251219_190311~3_1773175452235.jpg";
+import imgId15 from "@assets/20251220_124548~3_1773175452246.jpg";
 import imgEu1 from "@assets/A_woman_with_brown_curly_hair__playing_shamanic_dr_delpmaspu_1773088332059.png";
 import imgUs1 from "@assets/1000038773_1773079797890.jpg";
 import imgUs2 from "@assets/1000038772_1773079797891.jpg";
@@ -224,17 +231,11 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 24,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
+    count: 15,
+    cover: imgId13,
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-485.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-486.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-487.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-488.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-489.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-490.jpg",
       imgId1, imgId2, imgId3, imgId4, imgId5, imgId6, imgId7, imgId8,
+      imgId9, imgId10, imgId11, imgId12, imgId13, imgId14, imgId15,
       "/indonesia-video-1.mp4",
       "/indonesia-video-2.mp4",
       "/indonesia-video-3.mp4",

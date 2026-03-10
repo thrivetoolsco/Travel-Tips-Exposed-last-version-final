@@ -13,6 +13,7 @@ import imgAyaFeatured from "@assets/IMG_2330_1773173146748.JPG";
 import imgJamaicaCover from "@assets/jamaica-222_1773173598200.jpg";
 import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
+import imgIndonesiaCover from "@assets/20251216_132617~2_1773175452225.jpg";
 
 const featuredPosts = [
   {
@@ -93,7 +94,7 @@ const platforms = [
 ];
 
 const visualJourneys = [
-  { country: "Indonesia", count: 24, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
+  { country: "Indonesia", count: 15, image: imgIndonesiaCover, slug: "indonesia" },
   { country: "Canada", count: 57, image: imgCanadaCover, slug: "canada" },
   { country: "USA", count: 9, image: imgUsaCover, slug: "usa" },
   { country: "Jamaica", count: 5, image: imgJamaicaCover, slug: "jamaica" },
