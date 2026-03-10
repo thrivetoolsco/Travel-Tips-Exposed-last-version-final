@@ -94,7 +94,7 @@ const platforms = [
 
 const visualJourneys = [
   { country: "Indonesia", count: 24, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Indonesia-491.jpg", slug: "indonesia" },
-  { country: "Canada", count: 52, image: imgCanadaCover, slug: "canada" },
+  { country: "Canada", count: 57, image: imgCanadaCover, slug: "canada" },
   { country: "USA", count: 9, image: imgUsaCover, slug: "usa" },
   { country: "Jamaica", count: 5, image: imgJamaicaCover, slug: "jamaica" },
   { country: "Morocco", count: 18, image: imgMoroccoCover, slug: "morocco" },

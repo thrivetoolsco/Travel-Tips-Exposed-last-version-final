@@ -52,6 +52,11 @@ import imgCa49 from "@assets/DSCN8778_1773174802265.JPG";
 import imgCa50 from "@assets/DSCN8891_1773174802277.JPG";
 import imgCa51 from "@assets/f_1773174802290.jpg";
 import imgCa52 from "@assets/DSCN8333_1773174802302.JPG";
+import imgCa53 from "@assets/20250427_143300~2_1773175242683.jpg";
+import imgCa54 from "@assets/10805753_10152622060727842_9143016356973920878_n_1773175242704.jpg";
+import imgCa55 from "@assets/10632797_10154516353010596_1536087810344558580_n_(1)_1773175242718.jpg";
+import imgCa56 from "@assets/10414612_10154196893065596_62291576087386771_n_1773175242727.jpg";
+import imgCa57 from "@assets/10406350_10152622068132842_1303711059123856411_n_1773175242736.jpg";
 import imgMo1 from "@assets/IMG_1297_1773065713784.JPG";
 import imgMo2 from "@assets/IMG_6715_1773065713805.JPG";
 import imgMo3 from "@assets/IMG_5413_1773065713859.jpg";
@@ -244,7 +249,7 @@ const albums = [
   {
     slug: "canada",
     country: "Canada",
-    count: 52,
+    count: 57,
     cover: imgCa50,
     images: [
       imgCa1, imgCa2, imgCa3, imgCa4, imgCa5, imgCa6, imgCa7, imgCa8, imgCa9,
@@ -253,7 +258,7 @@ const albums = [
       imgCa28, imgCa29, imgCa30, imgCa31, imgCa32, imgCa33,
       imgCa34, imgCa35, imgCa36, imgCa37, imgCa38, imgCa39, imgCa40, imgCa41, imgCa42,
       imgCa43, imgCa44, imgCa45, imgCa46, imgCa47, imgCa48, imgCa49, imgCa50, imgCa51,
-      imgCa52,
+      imgCa52, imgCa53, imgCa54, imgCa55, imgCa56, imgCa57,
       "/canada-farm.mp4",
     ],
   },
