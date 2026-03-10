@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowRight } from "lucide-react";
-import imgRishikeshThumb from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
+import imgRishikeshThumb from "@assets/IMG-20230505-WA0007_Original_1773171507159.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
 import imgOneLoveThumb from "@assets/Boho_chic_people_hanging_out_by_the_beach_someone__delpmaspu_1773180012712.png";
