@@ -1,12 +1,13 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgOneLoveHero from "@assets/generated_images/bali-one-love-hero.png";
 
 export default function BalisOneLoveVibe() {
   return (
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/02/OneLove.webp"
+          src={imgOneLoveHero}
           alt="One Love"
           className="w-full h-full object-cover"
         />

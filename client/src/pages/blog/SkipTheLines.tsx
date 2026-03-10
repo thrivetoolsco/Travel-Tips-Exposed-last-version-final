@@ -1,12 +1,14 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgSkipLinesHero from "@assets/generated_images/skip-lines-airport.png";
+import imgVoaScreenshot from "@assets/generated_images/voa-app-screenshot.png";
 
 export default function SkipTheLines() {
   return (
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/01/skip-the-lines-blog.webp"
+          src={imgSkipLinesHero}
           alt="Skip The Lines"
           className="w-full h-full object-cover"
         />
@@ -61,7 +63,7 @@ export default function SkipTheLines() {
 
           <div className="my-8">
             <img
-              src="https://traveltipsexposed.com/wp-content/uploads/2026/01/Screenshot-2026-03-04-at-7.28.51-PM.webp"
+              src={imgVoaScreenshot}
               alt="Skip The Lines App Screenshot"
               className="rounded-xl w-full max-w-2xl mx-auto block"
               data-testid="img-screenshot"

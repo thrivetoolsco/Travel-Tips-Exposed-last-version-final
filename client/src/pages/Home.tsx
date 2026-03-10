@@ -15,6 +15,8 @@ import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
 import imgIndonesiaCover from "@assets/20251216_132617~2_1773175452225.jpg";
 import imgEuropeCover from "@assets/IMG_6279_1773175746521.JPG";
+import imgOneLoveFeatured from "@assets/generated_images/bali-one-love-hero.png";
+import imgBellyFeatured from "@assets/generated_images/bali-belly-hero.png";
 
 const featuredPosts = [
   {
@@ -29,7 +31,7 @@ const featuredPosts = [
     title: "Asia Belly",
     location: "Bali",
     href: "/blog/bali-belly-delhi-belly",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneBelly.webp",
+    image: imgBellyFeatured,
     category: "Health",
     categoryColor: "bg-[#C4541C]",
   },
@@ -37,7 +39,7 @@ const featuredPosts = [
     title: "One Love Vibe",
     location: "Bali",
     href: "/blog/balis-one-love-vibe",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneLove.webp",
+    image: imgOneLoveFeatured,
     category: "Islands",
     categoryColor: "bg-[#B04A2A]",
   },

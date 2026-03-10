@@ -3,6 +3,10 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 import imgRishikeshThumb from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
+import imgOneLoveThumb from "@assets/generated_images/bali-one-love-hero.png";
+import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
+import imgBellyThumb from "@assets/generated_images/bali-belly-hero.png";
+import imgBlogBg from "@assets/generated_images/blog-background.png";
 
 const blogPosts = [
   {
@@ -19,7 +23,7 @@ const blogPosts = [
     id: "balis-one-love-vibe",
     title: "Bali's \"One Love Vibe\": Is Indonesia Still a Hub for Spiritual Travel?",
     excerpt: "Here I am, traveling to the other part of the world. Again. Part of me is excited knowing that I need to get out of my comfort zone to keep creating that cool \"moi\"...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneLove-768x1376.webp",
+    image: imgOneLoveThumb,
     categories: ["Islands", "Waves"],
     date: "March 2, 2026",
     author: "Eden",
@@ -29,7 +33,7 @@ const blogPosts = [
     id: "skip-lines-bali",
     title: "Skip the lines: 4 Ways To Accelerate Your Airport Entry in Bali & Indonesia",
     excerpt: "Okay, let's be real. That 30 hour flight out of North America? It was a nightmare. The absolute last thing you need after finally landing in Bali or Jakarta is to get stuck in the immigration queue...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/01/skip-the-lines-blog-768x439.webp",
+    image: imgSkipLinesThumb,
     categories: ["Airport"],
     date: "January 17, 2026",
     author: "Eden",
@@ -39,7 +43,7 @@ const blogPosts = [
     id: "bali-belly-delhi-belly",
     title: "Don't Let 'Bali Belly' or 'Delhi Belly' Ruin Your Vibe: The Ultimate Guide to Travel Immunity",
     excerpt: "Keep Your Ass Off the Toilet and On the Beach (Seriously.) You book the flight, nail the itinerary, and finally land in paradise...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/OneBelly-768x1376.webp",
+    image: imgBellyThumb,
     categories: ["Health", "Wellness"],
     date: "January 5, 2026",
     author: "Eden",
@@ -90,7 +94,7 @@ export default function Blog() {
       >
         <div className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: `url(https://traveltipsexposed.com/wp-content/uploads/2020/04/ashim-d-silva-WeYamle9fDM-unsplash.jpg)`,
+            backgroundImage: `url(${imgBlogBg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

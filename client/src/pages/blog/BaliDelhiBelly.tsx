@@ -4,14 +4,16 @@ import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
 import imgFood4 from "@assets/1000038411_1773063241062.jpg";
+import imgBellyHero from "@assets/generated_images/bali-belly-hero.png";
+import imgSlide1 from "@assets/generated_images/travel-stomach-pain.png";
+import imgSlide2 from "@assets/generated_images/probiotic-supplements.png";
+import imgSlide3 from "@assets/generated_images/bali-street-food.png";
+import imgSlide4 from "@assets/generated_images/coconut-water-beach.png";
+import imgSlide5 from "@assets/generated_images/tropical-pharmacy.png";
+import imgSlide6 from "@assets/generated_images/tropical-fruits.png";
 
 const postImages = [
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/nik-shuliahin-UPapS5-R_rk-unsplash.jpg",
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/jan-henrik-franz-1063148-unsplash-1024x650.jpg",
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/peter-jan-rijpkema-wI6o8OwUwdw-unsplash-1024x650.jpg",
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/casey-horner-D4TooCIEyF4-unsplash.jpg",
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/dimitar-donovski-TLia8gk8bJM-unsplash2.jpg",
-  "https://traveltipsexposed.com/wp-content/uploads/2020/04/benjamin-davies-OzdP3muCSrc-unsplash.jpg",
+  imgSlide1, imgSlide2, imgSlide3, imgSlide4, imgSlide5, imgSlide6,
 ];
 
 export default function BaliDelhiBelly() {
@@ -19,7 +21,7 @@ export default function BaliDelhiBelly() {
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/02/OneBelly.webp"
+          src={imgBellyHero}
           alt="Asia Belly"
           className="w-full h-full object-cover"
         />
