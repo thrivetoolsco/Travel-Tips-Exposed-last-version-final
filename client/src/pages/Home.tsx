@@ -15,8 +15,8 @@ import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
 import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
 import imgEuropeCover from "@assets/IMG_6279_1773175746521.JPG";
-import imgOneLoveFeatured from "@assets/generated_images/bali-one-love-hero.png";
-import imgBellyFeatured from "@assets/generated_images/bali-belly-hero.png";
+import imgOneLoveFeatured from "@assets/stock_images/beach_friends_hangout.jpg";
+import imgBellyFeatured from "@assets/stock_images/travel_sick_beach.jpg";
 
 const featuredPosts = [
   {

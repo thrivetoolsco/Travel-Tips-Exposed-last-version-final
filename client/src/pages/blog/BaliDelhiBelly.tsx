@@ -4,17 +4,7 @@ import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
 import imgFood4 from "@assets/1000038411_1773063241062.jpg";
-import imgBellyHero from "@assets/generated_images/bali-belly-hero.png";
-import imgSlide1 from "@assets/generated_images/travel-stomach-pain.png";
-import imgSlide2 from "@assets/generated_images/probiotic-supplements.png";
-import imgSlide3 from "@assets/generated_images/bali-street-food.png";
-import imgSlide4 from "@assets/generated_images/coconut-water-beach.png";
-import imgSlide5 from "@assets/generated_images/tropical-pharmacy.png";
-import imgSlide6 from "@assets/generated_images/tropical-fruits.png";
-
-const postImages = [
-  imgSlide1, imgSlide2, imgSlide3, imgSlide4, imgSlide5, imgSlide6,
-];
+import imgBellyHero from "@assets/stock_images/travel_sick_beach.jpg";
 
 export default function BaliDelhiBelly() {
   return (
@@ -158,20 +148,6 @@ export default function BaliDelhiBelly() {
             </Link>
           </div>
 
-          <div className="my-10" data-testid="post-gallery">
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {postImages.map((img, idx) => (
-                <div key={img} className="aspect-video rounded-xl overflow-hidden bg-muted">
-                  <img
-                    src={img}
-                    alt={`Travel immunity ${idx + 1}`}
-                    className="w-full h-full object-cover"
-                    data-testid={`img-post-gallery-${idx}`}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">

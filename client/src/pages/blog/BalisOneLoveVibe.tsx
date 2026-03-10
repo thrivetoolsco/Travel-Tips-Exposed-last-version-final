@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
-import imgOneLoveHero from "@assets/generated_images/bali-one-love-hero.png";
+import imgOneLoveHero from "@assets/stock_images/beach_friends_hangout.jpg";
 
 export default function BalisOneLoveVibe() {
   return (

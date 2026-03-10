@@ -3,9 +3,9 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 import imgRishikeshThumb from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
-import imgOneLoveThumb from "@assets/generated_images/bali-one-love-hero.png";
+import imgOneLoveThumb from "@assets/stock_images/beach_friends_hangout.jpg";
 import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
-import imgBellyThumb from "@assets/generated_images/bali-belly-hero.png";
+import imgBellyThumb from "@assets/stock_images/travel_sick_beach.jpg";
 import imgBlogBg from "@assets/generated_images/blog-background.png";
 
 const blogPosts = [
