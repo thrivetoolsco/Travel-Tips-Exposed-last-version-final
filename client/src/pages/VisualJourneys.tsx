@@ -55,7 +55,6 @@ import imgIn16 from "@assets/IMG-20230616-WA0026_Original_1773069017944.jpg";
 import imgIn17 from "@assets/IMG-20230515-WA0032_Original_1773069017953.jpg";
 import imgIn18 from "@assets/20230506_114552_Original_1773080040788.jpg";
 import imgIn19 from "@assets/IMG-20230505-WA0018_Original_1773080040792.jpg";
-import imgIn20 from "@assets/IMG-20230515-WA0063_Original_1773080040792.jpg";
 import imgIn21 from "@assets/IMG-20230505-WA0020_Original_1773080040793.jpg";
 import imgIn22 from "@assets/20230519_155442_Original_1773080040793.jpg";
 import imgIn23 from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
@@ -75,6 +74,26 @@ import imgIn36 from "@assets/IMG-20230504-WA0061_Original_1773171507183.jpg";
 import imgIn37 from "@assets/IMG-20230504-WA0068_Original_1773171507191.jpg";
 import imgIn38 from "@assets/IMG-20230504-WA0057_Original_1773171507200.jpg";
 import imgIn39 from "@assets/IMG-20230504-WA0056_Original_1773171507208.jpg";
+import imgIn40 from "@assets/IMG-20230504-WA0047_Original_1773171886478.jpg";
+import imgIn41 from "@assets/IMG-20230504-WA0053_Original_1773171886572.jpg";
+import imgIn42 from "@assets/IMG-20230504-WA0045_Original_1773171886582.jpg";
+import imgIn43 from "@assets/IMG-20230504-WA0044_Original_1773171886590.jpg";
+import imgIn44 from "@assets/IMG-20230504-WA0042_Original_1773171886598.jpg";
+import imgIn45 from "@assets/IMG-20230504-WA0032_Original_1773171886607.jpg";
+import imgIn46 from "@assets/IMG-20230504-WA0020_Original_1773171886615.jpg";
+import imgIn47 from "@assets/IMG-20230504-WA0001_Original_1773171886640.jpg";
+import imgIn48 from "@assets/IMG-20230429-WA0023_Original_1773171886648.jpg";
+import imgIn49 from "@assets/IMG-20230429-WA0018_Original_1773171886656.jpg";
+import imgIn50 from "@assets/IMG-20230429-WA0012_Original_1773171886664.jpg";
+import imgIn51 from "@assets/IMG-20230429-WA0011_Original_1773171886673.jpg";
+import imgIn52 from "@assets/20230606_145136_Original_1773171886682.jpg";
+import imgIn53 from "@assets/20230606_144342_Original_1773171886691.jpg";
+import imgIn54 from "@assets/20230606_142106_Original_1773171886700.jpg";
+import imgIn55 from "@assets/20230602_201853_Original_1773171886709.jpg";
+import imgIn56 from "@assets/20230602_181315_Original_1773171886718.jpg";
+import imgIn57 from "@assets/20230516_113503_Original_1773171886726.jpg";
+import imgIn58 from "@assets/20230515_094323_Original_1773171886735.jpg";
+import imgIn59 from "@assets/20230514_154128_Original_1773171886745.jpg";
 import imgId1 from "@assets/Screenshot_20260304_084113_Drive_1773081913245.jpg";
 import imgId2 from "@assets/Screenshot_20260120_134406_Photos~2_1773081913246.jpg";
 import imgId3 from "@assets/lv_0_20260104142247_1773081913247.jpg";
@@ -285,14 +304,17 @@ const albums = [
   {
     slug: "india",
     country: "India",
-    count: 44,
+    count: 58,
     cover: imgIn30,
     images: [
       imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
       imgIn10, imgIn11, imgIn12, imgIn13, imgIn14, imgIn15, imgIn16, imgIn17,
-      imgIn18, imgIn19, imgIn20, imgIn21, imgIn22,
+      imgIn18, imgIn19, imgIn21, imgIn22,
       imgIn23, imgIn24, imgIn25, imgIn26, imgIn27, imgIn28, imgIn29, imgIn30,
       imgIn31, imgIn32, imgIn33, imgIn34, imgIn35, imgIn36, imgIn37, imgIn38, imgIn39,
+      imgIn40, imgIn41, imgIn42, imgIn43, imgIn44, imgIn45, imgIn46, imgIn47,
+      imgIn48, imgIn49, imgIn50, imgIn51, imgIn52, imgIn53, imgIn54, imgIn55,
+      imgIn56, imgIn57, imgIn58, imgIn59,
       "/india-video-1.mp4",
       "/india-video-2.mp4",
       "/india-video-3.mp4",
