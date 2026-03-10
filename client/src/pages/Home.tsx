@@ -16,7 +16,7 @@ import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
 import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
 import imgEuropeCover from "@assets/IMG_6279_1773175746521.JPG";
 import imgOneLoveFeatured from "@assets/stock_images/beach_friends_hangout.jpg";
-import imgBellyFeatured from "@assets/stock_images/travel_sick_beach.jpg";
+import imgBellyFeatured from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 
 const featuredPosts = [
   {
@@ -258,6 +258,8 @@ export default function Home() {
                 <img
                   src={post.image}
                   alt={post.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
@@ -327,6 +329,8 @@ export default function Home() {
                 <img
                   src={platform.image}
                   alt={platform.label}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
@@ -384,6 +388,8 @@ export default function Home() {
               <img
                 src={album.image}
                 alt={album.country}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent" />

@@ -4,7 +4,7 @@ import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
 import imgFood4 from "@assets/1000038411_1773063241062.jpg";
-import imgBellyHero from "@assets/stock_images/travel_sick_beach.jpg";
+import imgBellyHero from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 
 export default function BaliDelhiBelly() {
   return (

@@ -5,7 +5,7 @@ import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
 import imgOneLoveThumb from "@assets/stock_images/beach_friends_hangout.jpg";
 import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
-import imgBellyThumb from "@assets/stock_images/travel_sick_beach.jpg";
+import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 import imgBlogBg from "@assets/generated_images/blog-background.png";
 
 const blogPosts = [
@@ -131,6 +131,8 @@ export default function Blog() {
                   <img
                     src={post.image}
                     alt={post.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
