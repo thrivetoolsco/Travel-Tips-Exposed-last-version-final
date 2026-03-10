@@ -51,6 +51,22 @@ import imgMo15 from "@assets/IMG_1873_1773172642916.PNG";
 import imgMo16 from "@assets/IMG_1830_1773172642924.JPG";
 import imgMo17 from "@assets/IMG_1306_2_1773172642931.JPG";
 import imgMo18 from "@assets/IMG_1297_2_1773172642948.JPG";
+import imgPe1 from "@assets/IMG_2333_1773173146730.JPG";
+import imgPe2 from "@assets/IMG_2330_1773173146748.JPG";
+import imgPe3 from "@assets/IMG_2329_1773173146756.JPG";
+import imgPe4 from "@assets/IMG_2322_1773173146764.JPG";
+import imgPe5 from "@assets/IMG_2317_1773173146772.JPG";
+import imgPe6 from "@assets/IMG_2319_1773173146784.JPG";
+import imgPe7 from "@assets/IMG_2314_1773173146791.JPG";
+import imgPe8 from "@assets/IMG_2309_1773173146798.JPG";
+import imgPe9 from "@assets/IMG_2306_1773173146806.JPG";
+import imgPe10 from "@assets/IMG_2304_1773173146815.JPG";
+import imgPe11 from "@assets/IMG_2305_1773173146823.JPG";
+import imgPe12 from "@assets/IMG_2303_1773173146831.JPG";
+import imgPe13 from "@assets/IMG_2300_1773173146839.JPG";
+import imgPe14 from "@assets/IMG_2299_1773173146847.JPG";
+import imgPe15 from "@assets/IMG_2301_1773173146855.JPG";
+import imgPe16 from "@assets/IMG_2297_1773173146863.JPG";
 import imgIn1 from "@assets/20230602_184608_Original_1773069017785.jpg";
 import imgIn2 from "@assets/IMG-20230516-WA0011_Original_1773069017795.jpg";
 import imgIn3 from "@assets/IMG-20230616-WA0019_Original_1773069017821.jpg";
@@ -278,24 +294,11 @@ const albums = [
     slug: "peru",
     country: "Peru",
     count: 16,
-    cover: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg",
+    cover: imgPe7,
+    captions: { 4: "Wachuma (San Pedro)" },
     images: [
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-598.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-599.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-600.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-601.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-602.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-603.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-604.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-605.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-607.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-608.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-609.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-610.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-611.jpg",
-      "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-612.jpg",
+      imgPe1, imgPe2, imgPe3, imgPe4, imgPe5, imgPe6, imgPe7, imgPe8,
+      imgPe9, imgPe10, imgPe11, imgPe12, imgPe13, imgPe14, imgPe15, imgPe16,
     ],
   },
   {
@@ -657,7 +660,11 @@ export default function VisualJourneys() {
               />
             )}
             <p className="text-white/50 text-sm text-center mt-3" style={{ fontFamily: "var(--font-display)" }}>
-              {currentAlbum.country}, {lightbox.imageIndex + 1} / {currentAlbum.images.length}
+              {currentAlbum.captions?.[lightbox.imageIndex] ? (
+                <span>{currentAlbum.captions[lightbox.imageIndex]} · {currentAlbum.country} {lightbox.imageIndex + 1} / {currentAlbum.images.length}</span>
+              ) : (
+                <span>{currentAlbum.country}, {lightbox.imageIndex + 1} / {currentAlbum.images.length}</span>
+              )}
             </p>
           </div>
         </div>

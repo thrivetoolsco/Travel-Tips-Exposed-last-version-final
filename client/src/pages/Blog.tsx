@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import imgRishikeshThumb from "@assets/IMG-20230516-WA0017_Original_1773171507068.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
+import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
 
 const blogPosts = [
   {
@@ -58,7 +59,7 @@ const blogPosts = [
     id: "ayahuasca-retreats-peru",
     title: "The Unfiltered Truth About Ayahuasca Retreats in Peru: Shaman Scams & Deep Transformation",
     excerpt: "Morocco was my current setting: a blur of tagine, mint tea, and the constant, buzzing question of my life's purpose. A whispered legend cut through the noise: a retreat in Spain...",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
+    image: imgAyaThumb,
     categories: ["Wellness"],
     date: "February 2026",
     author: "Eden",

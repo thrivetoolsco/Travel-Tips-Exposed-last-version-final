@@ -8,13 +8,15 @@ import imgUsaCover from "@assets/SantaMonica-133_1773169036752.jpg";
 import imgIndiaCover from "@assets/IMG-20230505-WA0025_Original_1773171507135.jpg";
 import imgYogaFeatured from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgMoroccoCover from "@assets/IMG_1888_1773172642908.JPG";
+import imgPeruCover from "@assets/IMG_2314_1773173146791.JPG";
+import imgAyaFeatured from "@assets/IMG_2330_1773173146748.JPG";
 
 const featuredPosts = [
   {
     title: "Ayahuasca Retreats",
     location: "Peru",
     href: "/blog/ayahuasca-retreats-peru",
-    image: "https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp",
+    image: imgAyaFeatured,
     category: "Spirituality",
     categoryColor: "bg-[#1D4A38]",
   },
@@ -93,7 +95,7 @@ const visualJourneys = [
   { country: "USA", count: 9, image: imgUsaCover, slug: "usa" },
   { country: "Jamaica", count: 4, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Jamaica-563.jpg", slug: "jamaica" },
   { country: "Morocco", count: 18, image: imgMoroccoCover, slug: "morocco" },
-  { country: "Peru", count: 16, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Peru-606_1.jpg", slug: "peru" },
+  { country: "Peru", count: 16, image: imgPeruCover, slug: "peru" },
   { country: "India", count: 73, image: imgIndiaCover, slug: "india" },
   { country: "Europe", count: 11, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Europe-682_1.jpg", slug: "europe" },
   { country: "Gabon", count: 26, image: "https://traveltipsexposed.com/wp-content/grand-media/image/Gabon-714.jpg", slug: "gabon" },

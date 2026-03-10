@@ -1,19 +1,19 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import imgAyaHeader from "@assets/IMG_2330_1773173146748.JPG";
+import imgAya1 from "@assets/IMG_2306_1773173146806.JPG";
+import imgAya2 from "@assets/IMG_2303_1773173146831.JPG";
+import imgAya3 from "@assets/IMG_2329_1773173146756.JPG";
+import imgAya4 from "@assets/IMG_2297_1773173146863.JPG";
 
-const postImages = [
-  "https://traveltipsexposed.com/wp-content/grand-media/image/thumb/2026-03-04_19.39.15.webp",
-  "https://traveltipsexposed.com/wp-content/grand-media/image/thumb/2026-03-04_19.39.24.webp",
-  "https://traveltipsexposed.com/wp-content/grand-media/image/thumb/2026-03-04_19.39.29.webp",
-  "https://traveltipsexposed.com/wp-content/grand-media/image/thumb/2026-03-04_20.35.06.webp",
-];
+const postImages = [imgAya1, imgAya2, imgAya3, imgAya4];
 
 export default function Ayahuasca() {
   return (
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
-          src="https://traveltipsexposed.com/wp-content/uploads/2026/02/Ayahuasca.webp"
+          src={imgAyaHeader}
           alt="Ayahuasca"
           className="w-full h-full object-cover"
         />
