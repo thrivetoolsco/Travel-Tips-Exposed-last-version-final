@@ -53,7 +53,7 @@ export default function BaliDelhiBelly() {
           <p className="lead text-xl font-bold mb-4">Keep Your Ass Off the Toilet and On the Beach (Seriously.)</p>
 
           <p className="mb-6 leading-relaxed text-muted-foreground">
-            You book the flight, nail the itinerary, and finally land in paradise. The absolute worst way to spend that hard-earned vacation? Crying over a squat toilet instead of sipping a cocktail on the sunset deck. We've all seen the nightmare Instagram stories.
+            You book the flight, nail the itinerary, and finally land in paradise. The absolute worst way to spend that hard-earned vacation? Crying over a squat toilet instead of sipping a cocktail on the sunset deck. We've all heard the nightmare stories.
           </p>
 
           <p className="mb-6 leading-relaxed">
