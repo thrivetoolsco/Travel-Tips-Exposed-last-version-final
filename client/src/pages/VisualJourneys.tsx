@@ -227,6 +227,7 @@ import imgId12 from "@assets/20251212_164134~3_1773175452216.jpg";
 import imgId13 from "@assets/20251216_132617~2_1773175452225.jpg";
 import imgId14 from "@assets/20251219_190311~3_1773175452235.jpg";
 import imgId15 from "@assets/20251220_124548~3_1773175452246.jpg";
+import imgId16 from "@assets/IMG_20260107_122507_014_1773194529426.jpg";
 import imgEu1 from "@assets/A_woman_with_brown_curly_hair__playing_shamanic_dr_delpmaspu_1773088332059.png";
 import imgEu2 from "@assets/IMG_6385_1773175746411.JPG";
 import imgEu3 from "@assets/IMG_6347_1773175746445.JPG";
@@ -252,7 +253,7 @@ const albums = [
   {
     slug: "indonesia",
     country: "Indonesia",
-    count: 15,
+    count: 16,
     cover: imgId7,
     images: [
       imgId1, imgId2, imgId3, imgId4, imgId5, imgId6, imgId7, imgId8,
@@ -266,7 +267,11 @@ const albums = [
       "/indonesia-video-7.mp4",
       "/indonesia-video-8.mp4",
       "/indonesia-video-9.mp4",
+      imgId16,
     ],
+    captions: {
+      24: "It's not the place, it's the people that make the place :)",
+    },
   },
   {
     slug: "canada",
