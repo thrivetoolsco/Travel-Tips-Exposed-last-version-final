@@ -194,12 +194,12 @@ export default function RishikeshDharamshala() {
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link
-            href="/blog/yoga-teacher-training-rishikesh"
+            href="/blog/balis-one-love-vibe"
             data-testid="link-next-post"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#C4541C] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Yoga Teacher Training <ArrowRight size={16} />
+            Bali's One Love Vibe <ArrowRight size={16} />
           </Link>
         </div>
       </div>
