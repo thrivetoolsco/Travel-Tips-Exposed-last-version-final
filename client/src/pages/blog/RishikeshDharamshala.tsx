@@ -111,6 +111,7 @@ export default function RishikeshDharamshala() {
               src="/dharamshala-journey.mp4"
               controls
               playsInline
+              preload="metadata"
               className="w-full rounded-xl"
               data-testid="video-dharamshala"
             />

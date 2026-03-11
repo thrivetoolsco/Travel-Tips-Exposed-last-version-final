@@ -126,6 +126,7 @@ export default function YogaTeacherTraining() {
               src="/yoga-rishikesh.mp4"
               controls
               playsInline
+              preload="metadata"
               className="w-full rounded-xl"
               data-testid="video-yoga-rishikesh"
             />

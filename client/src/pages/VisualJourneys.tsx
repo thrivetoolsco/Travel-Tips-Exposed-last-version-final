@@ -405,6 +405,7 @@ const isVideo = (src: string) => src.endsWith(".mp4") || src.endsWith(".mov") ||
 function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?: () => void }) {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
+  const [posterError, setPosterError] = useState(false);
 
   if (error) return null;
 
@@ -412,14 +413,19 @@ function GalleryImage({ src, alt, onLoad }: { src: string; alt: string; onLoad?:
     const poster = src.replace(/\.mp4$/, "-poster.jpg");
     return (
       <div className="w-full h-full relative flex items-center justify-center bg-black">
-        <img
-          src={poster}
-          alt={alt}
-          loading="lazy"
-          decoding="async"
-          className="w-full h-full object-cover"
-          onLoad={() => onLoad?.()}
-        />
+        {!posterError ? (
+          <img
+            src={poster}
+            alt={alt}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover"
+            onLoad={() => onLoad?.()}
+            onError={() => setPosterError(true)}
+          />
+        ) : (
+          <div className="w-full h-full bg-black" />
+        )}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-10 h-10 rounded-full bg-black/60 flex items-center justify-center">
             <svg className="w-5 h-5 text-white fill-white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
@@ -670,7 +676,9 @@ export default function VisualJourneys() {
                 poster={currentAlbum.images[lightbox.imageIndex].replace(/\.mp4$/, "-poster.jpg")}
                 controls
                 autoPlay
+                muted
                 playsInline
+                preload="metadata"
                 className="max-h-[85vh] max-w-full rounded-lg"
                 data-testid="video-lightbox"
               />
