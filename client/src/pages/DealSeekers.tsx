@@ -377,7 +377,7 @@ const sections: Section[] = [
       },
       {
         name: "Organika Creatine",
-        description: "Creatine is one of the most well researched supplements out there and Organika's version is clean and unflavoured. It supports muscle recovery after intense movement, helping your body bounce back faster so you can keep going. What I love most is what it does for your brain on low sleep days. When you did not get enough rest, creatine steps in and helps your brain run on a fuller tank. You stay sharp, focused, and actually on your game instead of running on fumes. A non negotiable in my daily stack.",
+        description: "One of the most researched supplements out there. Organika's version is clean and unflavoured. It supports muscle recovery and, on low sleep days, it genuinely helps your brain stay sharp and on your game. A non negotiable in my daily stack.",
         url: "https://organika.com",
         tag: "Brain and Muscle",
         tagColor: "bg-sky-100 text-sky-700",
