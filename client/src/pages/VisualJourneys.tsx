@@ -345,7 +345,7 @@ const albums = [
     slug: "europe",
     country: "Europe",
     count: 11,
-    cover: imgEu7,
+    cover: imgEu11,
     images: [
       imgEu1, imgEu2, imgEu3, imgEu4, imgEu5, imgEu6, imgEu7, imgEu8, imgEu9,
       imgEu10, imgEu11,
