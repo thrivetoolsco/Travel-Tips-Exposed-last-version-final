@@ -24,7 +24,7 @@ const blogPosts = [
     title: "Bali's \"One Love Vibe\": Is Indonesia Still a Hub for Spiritual Travel?",
     excerpt: "Here I am, traveling to the other part of the world. Again. Part of me is excited knowing that I need to get out of my comfort zone to keep creating that cool \"moi\"...",
     image: imgOneLoveThumb,
-    categories: ["Islands", "Waves"],
+    categories: ["Social", "Waves"],
     date: "March 2, 2026",
     author: "Eden",
     href: "/blog/balis-one-love-vibe",
@@ -73,6 +73,7 @@ const blogPosts = [
 
 const categoryColors: Record<string, string> = {
   "Islands": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
+  "Social": "bg-purple-100 text-purple-700",
   "Waves": "bg-sky-100 text-sky-700",
   "Getting Around": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Airport": "bg-amber-100 text-amber-700",
