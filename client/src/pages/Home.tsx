@@ -20,7 +20,7 @@ import imgBellyFeatured from "@assets/Delete_the_date_and_time_from_the_bottom_r
 
 const featuredPosts = [
   {
-    title: "Ayahuasca Retreats",
+    title: "Ayahuasca Retreat in Peru",
     location: "Peru",
     href: "/blog/ayahuasca-retreats-peru",
     image: imgAyaFeatured,
@@ -28,7 +28,7 @@ const featuredPosts = [
     categoryColor: "bg-[#1D4A38]",
   },
   {
-    title: "Asia Belly",
+    title: "How to Avoid Bali Belly",
     location: "Bali",
     href: "/blog/bali-belly-delhi-belly",
     image: imgBellyFeatured,
@@ -36,7 +36,7 @@ const featuredPosts = [
     categoryColor: "bg-[#C4541C]",
   },
   {
-    title: "One Love Vibe",
+    title: "Solo Female Travel in Bali",
     location: "Bali",
     href: "/blog/balis-one-love-vibe",
     image: imgOneLoveFeatured,
@@ -44,7 +44,7 @@ const featuredPosts = [
     categoryColor: "bg-[#B04A2A]",
   },
   {
-    title: "Yoga Teacher Training",
+    title: "Yoga Teacher Training in India",
     location: "India",
     href: "/blog/yoga-teacher-training-rishikesh",
     image: imgYogaFeatured,

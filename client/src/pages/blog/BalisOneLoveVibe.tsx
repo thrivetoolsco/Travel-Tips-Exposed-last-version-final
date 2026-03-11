@@ -31,7 +31,7 @@ export default function BalisOneLoveVibe() {
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6"
           style={{ fontFamily: "var(--font-serif)" }} data-testid="heading-post-title">
-          Bali's "One Love Vibe": Is Indonesia Still a Hub for Spiritual Travel?
+          Solo Female Travel in Bali: Why Ubud's Magic is Still Very Much Alive (+ 3 Practical Tips)
         </h1>
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-10 pb-6 border-b border-border">

@@ -21,7 +21,7 @@ const blogPosts = [
   },
   {
     id: "balis-one-love-vibe",
-    title: "Bali's \"One Love Vibe\": Is Indonesia Still a Hub for Spiritual Travel?",
+    title: "Solo Female Travel in Bali: Why Ubud's Magic is Still Very Much Alive (+ 3 Practical Tips)",
     excerpt: "Here I am, traveling to the other part of the world. Again. Part of me is excited knowing that I need to get out of my comfort zone to keep creating that cool \"moi\"...",
     image: imgOneLoveThumb,
     categories: ["Social", "Waves"],
