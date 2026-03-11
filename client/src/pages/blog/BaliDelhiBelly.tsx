@@ -94,7 +94,7 @@ export default function BaliDelhiBelly() {
               <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">The Sustainable Lifesaver</p>
-                <p className="text-muted-foreground leading-relaxed">Stop buying a thousand plastic bottles! Invest in a reliable water filter. I swear by my Grayl Water Filter. It's fast and eliminates viruses, bacteria, and protozoa. It's the only way I can travel guilt-free and belly-issue-free.</p>
+                <p className="text-muted-foreground leading-relaxed">Stop buying a thousand plastic bottles! Invest in a reliable water filter. I swear by my <Link href="/deal-seekers#deals-gear" className="text-[#C4541C] hover:underline font-semibold">Grayl Water Filter</Link>. It's fast and eliminates viruses, bacteria, and protozoa. It's the only way I can travel guilt-free and belly-issue-free.</p>
               </div>
             </div>
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
