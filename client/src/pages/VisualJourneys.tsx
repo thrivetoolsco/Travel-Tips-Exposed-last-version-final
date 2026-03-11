@@ -79,6 +79,11 @@ import imgMo19 from "@assets/WhatsApp_Image_2018-02-06_at_8.47.14_PM_17731936546
 import imgMo20 from "@assets/IMG_6221_1773193654664.JPG";
 import imgMo21 from "@assets/37574_410826598670_591803670_4771680_8379484_n_1773193654673.jpg";
 import imgMo22 from "@assets/34471_10150214001770596_749030595_13047468_4447681_n-1-_1773193654681.jpg";
+import imgMo23 from "@assets/IMG_E2486_1773193773775.JPG";
+import imgMo24 from "@assets/IMG_E2613_1773193773801.JPG";
+import imgMo25 from "@assets/IMG-20260310-WA0003_1773193773815.jpg";
+import imgMo26 from "@assets/IMG-20260310-WA0004_1773193773824.jpg";
+import imgMo27 from "@assets/IMG-20260310-WA0001_1773193773837.jpg";
 import imgGa1 from "@assets/DSCN8809_1773173919480.JPG";
 import imgGa2 from "@assets/DSCN8795_1773173919501.JPG";
 import imgGa3 from "@assets/DSCN8758_(1)_1773173919513.JPG";
@@ -304,13 +309,21 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 22,
+    count: 27,
     cover: imgMo14,
     images: [
       imgMo1, imgMo2, imgMo3, imgMo4, imgMo5, imgMo6, imgMo7, imgMo8, imgMo9,
       imgMo10, imgMo11, imgMo12, imgMo13, imgMo14, imgMo15, imgMo16, imgMo17, imgMo18,
       imgMo19, imgMo20, imgMo21, imgMo22,
+      imgMo23, imgMo24, imgMo25, imgMo26, imgMo27,
     ],
+    captions: {
+      22: "My first product — Chou Rouge microgreens, branded and ready to sell. Green Taj was born in Morocco.",
+      23: "Watching pea shoots push through overnight never got old. Urban farming had me completely hooked.",
+      24: "Harvest day. Red cabbage, radish, broccoli — the whole lineup growing out of an apartment.",
+      25: "Mixing varieties, learning yields, figuring out pricing. My first business was also my first classroom.",
+      26: "Five varieties, one dream. Green Taj was my first real shot at building something from scratch.",
+    },
   },
   {
     slug: "peru",
