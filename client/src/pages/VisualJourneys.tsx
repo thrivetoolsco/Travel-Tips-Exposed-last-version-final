@@ -75,6 +75,10 @@ import imgMo15 from "@assets/IMG_1873_1773172642916.PNG";
 import imgMo16 from "@assets/IMG_1830_1773172642924.JPG";
 import imgMo17 from "@assets/IMG_1306_2_1773172642931.JPG";
 import imgMo18 from "@assets/IMG_1297_2_1773172642948.JPG";
+import imgMo19 from "@assets/WhatsApp_Image_2018-02-06_at_8.47.14_PM_1773193654633.jpeg";
+import imgMo20 from "@assets/IMG_6221_1773193654664.JPG";
+import imgMo21 from "@assets/37574_410826598670_591803670_4771680_8379484_n_1773193654673.jpg";
+import imgMo22 from "@assets/34471_10150214001770596_749030595_13047468_4447681_n-1-_1773193654681.jpg";
 import imgGa1 from "@assets/DSCN8809_1773173919480.JPG";
 import imgGa2 from "@assets/DSCN8795_1773173919501.JPG";
 import imgGa3 from "@assets/DSCN8758_(1)_1773173919513.JPG";
@@ -300,11 +304,12 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 18,
+    count: 22,
     cover: imgMo14,
     images: [
       imgMo1, imgMo2, imgMo3, imgMo4, imgMo5, imgMo6, imgMo7, imgMo8, imgMo9,
       imgMo10, imgMo11, imgMo12, imgMo13, imgMo14, imgMo15, imgMo16, imgMo17, imgMo18,
+      imgMo19, imgMo20, imgMo21, imgMo22,
     ],
   },
   {
