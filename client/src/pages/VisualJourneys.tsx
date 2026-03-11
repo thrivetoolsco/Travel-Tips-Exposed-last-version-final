@@ -294,7 +294,7 @@ const albums = [
     slug: "jamaica",
     country: "Jamaica",
     count: 5,
-    cover: imgJa2,
+    cover: imgJa5,
     images: [imgJa1, imgJa2, imgJa3, imgJa4, imgJa5],
   },
   {

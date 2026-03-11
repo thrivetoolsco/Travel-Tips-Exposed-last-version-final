@@ -10,7 +10,7 @@ import imgYogaFeatured from "@assets/IMG-20230522-WA0048_Original_1773171507059.
 import imgMoroccoCover from "@assets/IMG_1888_1773172642908.JPG";
 import imgPeruCover from "@assets/IMG_2314_1773173146791.JPG";
 import imgAyaFeatured from "@assets/IMG_2330_1773173146748.JPG";
-import imgJamaicaCover from "@assets/jamaica-222_1773173598200.jpg";
+import imgJamaicaCover from "@assets/jamaica_ngmhhn-107_1773173598237.jpg";
 import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8891_1773174802277.JPG";
 import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
