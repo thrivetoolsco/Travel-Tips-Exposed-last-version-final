@@ -261,7 +261,7 @@ const albums = [
     slug: "canada",
     country: "Canada",
     count: 57,
-    cover: imgCa50,
+    cover: imgCa47,
     images: [
       imgCa1, imgCa2, imgCa3, imgCa4, imgCa5, imgCa6, imgCa7, imgCa8, imgCa9,
       imgCa10, imgCa11, imgCa12, imgCa13, imgCa14, imgCa15, imgCa16, imgCa17, imgCa18,
