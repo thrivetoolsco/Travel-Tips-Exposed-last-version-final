@@ -84,6 +84,8 @@ import imgMo24 from "@assets/IMG_E2613_1773193773801.JPG";
 import imgMo25 from "@assets/IMG-20260310-WA0003_1773193773815.jpg";
 import imgMo26 from "@assets/IMG-20260310-WA0004_1773193773824.jpg";
 import imgMo27 from "@assets/IMG-20260310-WA0001_1773193773837.jpg";
+import imgMo28 from "@assets/IMG_20180523_133112_1773193970834.jpg";
+import imgMo29 from "@assets/IMG_20180523_143717_1773193970863.jpg";
 import imgGa1 from "@assets/DSCN8809_1773173919480.JPG";
 import imgGa2 from "@assets/DSCN8795_1773173919501.JPG";
 import imgGa3 from "@assets/DSCN8758_(1)_1773173919513.JPG";
@@ -309,13 +311,14 @@ const albums = [
   {
     slug: "morocco",
     country: "Morocco",
-    count: 27,
+    count: 29,
     cover: imgMo14,
     images: [
       imgMo1, imgMo2, imgMo3, imgMo4, imgMo5, imgMo6, imgMo7, imgMo8, imgMo9,
       imgMo10, imgMo11, imgMo12, imgMo13, imgMo14, imgMo15, imgMo16, imgMo17, imgMo18,
       imgMo19, imgMo20, imgMo21, imgMo22,
       imgMo23, imgMo24, imgMo25, imgMo26, imgMo27,
+      imgMo28, imgMo29,
     ],
     captions: {
       22: "My first product — Chou Rouge microgreens, branded and ready to sell. Green Taj was born in Morocco.",
@@ -323,6 +326,8 @@ const albums = [
       24: "Harvest day. Red cabbage, radish, broccoli — the whole lineup growing out of an apartment.",
       25: "Mixing varieties, learning yields, figuring out pricing. My first business was also my first classroom.",
       26: "Five varieties, one dream. Green Taj was my first real shot at building something from scratch.",
+      27: "This is the jellyfish that nearly killed me. A Portuguese Man o' War, washed up on the Moroccan coast — I had no idea what I was stepping into.",
+      28: "Three kittens and zero regrets. When you're recovering from a jellyfish attack, these are the only doctors you need.",
     },
   },
   {
