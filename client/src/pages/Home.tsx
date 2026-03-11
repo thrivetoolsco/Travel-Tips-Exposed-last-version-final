@@ -5,7 +5,7 @@ import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
 import imgInsurance from "@assets/kormandallas-under-the-water-2141072_1920_1773059255037.jpg";
 import imgTours from "@assets/simon-high-altitude-mountain-tour-1578127_1920_(1)_1773059420629.jpg";
 import imgUsaCover from "@assets/SantaMonica-133_1773169036752.jpg";
-import imgIndiaCover from "@assets/IMG-20230505-WA0025_Original_1773171507135.jpg";
+import imgIndiaCover from "@assets/IMG-20230616-WA0019_Original_1773069017821.jpg";
 import imgYogaFeatured from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgMoroccoCover from "@assets/IMG_1888_1773172642908.JPG";
 import imgPeruCover from "@assets/IMG_2314_1773173146791.JPG";

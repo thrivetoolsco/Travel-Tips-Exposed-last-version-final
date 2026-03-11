@@ -322,7 +322,7 @@ const albums = [
     slug: "india",
     country: "India",
     count: 73,
-    cover: imgIn30,
+    cover: imgIn3,
     images: [
       imgIn1, imgIn2, imgIn3, imgIn4, imgIn5, imgIn6, imgIn7, imgIn8, imgIn9,
       imgIn10, imgIn11, imgIn12, imgIn13, imgIn14, imgIn15, imgIn16, imgIn17,
