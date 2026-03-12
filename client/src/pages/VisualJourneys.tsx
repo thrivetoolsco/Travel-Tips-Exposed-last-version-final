@@ -110,7 +110,6 @@ import imgGa21 from "@assets/DSCN8507_1773174186251.JPG";
 import imgGa22 from "@assets/DSCN8508_1773174186242.JPG";
 import imgGa23 from "@assets/DSCN8509_1773174186234.JPG";
 import imgGa24 from "@assets/DSCN8510_1773174186226.JPG";
-import imgGa25 from "@assets/DSCN8528_1773174186218.JPG";
 import imgGa26 from "@assets/DSCN8536_1773174186209.JPG";
 import imgGa27 from "@assets/DSCN8543_1773174186202.JPG";
 import imgGa28 from "@assets/DSCN8545_1773174186194.JPG";
@@ -382,12 +381,12 @@ const albums = [
   {
     slug: "gabon",
     country: "Gabon",
-    count: 32,
+    count: 31,
     cover: imgGa3,
     images: [
       imgGa1, imgGa2, imgGa3, imgGa4, imgGa5, imgGa6, imgGa7, imgGa8, imgGa9,
       imgGa10, imgGa11, imgGa12, imgGa13, imgGa14, imgGa15, imgGa16, imgGa17, imgGa18,
-      imgGa19, imgGa20, imgGa21, imgGa22, imgGa23, imgGa24, imgGa25, imgGa26, imgGa27,
+      imgGa19, imgGa20, imgGa21, imgGa22, imgGa23, imgGa24, imgGa26, imgGa27,
       imgGa28, imgGa29, imgGa30, imgGa31, imgGa32,
       "/gabon-video-1.mp4",
       "/gabon-video-2.mp4",
