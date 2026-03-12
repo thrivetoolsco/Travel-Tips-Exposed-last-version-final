@@ -40,7 +40,7 @@ const featuredPosts = [
     location: "Bali",
     href: "/blog/balis-one-love-vibe",
     image: imgOneLoveFeatured,
-    category: "Social",
+    category: "Wanderlust",
     categoryColor: "bg-[#B04A2A]",
   },
   {
