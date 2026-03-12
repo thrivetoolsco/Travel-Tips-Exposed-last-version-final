@@ -284,14 +284,6 @@ const sections: Section[] = [
         tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
       },
       {
-        name: "Just Thrive Probiotics",
-        description: "Start taking a high quality probiotic before you leave home and don't skip a single day while traveling.",
-        url: "https://justthrivehealth.com/THRIVETOOLS",
-        tag: "Health Essential",
-        tagColor: "bg-rose-100 text-rose-700",
-        discountCode: "THRIVETOOLS",
-      },
-      {
         name: "Osprey Packs",
         description: "The backpack I'd trust my life with. Built to last years of hard travel. Their Farpoint series is the gold standard for travel backpacks.",
         url: "https://www.osprey.com",
