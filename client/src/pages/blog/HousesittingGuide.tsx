@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
-import imgHero from "@assets/generated_images/housesitting-hero.png";
-import imgRemoteWork from "@assets/generated_images/housesitting-remote-work.png";
+import imgHero from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
+import imgRemoteWork from "@assets/A_man_sitting_in_front_of_a_laptop_with_a_cat_sitt_delpmaspu_1773503112520.png";
 import imgDogWalk from "@assets/generated_images/housesitting-dog-walk.png";
 
 export default function HousesittingGuide() {

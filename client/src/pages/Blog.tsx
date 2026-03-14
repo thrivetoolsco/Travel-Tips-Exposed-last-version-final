@@ -7,7 +7,7 @@ import imgOneLoveThumb from "@assets/Boho_chic_woman_with_long_brown_curly_hair_
 import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
 import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 import imgBlogBg from "@assets/generated_images/blog-background.png";
-import imgHousesittingThumb from "@assets/generated_images/housesitting-hero.png";
+import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 
 const blogPosts = [
   {
