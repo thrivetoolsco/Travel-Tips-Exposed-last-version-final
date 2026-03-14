@@ -7,8 +7,19 @@ import imgOneLoveThumb from "@assets/Boho_chic_woman_with_long_brown_curly_hair_
 import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
 import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 import imgBlogBg from "@assets/generated_images/blog-background.png";
+import imgHousesittingThumb from "@assets/generated_images/housesitting-hero.png";
 
 const blogPosts = [
+  {
+    id: "housesitting-guide",
+    title: "The Ultimate Guide to Housesitting: Travel the World for Free While Caring for Pets and Homes",
+    excerpt: "Imagine waking up in a sun drenched villa in Tuscany, sipping coffee on a terrace as a golden retriever curls at your feet and paying absolutely nothing for the privilege...",
+    image: imgHousesittingThumb,
+    categories: ["Budget Hacks"],
+    date: "March 14, 2026",
+    author: "Eden",
+    href: "/blog/housesitting-guide",
+  },
   {
     id: "rishikesh-to-dharamshala",
     title: "Rishikesh to Dharamshala: Your Essential Guide to India's Spiritual Hub",
@@ -74,6 +85,7 @@ const blogPosts = [
 const categoryColors: Record<string, string> = {
   "Islands": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Wanderlust": "bg-purple-100 text-purple-700",
+  "Budget Hacks": "bg-emerald-100 text-emerald-700",
   "Waves": "bg-sky-100 text-sky-700",
   "Getting Around": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Airport": "bg-amber-100 text-amber-700",
