@@ -10,8 +10,19 @@ import imgBlogBg from "@assets/generated_images/blog-background.png";
 import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
+import imgGiliAirThumb from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
 
 const blogPosts = [
+  {
+    id: "gili-air-indonesia-travel-guide",
+    title: "Why Gili Air Is the Low Key Paradise You've Been Searching For (2 Week Honest Guide)",
+    excerpt: "I have backpacked through 40 countries. I have seen paradise get discovered, hyped, overrun, and hollowed out. So when I tell you that Gili Air genuinely surprised me, I need you to understand the bar I am working with...",
+    image: imgGiliAirThumb,
+    categories: ["Wanderlust"],
+    date: "March 15, 2026",
+    author: "Eden",
+    href: "/gili-air-indonesia-travel-guide",
+  },
   {
     id: "is-kuta-lombok-overrated",
     title: "Is Kuta Lombok Overrated? 6 Honest Reasons I Won't Be Going Back",
