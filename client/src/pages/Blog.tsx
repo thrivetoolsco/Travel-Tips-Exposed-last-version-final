@@ -12,8 +12,19 @@ import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
 import imgGiliAirThumb from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
 import imgTetebatuThumb from "@assets/Screenshot_20260315_144016_Instagram~2_1773600228526.jpg";
+import imgIndonesiaMoneyThumb from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.png";
 
 const blogPosts = [
+  {
+    id: "atm-fees-money-exchange-indonesia",
+    title: "ATM Fees and Money Exchange in Indonesia: The Honest Guide to Not Getting Ripped Off",
+    excerpt: "One of the easiest places to quietly lose a significant chunk of your travel budget through ATM fees, bad exchange rates, and outright scams. Here is everything you need to know about handling money in Indonesia before you go...",
+    image: imgIndonesiaMoneyThumb,
+    categories: ["Budget Hacks"],
+    date: "January 20, 2026",
+    author: "Eden",
+    href: "/atm-fees-money-exchange-indonesia",
+  },
   {
     id: "tetebatu-lombok-honest-review",
     title: "Tetebatu, Lombok: Is This \"Hidden Gem\" Actually Worth It? (Honest Review)",

@@ -21,6 +21,7 @@ import IbogaGabon from "@/pages/blog/IbogaGabon";
 import KutaLombok from "@/pages/blog/KutaLombok";
 import GiliAir from "@/pages/blog/GiliAir";
 import Tetebatu from "@/pages/blog/Tetebatu";
+import IndonesiaMoney from "@/pages/blog/IndonesiaMoney";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -44,6 +45,7 @@ function Router() {
         <Route path="/is-kuta-lombok-overrated" component={KutaLombok} />
         <Route path="/gili-air-indonesia-travel-guide" component={GiliAir} />
         <Route path="/tetebatu-lombok-honest-review" component={Tetebatu} />
+        <Route path="/atm-fees-money-exchange-indonesia" component={IndonesiaMoney} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
