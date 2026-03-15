@@ -1,13 +1,13 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
-import imgHero from "@assets/20230602_184608_Original_1773069017785.jpg";
-import imgMid from "@assets/IMG-20230516-WA0018_Original_1773069017837.jpg";
+import imgHero from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
+import imgMid from "@assets/Kuta_lombok_scooter_rental_roads_indonesia_the_sho_delpmaspu_1773598699577.png";
 
 export default function KutaLombok() {
   return (
     <div className="min-h-screen bg-background">
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
-        <img src={imgHero} alt="Is Kuta Lombok worth visiting honest review" className="w-full h-full object-cover" />
+        <img src={imgHero} alt="Kuta Lombok beach pollution garbage shoreline" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">

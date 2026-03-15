@@ -9,7 +9,7 @@ import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_righ
 import imgBlogBg from "@assets/generated_images/blog-background.png";
 import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
-import imgKutaLombokThumb from "@assets/20230602_184608_Original_1773069017785.jpg";
+import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
 
 const blogPosts = [
   {
