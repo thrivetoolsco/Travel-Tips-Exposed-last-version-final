@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import imgHero from "@assets/DSCN8758_(1)_1773173919513.JPG";
-import imgMid from "@assets/DSCN8809_1773173919480.JPG";
+import imgMid from "@assets/DSCN8536_1773174186209.JPG";
 import imgBottom from "@assets/DSCN8699_1773173919576.JPG";
 
 export default function IbogaGabon() {
