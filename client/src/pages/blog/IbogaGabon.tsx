@@ -75,7 +75,7 @@ export default function IbogaGabon() {
             In the West, you may have heard about <strong>ibogaine</strong>, a single alkaloid extracted from the plant, and its remarkable results in treating opioid addiction. Researchers and clinicians are paying close attention. But those who have traveled to the source will tell you: extracting one molecule and calling it medicine is like pulling a single thread from a tapestry and calling it art. The whole plant, in full ceremonial context, is something else entirely.
           </p>
 
-          <img src={imgMid} alt="La Cité de la Source Gabon shamanic retreat" className="w-full rounded-xl my-10 object-cover h-72" />
+          <img src={imgMid} alt="La Cité de la Source Gabon shamanic retreat" className="w-full rounded-xl my-10" />
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             Why Three of Us Flew to Gabon
@@ -135,7 +135,7 @@ export default function IbogaGabon() {
             That is irreplaceable. You cannot replicate it in a retreat center in the Netherlands or a hotel room in Mexico. The village is part of the medicine.
           </p>
 
-          <img src={imgBottom} alt="Bwiti initiation ceremony Central Africa" className="w-full rounded-xl my-10 object-cover h-72" />
+          <img src={imgBottom} alt="Bwiti initiation ceremony Central Africa" className="w-full rounded-xl my-10" />
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             "It Was a Good Day to Die"
