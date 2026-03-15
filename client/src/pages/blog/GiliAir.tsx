@@ -286,10 +286,10 @@ export default function GiliAir() {
             style={{ fontFamily: "var(--font-display)" }}>
             <ArrowLeft size={16} /> All Posts
           </Link>
-          <Link href="/is-kuta-lombok-overrated" data-testid="link-next-post"
+          <Link href="/tetebatu-lombok-honest-review" data-testid="link-next-post"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#C4541C] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}>
-            Kuta Lombok <ArrowRight size={16} />
+            Tetebatu Review <ArrowRight size={16} />
           </Link>
         </div>
       </div>

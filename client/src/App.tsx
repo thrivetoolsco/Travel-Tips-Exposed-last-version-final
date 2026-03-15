@@ -20,6 +20,7 @@ import HousesittingGuide from "@/pages/blog/HousesittingGuide";
 import IbogaGabon from "@/pages/blog/IbogaGabon";
 import KutaLombok from "@/pages/blog/KutaLombok";
 import GiliAir from "@/pages/blog/GiliAir";
+import Tetebatu from "@/pages/blog/Tetebatu";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -42,6 +43,7 @@ function Router() {
         <Route path="/blog/iboga-gabon-sacred-wood-la-cite-de-la-source" component={IbogaGabon} />
         <Route path="/is-kuta-lombok-overrated" component={KutaLombok} />
         <Route path="/gili-air-indonesia-travel-guide" component={GiliAir} />
+        <Route path="/tetebatu-lombok-honest-review" component={Tetebatu} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

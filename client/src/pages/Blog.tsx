@@ -11,8 +11,19 @@ import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_o
 import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
 import imgGiliAirThumb from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
+import imgTetebatuThumb from "@assets/Screenshot_20260315_144016_Instagram~2_1773600228526.jpg";
 
 const blogPosts = [
+  {
+    id: "tetebatu-lombok-honest-review",
+    title: "Tetebatu, Lombok: Is This \"Hidden Gem\" Actually Worth It? (Honest Review)",
+    excerpt: "I am writing this from a terrace in Tetebatu, Lombok. The view in front of me is genuinely stunning. And I cannot wait to leave. Here is the honest review that the slow travel influencers are not making...",
+    image: imgTetebatuThumb,
+    categories: ["Wanderlust"],
+    date: "March 15, 2026",
+    author: "Eden",
+    href: "/tetebatu-lombok-honest-review",
+  },
   {
     id: "gili-air-indonesia-travel-guide",
     title: "Why Gili Air Is the Low Key Paradise You've Been Searching For (2 Week Honest Guide)",
