@@ -1,3 +1,4 @@
+import path from "path";
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
@@ -11,6 +12,11 @@ export async function registerRoutes(
 
   // use storage to perform CRUD operations on the storage interface
   // e.g. storage.insertUser(user) or storage.getUserByUsername(username)
+
+  app.get('/sitemap.xml', (req, res) => {
+    res.header('Content-Type', 'application/xml');
+    res.sendFile(path.join(__dirname, '../client/public/sitemap.xml'));
+  });
 
   return httpServer;
 }
