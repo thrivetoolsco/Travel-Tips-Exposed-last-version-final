@@ -8,8 +8,19 @@ import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
 import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 import imgBlogBg from "@assets/generated_images/blog-background.png";
 import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
+import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
 
 const blogPosts = [
+  {
+    id: "iboga-gabon-sacred-wood-la-cite-de-la-source",
+    title: "Iboga in Gabon: What One Month at La Cité de la Source Actually Did to Me",
+    excerpt: "I have sat with plant medicines before. Ayahuasca in the jungle, psilocybin in ceremony, breathwork that cracked me open for days. Nothing prepared me for what was waiting in Gabon...",
+    image: imgIbogaThumb,
+    categories: ["Spirituality", "Plant Medicine"],
+    date: "March 15, 2026",
+    author: "Eden",
+    href: "/blog/iboga-gabon-sacred-wood-la-cite-de-la-source",
+  },
   {
     id: "housesitting-guide",
     title: "The Ultimate Guide to Housesitting: Travel the World for Free While Caring for Pets and Homes",
@@ -86,6 +97,7 @@ const categoryColors: Record<string, string> = {
   "Islands": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Wanderlust": "bg-purple-100 text-purple-700",
   "Budget Hacks": "bg-emerald-100 text-emerald-700",
+  "Plant Medicine": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Waves": "bg-sky-100 text-sky-700",
   "Getting Around": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Airport": "bg-amber-100 text-amber-700",

@@ -17,6 +17,7 @@ import SkipTheLines from "@/pages/blog/SkipTheLines";
 import BaliDelhiBelly from "@/pages/blog/BaliDelhiBelly";
 import YogaTeacherTraining from "@/pages/blog/YogaTeacherTraining";
 import HousesittingGuide from "@/pages/blog/HousesittingGuide";
+import IbogaGabon from "@/pages/blog/IbogaGabon";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -36,6 +37,7 @@ function Router() {
         <Route path="/blog/bali-belly-delhi-belly" component={BaliDelhiBelly} />
         <Route path="/blog/yoga-teacher-training-rishikesh" component={YogaTeacherTraining} />
         <Route path="/blog/housesitting-guide" component={HousesittingGuide} />
+        <Route path="/blog/iboga-gabon-sacred-wood-la-cite-de-la-source" component={IbogaGabon} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

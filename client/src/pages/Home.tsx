@@ -15,7 +15,6 @@ import imgGabonCover from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgCanadaCover from "@assets/DSCN8881_1773174802232.JPG";
 import imgIndonesiaCover from "@assets/20251230_194420_1773081913250.jpg";
 import imgEuropeCover from "@assets/IMG_0137_1773175746567.JPG";
-import imgOneLoveFeatured from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.png";
 import imgBellyFeatured from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
 
 const featuredPosts = [
@@ -36,12 +35,12 @@ const featuredPosts = [
     categoryColor: "bg-[#C4541C]",
   },
   {
-    title: "Solo Female Travel in Bali",
-    location: "Bali",
-    href: "/blog/balis-one-love-vibe",
-    image: imgOneLoveFeatured,
-    category: "Wanderlust",
-    categoryColor: "bg-[#B04A2A]",
+    title: "Iboga in Gabon",
+    location: "Gabon",
+    href: "/blog/iboga-gabon-sacred-wood-la-cite-de-la-source",
+    image: imgGabonCover,
+    category: "Spirituality",
+    categoryColor: "bg-[#1D4A38]",
   },
   {
     title: "Yoga Teacher Training in India",

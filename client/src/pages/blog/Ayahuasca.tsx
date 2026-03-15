@@ -222,12 +222,12 @@ export default function Ayahuasca() {
             <ArrowLeft size={16} /> All Posts
           </Link>
           <Link
-            href="/blog/housesitting-guide"
+            href="/blog/iboga-gabon-sacred-wood-la-cite-de-la-source"
             data-testid="link-next-post"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#C4541C] hover:bg-[#C4541C] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Housesitting Guide <ArrowRight size={16} />
+            Iboga in Gabon <ArrowRight size={16} />
           </Link>
         </div>
       </div>
