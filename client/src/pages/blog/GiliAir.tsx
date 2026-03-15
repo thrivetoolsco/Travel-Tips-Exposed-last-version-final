@@ -38,7 +38,7 @@ export default function GiliAir() {
           </span>
           <span className="flex items-center gap-1.5">
             <Calendar size={14} className="text-amber-500" />
-            <span data-testid="text-date">March 15, 2026</span>
+            <span data-testid="text-date">January 4, 2026</span>
           </span>
         </div>
 
