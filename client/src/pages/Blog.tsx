@@ -9,8 +9,19 @@ import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_righ
 import imgBlogBg from "@assets/generated_images/blog-background.png";
 import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
+import imgKutaLombokThumb from "@assets/20230602_184608_Original_1773069017785.jpg";
 
 const blogPosts = [
+  {
+    id: "is-kuta-lombok-overrated",
+    title: "Is Kuta Lombok Overrated? 6 Honest Reasons I Won't Be Going Back",
+    excerpt: "We've all fallen down the rabbit hole of aesthetic Instagram reels showing Lombok as some untouched paradise. But Kuta Lombok? After spending time there, I feel a responsibility to deinfluence you just a little...",
+    image: imgKutaLombokThumb,
+    categories: ["Wanderlust"],
+    date: "March 15, 2026",
+    author: "Eden",
+    href: "/is-kuta-lombok-overrated",
+  },
   {
     id: "iboga-gabon-sacred-wood-la-cite-de-la-source",
     title: "Iboga in Gabon: What One Month at La Cité de la Source Actually Did to Me",

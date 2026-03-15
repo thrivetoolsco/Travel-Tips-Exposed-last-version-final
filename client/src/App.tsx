@@ -18,6 +18,7 @@ import BaliDelhiBelly from "@/pages/blog/BaliDelhiBelly";
 import YogaTeacherTraining from "@/pages/blog/YogaTeacherTraining";
 import HousesittingGuide from "@/pages/blog/HousesittingGuide";
 import IbogaGabon from "@/pages/blog/IbogaGabon";
+import KutaLombok from "@/pages/blog/KutaLombok";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -38,6 +39,7 @@ function Router() {
         <Route path="/blog/yoga-teacher-training-rishikesh" component={YogaTeacherTraining} />
         <Route path="/blog/housesitting-guide" component={HousesittingGuide} />
         <Route path="/blog/iboga-gabon-sacred-wood-la-cite-de-la-source" component={IbogaGabon} />
+        <Route path="/is-kuta-lombok-overrated" component={KutaLombok} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
