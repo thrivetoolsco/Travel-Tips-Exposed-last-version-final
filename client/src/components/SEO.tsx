@@ -25,6 +25,45 @@ export default function SEO({
 }: SEOProps) {
   const fullTitle = `${title} | ${SITE_NAME}`;
   const canonicalUrl = `${BASE_URL}${canonical}`;
+  const imageUrl = ogImage || DEFAULT_OG_IMAGE;
+
+  const articleSchema =
+    ogType === "article"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: fullTitle,
+          description,
+          url: canonicalUrl,
+          datePublished: publishedTime,
+          image: {
+            "@type": "ImageObject",
+            url: imageUrl,
+            width: 1200,
+            height: 630,
+          },
+          author: {
+            "@type": "Person",
+            name: author || "Eden",
+            url: `${BASE_URL}/about`,
+          },
+          publisher: {
+            "@type": "Organization",
+            name: SITE_NAME,
+            url: BASE_URL,
+            logo: {
+              "@type": "ImageObject",
+              url: DEFAULT_OG_IMAGE,
+              width: 1200,
+              height: 630,
+            },
+          },
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": canonicalUrl,
+          },
+        }
+      : null;
 
   return (
     <Helmet>
@@ -38,7 +77,7 @@ export default function SEO({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={ogType} />
-      <meta property="og:image" content={ogImage} />
+      <meta property="og:image" content={imageUrl} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
 
@@ -46,7 +85,7 @@ export default function SEO({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image" content={imageUrl} />
 
       {/* Article metadata */}
       {ogType === "article" && publishedTime && (
@@ -54,6 +93,13 @@ export default function SEO({
       )}
       {ogType === "article" && author && (
         <meta property="article:author" content={author} />
+      )}
+
+      {/* JSON-LD structured data for blog posts */}
+      {articleSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(articleSchema)}
+        </script>
       )}
     </Helmet>
   );
