@@ -3,8 +3,6 @@ import { ArrowRight, Heart } from "lucide-react";
 import aboutImg from "@assets/IMG-20251218-WA0018_1773174404095.jpg";
 import SEO from "@/components/SEO";
 
-const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork Space Holder", "Gardener"];
-
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
@@ -33,7 +31,7 @@ export default function About() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-about"
           >
-            About Eden: The Human Behind Travel Tips Exposed
+            About Eden: Budget Traveler, Breathwork Guide & the Voice Behind Travel Tips Exposed
           </h1>
         </div>
       </div>
@@ -61,32 +59,23 @@ export default function About() {
                 Hi, I'm{" "}
                 <span className="text-[#C4541C]">Eden</span>.
               </h2>
-              <div className="flex flex-wrap gap-2 mb-5">
-                {tags.map((tag) => (
-                  <span
-                    key={tag}
-                    data-testid={`badge-tag-${tag.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full border"
-                    style={{
-                      fontFamily: "var(--font-display)",
-                      background: "rgba(196,84,28,0.08)",
-                      color: "#C4541C",
-                      borderColor: "rgba(196,84,28,0.25)",
-                    }}
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+              <p
+                className="text-sm text-muted-foreground mb-5"
+                style={{ fontFamily: "var(--font-display)" }}
+                data-testid="text-covering"
+              >
+                <span className="text-[#C4541C] font-semibold">Covering:</span>{" "}
+                budget travel • wellness on the road • plant medicine destinations • music festivals • off-grid adventures
+              </p>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
               <p className="text-foreground leading-relaxed text-base mb-4" data-testid="text-bio-1">
-                I spend my time moving through places looking for that vibe that actually shifts something inside. Whether I'm scouting a remote spot for a plant medicine or finding a drum circle to dance and have fun, I'm looking for the raw evidence of a life well lived.
+                I'm Eden. A nomadic traveler, breathwork facilitator, and wellness seeker who moves through the world looking for places that actually shift something inside.
               </p>
               <p className="text-foreground leading-relaxed mb-4" data-testid="text-bio-2">
-                This space is for the seekers and the music heads who want to explore the planet without losing their edge or draining their resources.
+                This blog is for the seekers and music heads who want to explore the planet without losing their edge or draining their bank account. Expect honest destination guides, budget travel hacks, and real stories. No influencer fluff.
               </p>
               <p className="text-foreground leading-relaxed" data-testid="text-bio-3">
-                I also curated a collection of evidence based biology and wellness tech I use to clear the fog, beat jet lag, and stay at a high frequency while on the move. You can also find me here:{" "}
+                I also curate evidence based wellness tools and biohacking tech I use personally to beat jet lag, stay high-energy on the road, and keep my nervous system intact. Find those at{" "}
                 <a
                   href="https://thrivetools.co/"
                   target="_blank"
