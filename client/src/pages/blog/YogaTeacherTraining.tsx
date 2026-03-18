@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgYogaHeader from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgFire from "@assets/1000038419_1773063453539.jpg";
 import imgYogaClass from "@assets/1000038416_1773063453595.jpg";
@@ -58,6 +59,7 @@ export default function YogaTeacherTraining() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">December 2025</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

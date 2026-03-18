@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgSkipLinesHero from "@assets/generated_images/skip-lines-airport.png";
 import imgVoaScreenshot from "@assets/generated_images/voa-app-screenshot.png";
 
@@ -51,6 +52,7 @@ export default function SkipTheLines() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">January 17, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

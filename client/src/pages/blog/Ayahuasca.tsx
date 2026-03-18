@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgAyaHeader from "@assets/IMG_2330_1773173146748.JPG";
 import imgAya1 from "@assets/IMG_2306_1773173146806.JPG";
 import imgAya2 from "@assets/IMG_2303_1773173146831.JPG";
@@ -64,6 +65,7 @@ export default function Ayahuasca() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">February 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div

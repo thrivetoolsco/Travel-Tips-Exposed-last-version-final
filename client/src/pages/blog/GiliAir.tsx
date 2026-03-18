@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
 import imgCidomo from "@assets/Screenshot_20260315_142820_Instagram~2_1773599502970.jpg";
 import imgBreakfast from "@assets/Screenshot_20260315_142659_Instagram~2_1773599502946.jpg";
@@ -49,6 +50,7 @@ export default function GiliAir() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">January 4, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

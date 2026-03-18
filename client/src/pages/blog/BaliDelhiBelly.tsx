@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
@@ -56,6 +57,7 @@ export default function BaliDelhiBelly() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">January 5, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

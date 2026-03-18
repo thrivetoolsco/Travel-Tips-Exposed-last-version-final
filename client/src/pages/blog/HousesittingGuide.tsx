@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 import imgRemoteWork from "@assets/A_man_sitting_in_front_of_a_laptop_with_a_cat_sitt_delpmaspu_1773503112520.png";
 import imgDogWalk from "@assets/A_boho_chic_woman_walking_with_a_golden_retriever__delpmaspu_1773503525976.png";
@@ -48,6 +49,7 @@ export default function HousesittingGuide() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">March 14, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

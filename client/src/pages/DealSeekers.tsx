@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Plane, BedDouble, Briefcase, Home, Car, Map, Shield, Package, ExternalLink, Leaf, Copy, Check } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 
 interface Platform {
   name: string;
@@ -473,6 +474,9 @@ export default function DealSeekers() {
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
             Every platform I personally use to travel more for less. Real recommendations, no fluff.
           </p>
+          <div className="flex justify-center mt-6">
+            <ShareButton variant="dark" className="!ml-0" />
+          </div>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgRishikeshHeader from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
 import imgSadhu from "@assets/1000038424_1773064007556.jpg";
 import imgCarNight from "@assets/1000038427_1773064007594.jpg";
@@ -64,6 +65,7 @@ export default function RishikeshDharamshala() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">March 4, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.png";
 import imgReceipt from "@assets/Screenshot_20260315_150022_Instagram_1773601374482.jpg";
 
@@ -47,6 +48,7 @@ export default function IndonesiaMoney() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">January 20, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

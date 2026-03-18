@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgOneLoveHero from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.png";
 
 export default function BalisOneLoveVibe() {
@@ -52,6 +53,7 @@ export default function BalisOneLoveVibe() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">March 2, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

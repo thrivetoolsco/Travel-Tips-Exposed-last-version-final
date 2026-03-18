@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgMid from "@assets/DSCN8536_1773174186209.JPG";
 import imgBottom from "@assets/DSCN8699_1773173919576.JPG";
@@ -50,6 +51,7 @@ export default function IbogaGabon() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">March 15, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

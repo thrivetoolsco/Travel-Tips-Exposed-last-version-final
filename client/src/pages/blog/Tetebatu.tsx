@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/Screenshot_20260315_144016_Instagram~2_1773600228526.jpg";
 import imgWaterfall from "@assets/Screenshot_20260315_144118_Instagram_1773600228545.jpg";
 import imgRice from "@assets/Screenshot_20260315_144102_Instagram_1773600228563.jpg";
@@ -48,6 +49,7 @@ export default function Tetebatu() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">January 7, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">

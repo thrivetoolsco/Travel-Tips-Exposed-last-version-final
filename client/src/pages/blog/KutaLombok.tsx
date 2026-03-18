@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
+import ShareButton from "@/components/ShareButton";
 import imgHero from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
 import imgMid from "@assets/Kuta_lombok_scooter_rental_roads_indonesia_the_sho_delpmaspu_1773598699577.png";
 
@@ -47,6 +48,7 @@ export default function KutaLombok() {
             <Calendar size={14} className="text-amber-500" />
             <span data-testid="text-date">March 15, 2026</span>
           </span>
+          <ShareButton />
         </div>
 
         <div className="prose prose-lg max-w-none text-foreground" style={{ fontFamily: "var(--font-sans)" }} data-testid="post-body">
