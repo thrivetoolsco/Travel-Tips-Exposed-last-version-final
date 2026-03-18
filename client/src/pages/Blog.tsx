@@ -173,7 +173,7 @@ export default function Blog() {
         <div className="relative z-10">
           <span className="inline-block text-xs font-semibold tracking-[0.25em] uppercase text-amber-400 border border-amber-400/30 px-4 py-1.5 rounded-full mb-4"
             style={{ fontFamily: "var(--font-display)" }}>
-            Eden's Stories
+            From the road
           </span>
           <h1
             className="text-4xl md:text-5xl font-bold text-white mt-4"
@@ -183,7 +183,7 @@ export default function Blog() {
             Travel Blog: Real Stories, Honest Tips, Zero Sugarcoating
           </h1>
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
-            Real stories. Honest tips. Zero sugarcoating.
+            Brutally honest travel guides, budget hacks & real stories from someone who's actually been there.
           </p>
         </div>
       </div>
