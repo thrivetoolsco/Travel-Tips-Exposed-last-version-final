@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { X, ChevronLeft, ChevronRight, Camera, ArrowUp } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgCa1 from "@assets/20151207_193710_1773065104995.jpg";
 import imgCa2 from "@assets/DSC_6323_1773065105011.JPG";
 import imgCa3 from "@assets/20200819_073322_1773065105021.jpg";
@@ -512,6 +513,11 @@ export default function VisualJourneys() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Visual Journeys: Travel Photography From 40 Countries"
+        description="Raw, unfiltered travel photography from 40 plus countries. Photo albums from Indonesia, India, Canada, Morocco, Peru, Jamaica, Gabon, and more. Click any album to explore."
+        canonical="/visual-journeys"
+      />
       <div
         className="relative py-24 px-4 overflow-hidden"
         style={{ background: "#1A1008" }}
@@ -532,7 +538,7 @@ export default function VisualJourneys() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-visual-journeys"
           >
-            Visual Journeys
+            Visual Journeys: Travel Photography From 40 Countries
           </h1>
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
             Raw, unfiltered snapshots from the road. Click any album to explore.

@@ -1,11 +1,20 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
 import imgMid from "@assets/Kuta_lombok_scooter_rental_roads_indonesia_the_sho_delpmaspu_1773598699577.png";
 
 export default function KutaLombok() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Is Kuta Lombok Overrated? 6 Honest Reasons to Skip It"
+        description="An honest review of Kuta Lombok, Indonesia. 6 reasons why this overhyped destination did not deliver, and where to go instead."
+        canonical="/is-kuta-lombok-overrated"
+        ogType="article"
+        publishedTime="2026-03-15"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img src={imgHero} alt="Kuta Lombok beach pollution garbage shoreline" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

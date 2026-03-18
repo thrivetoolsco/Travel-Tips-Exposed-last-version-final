@@ -1,14 +1,23 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgOneLoveHero from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.png";
 
 export default function BalisOneLoveVibe() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Solo Female Travel in Bali: Why Ubud's Magic Is Still Alive"
+        description="A solo female traveler's honest take on Bali in 2025. Why Ubud still delivers, three practical safety tips, and what the vibe is really like."
+        canonical="/blog/balis-one-love-vibe"
+        ogType="article"
+        publishedTime="2026-03-02"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgOneLoveHero}
-          alt="One Love"
+          alt="Solo female travel Bali Ubud boho woman rice terraces spiritual vibe"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

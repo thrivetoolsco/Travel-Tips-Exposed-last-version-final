@@ -1,12 +1,18 @@
 import { Link } from "wouter";
 import { ArrowRight, Heart } from "lucide-react";
 import aboutImg from "@assets/IMG-20251218-WA0018_1773174404095.jpg";
+import SEO from "@/components/SEO";
 
 const tags = ["Traveler", "Music Head", "Psychonaut", "Breathwork Space Holder", "Gardener"];
 
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="About Eden"
+        description="The human behind Travel Tips Exposed. Solo traveler, psychonaut, and breathwork space holder who has explored 40 plus countries in search of the real stuff."
+        canonical="/about"
+      />
       <div
         className="relative py-24 px-4 overflow-hidden"
         style={{ background: "#1A1008" }}
@@ -27,7 +33,7 @@ export default function About() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-about"
           >
-            About
+            About Eden: The Human Behind Travel Tips Exposed
           </h1>
         </div>
       </div>

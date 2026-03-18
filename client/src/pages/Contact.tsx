@@ -1,9 +1,15 @@
 import { Mail, Instagram } from "lucide-react";
 import contactHero from "@assets/pexels-woman-1868817_1920_1773060802116.jpg";
+import SEO from "@/components/SEO";
 
 export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Contact"
+        description="Get in touch with Eden at Travel Tips Exposed. Questions about a trip, plant medicine retreats, or just want to talk travel — the inbox is open."
+        canonical="/contact"
+      />
       <div
         className="relative h-80 md:h-[26rem] overflow-hidden"
         data-testid="contact-hero"

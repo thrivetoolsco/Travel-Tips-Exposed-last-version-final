@@ -1,15 +1,24 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgSkipLinesHero from "@assets/generated_images/skip-lines-airport.png";
 import imgVoaScreenshot from "@assets/generated_images/voa-app-screenshot.png";
 
 export default function SkipTheLines() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Skip Airport Lines in Bali: 4 Ways to Fast-Track Entry into Indonesia"
+        description="How to avoid queuing for hours at Bali's Ngurah Rai Airport. Visa on Arrival tips, priority lanes, and the apps that cut airport wait times to near zero."
+        canonical="/blog/skip-lines-bali"
+        ogType="article"
+        publishedTime="2026-01-17"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgSkipLinesHero}
-          alt="Skip The Lines"
+          alt="Bali airport immigration queue how to fast track entry Indonesia"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

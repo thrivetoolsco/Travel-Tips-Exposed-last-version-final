@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgRishikeshHeader from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
 import imgSadhu from "@assets/1000038424_1773064007556.jpg";
 import imgCarNight from "@assets/1000038427_1773064007594.jpg";
@@ -13,10 +14,18 @@ import imgStreetNight from "@assets/1000038428_1773064007664.jpg";
 export default function RishikeshDharamshala() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Rishikesh to Dharamshala: The Road Trip Nobody Warns You About"
+        description="Getting from Rishikesh to Dharamshala overland is an experience in itself. Honest guide to the roads, transport options, and what to actually expect."
+        canonical="/blog/rishikesh-to-dharamshala"
+        ogType="article"
+        publishedTime="2026-03-04"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgRishikeshHeader}
-          alt="Rishikesh Header"
+          alt="Road trip from Rishikesh to Dharamshala India mountains landscape"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

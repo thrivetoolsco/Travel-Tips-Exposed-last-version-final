@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
 import imgCidomo from "@assets/Screenshot_20260315_142820_Instagram~2_1773599502970.jpg";
 import imgBreakfast from "@assets/Screenshot_20260315_142659_Instagram~2_1773599502946.jpg";
@@ -8,6 +9,14 @@ import imgDumplings from "@assets/Screenshot_20260315_142814_Instagram~2_1773599
 export default function GiliAir() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Gili Air Travel Guide: Indonesia's Best-Kept Secret"
+        description="Is Gili Air worth visiting? After 2 weeks on the island, a traveler with 40 countries under her belt calls it Indonesia's best-kept secret. Full honest guide."
+        canonical="/gili-air-indonesia-travel-guide"
+        ogType="article"
+        publishedTime="2026-01-04"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img src={imgHero} alt="Gili Air Indonesia turquoise water snorkeling turtles" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

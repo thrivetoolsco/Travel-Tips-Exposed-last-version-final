@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/DSCN8758_(1)_1773173919513.JPG";
 import imgMid from "@assets/DSCN8536_1773174186209.JPG";
 import imgBottom from "@assets/DSCN8699_1773173919576.JPG";
@@ -7,6 +8,14 @@ import imgBottom from "@assets/DSCN8699_1773173919576.JPG";
 export default function IbogaGabon() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Iboga in Gabon: A Bwiti Ceremony at La Cité de la Source"
+        description="A first-hand account of undergoing Iboga initiation in Gabon with a traditional Bwiti healer at La Cité de la Source. The full, unfiltered experience."
+        canonical="/iboga-gabon-sacred-wood-la-cite-de-la-source"
+        ogType="article"
+        publishedTime="2026-03-15"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img src={imgHero} alt="Iboga root bark sacred wood Gabon Bwiti ceremony" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

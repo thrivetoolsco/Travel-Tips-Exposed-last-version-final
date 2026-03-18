@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgRishikeshThumb from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
@@ -179,7 +180,7 @@ export default function Blog() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-blog"
           >
-            The Blog
+            Travel Blog: Real Stories, Honest Tips, Zero Sugarcoating
           </h1>
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
             Real stories. Honest tips. Zero sugarcoating.
@@ -187,6 +188,11 @@ export default function Blog() {
         </div>
       </div>
 
+      <SEO
+        title="Travel Blog"
+        description="Honest travel stories and practical guides covering Southeast Asia, India, Africa, and beyond. No sugarcoating. Real tips from real trips."
+        canonical="/blog"
+      />
       <div className="max-w-6xl mx-auto px-4 py-16" data-testid="blog-posts-list">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {blogPosts.map((post) => (

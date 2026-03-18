@@ -1,11 +1,20 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.png";
 import imgReceipt from "@assets/Screenshot_20260315_150022_Instagram_1773601374482.jpg";
 
 export default function IndonesiaMoney() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="ATM Fees and Money Exchange in Indonesia: Avoid Getting Ripped Off"
+        description="ATM fees in Indonesia can cost you 6.5% per transaction. The honest guide to fee-free cards, trusted money changers in Bali, and avoiding exchange scams."
+        canonical="/atm-fees-money-exchange-indonesia"
+        ogType="article"
+        publishedTime="2026-01-20"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img src={imgHero} alt="ATM fees Indonesia how to avoid Bali Lombok" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

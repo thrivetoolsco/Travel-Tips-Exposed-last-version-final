@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgAyaHeader from "@assets/IMG_2330_1773173146748.JPG";
 import imgAya1 from "@assets/IMG_2306_1773173146806.JPG";
 import imgAya2 from "@assets/IMG_2303_1773173146831.JPG";
@@ -11,10 +12,18 @@ const postImages = [imgAya1, imgAya2, imgAya3, imgAya4];
 export default function Ayahuasca() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Ayahuasca Retreat in Peru: An Honest Account"
+        description="An honest, unfiltered account of attending an Ayahuasca retreat in Peru. What it is really like, how to prepare, and whether it is right for you."
+        canonical="/blog/ayahuasca-retreats-peru"
+        ogType="article"
+        publishedTime="2026-02-15"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgAyaHeader}
-          alt="Ayahuasca"
+          alt="Ayahuasca retreat ceremony Peru sacred plant medicine Amazon"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

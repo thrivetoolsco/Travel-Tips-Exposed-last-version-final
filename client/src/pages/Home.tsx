@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
+import SEO from "@/components/SEO";
 import edenPhoto from "@assets/IMG-20251218-WA0020~3_1773030520927.jpg";
 import imgGear from "@assets/sadasdasd-outdoor-1844275_1920_1773059183896.jpg";
 import imgInsurance from "@assets/kormandallas-under-the-water-2141072_1920_1773059255037.jpg";
@@ -110,6 +111,11 @@ const visualJourneys = [
 export default function Home() {
   return (
     <div className="bg-background">
+      <SEO
+        title="Honest Travel Stories, Budget Hacks &amp; Itineraries"
+        description="Real, unfiltered travel stories from 40 plus countries. Honest itineraries, budget hacks, plant medicine retreats, and tips from a solo traveler. Budget friendly. Good times guaranteed."
+        canonical="/"
+      />
       <section
         className="relative min-h-screen flex items-start justify-center overflow-hidden"
         style={{ backgroundColor: "#1A1008" }}

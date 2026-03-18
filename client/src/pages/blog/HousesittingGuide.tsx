@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
 import imgRemoteWork from "@assets/A_man_sitting_in_front_of_a_laptop_with_a_cat_sitt_delpmaspu_1773503112520.png";
 import imgDogWalk from "@assets/A_boho_chic_woman_walking_with_a_golden_retriever__delpmaspu_1773503525976.png";
@@ -7,8 +8,16 @@ import imgDogWalk from "@assets/A_boho_chic_woman_walking_with_a_golden_retrieve
 export default function HousesittingGuide() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Housesitting Guide: How to Travel the World for Free"
+        description="How to use housesitting to travel the world for free or close to it. The platforms that work, the profile tips, and how to land your first sit."
+        canonical="/blog/housesitting-guide"
+        ogType="article"
+        publishedTime="2026-03-14"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
-        <img src={imgHero} alt="Housesitting travel" className="w-full h-full object-cover" />
+        <img src={imgHero} alt="Housesitting travel boho woman relaxing on porch of villa abroad" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-4xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-3">

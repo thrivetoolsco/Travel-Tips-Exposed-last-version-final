@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Plane, BedDouble, Briefcase, Home, Car, Map, Shield, Package, ExternalLink, Leaf, Copy, Check } from "lucide-react";
+import SEO from "@/components/SEO";
 
 interface Platform {
   name: string;
@@ -442,6 +443,11 @@ export default function DealSeekers() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Budget Travel Deals: Flights, Stays, Hacks and More"
+        description="Every platform Eden personally uses to travel more for less. Cheap flights, affordable stays, housesitting, work exchange, and more. Real recommendations, no fluff."
+        canonical="/deal-seekers"
+      />
       <div
         className="relative py-24 px-4 overflow-hidden"
         style={{ background: "#1A1008" }}
@@ -462,7 +468,7 @@ export default function DealSeekers() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-deal-seekers"
           >
-            Deal Seekers
+            Budget Travel Deals: Flights, Stays, Hacks and More
           </h1>
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
             Every platform I personally use to travel more for less. Real recommendations, no fluff.

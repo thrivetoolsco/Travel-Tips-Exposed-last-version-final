@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
@@ -9,10 +10,18 @@ import imgBellyHero from "@assets/Delete_the_date_and_time_from_the_bottom_right
 export default function BaliDelhiBelly() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="How to Avoid Bali Belly and Delhi Belly"
+        description="How to eat safely and confidently in Bali and India. The foods to watch out for, the ones that are fine, and how to recover fast if it hits you."
+        canonical="/blog/bali-belly-delhi-belly"
+        ogType="article"
+        publishedTime="2026-01-05"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgBellyHero}
-          alt="Asia Belly"
+          alt="How to avoid Bali belly and Delhi belly food safety Asia travel"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

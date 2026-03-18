@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgYogaHeader from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgFire from "@assets/1000038419_1773063453539.jpg";
 import imgYogaClass from "@assets/1000038416_1773063453595.jpg";
@@ -11,10 +12,18 @@ import imgGroup from "@assets/1000038420_1773063453643.jpg";
 export default function YogaTeacherTraining() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="200-Hour Yoga Teacher Training in Rishikesh: Honest Review"
+        description="An honest, first-hand account of completing a 200-hour yoga teacher training in Rishikesh, India. The curriculum, the challenges, and whether it is worth it."
+        canonical="/blog/yoga-teacher-training-rishikesh"
+        ogType="article"
+        publishedTime="2025-12-15"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img
           src={imgYogaHeader}
-          alt="Yoga Teacher Training"
+          alt="200 hour yoga teacher training Rishikesh India outdoor practice"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />

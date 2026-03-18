@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import SEO from "@/components/SEO";
 import imgHero from "@assets/Screenshot_20260315_144016_Instagram~2_1773600228526.jpg";
 import imgWaterfall from "@assets/Screenshot_20260315_144118_Instagram_1773600228545.jpg";
 import imgRice from "@assets/Screenshot_20260315_144102_Instagram_1773600228563.jpg";
@@ -7,6 +8,14 @@ import imgRice from "@assets/Screenshot_20260315_144102_Instagram_1773600228563.
 export default function Tetebatu() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Tetebatu Lombok Review: Is This Hidden Gem Worth It?"
+        description="An honest review of Tetebatu, Lombok. Stunning scenery, a serious noise problem, and who should actually visit. What the Instagram influencers won't tell you."
+        canonical="/tetebatu-lombok-honest-review"
+        ogType="article"
+        publishedTime="2026-01-07"
+        author="Eden"
+      />
       <div className="relative h-[50vh] overflow-hidden" data-testid="post-hero">
         <img src={imgHero} alt="Tetebatu Lombok rice terraces honest review" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-black/50 to-black/30" />
