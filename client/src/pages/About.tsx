@@ -31,7 +31,7 @@ export default function About() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-about"
           >
-            About Eden: Budget Traveler, Breathwork Guide & the Voice Behind Travel Tips Exposed
+            The Blog for Travelers Who Want Real, Not Polished
           </h1>
         </div>
       </div>
