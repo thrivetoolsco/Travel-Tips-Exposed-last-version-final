@@ -180,7 +180,7 @@ export default function Blog() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-blog"
           >
-            Travel Blog: Real Stories, Honest Tips, Zero Sugarcoating
+            Real Travel. No Filter.
           </h1>
           <p className="text-white/60 mt-4 max-w-lg mx-auto">
             Brutally honest travel guides, budget hacks & real stories from someone who's actually been there.
