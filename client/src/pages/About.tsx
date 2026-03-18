@@ -65,17 +65,17 @@ export default function About() {
                 data-testid="text-covering"
               >
                 <span className="text-[#C4541C] font-semibold">Covering:</span>{" "}
-                budget travel • wellness on the road • plant medicine destinations • music festivals • off-grid adventures
+                budget travel • wellness on the road • plant medicine destinations • conscious travel • off-grid adventures
               </p>
               <div className="w-16 h-1 bg-amber-400 rounded-full mb-6" />
               <p className="text-foreground leading-relaxed text-base mb-4" data-testid="text-bio-1">
-                I'm Eden. A nomadic traveler, breathwork facilitator, and wellness seeker who moves through the world looking for places that actually shift something inside.
+                A nomadic traveler, breathwork facilitator, and plant medicine seeker chasing places that actually shift something inside.
               </p>
               <p className="text-foreground leading-relaxed mb-4" data-testid="text-bio-2">
-                This blog is for the seekers and music heads who want to explore the planet without losing their edge or draining their bank account. Expect honest destination guides, budget travel hacks, and real stories. No influencer fluff.
+                This blog is for the conscious traveler who wants to explore the planet without losing their edge or draining their bank account. Honest destination guides, budget travel hacks, and real stories — no influencer fluff.
               </p>
               <p className="text-foreground leading-relaxed" data-testid="text-bio-3">
-                I also curate evidence based wellness tools and biohacking tech I use personally to beat jet lag, stay high-energy on the road, and keep my nervous system intact. Find those at{" "}
+                I also curate evidence-based wellness tools and biohacking tech I use personally to beat jet lag, stay high-energy on the road, and keep my nervous system intact. Find those at{" "}
                 <a
                   href="https://thrivetools.co/"
                   target="_blank"
