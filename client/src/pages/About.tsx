@@ -31,7 +31,7 @@ export default function About() {
             style={{ fontFamily: "var(--font-serif)" }}
             data-testid="heading-about"
           >
-            The Blog for Travelers Who Want Real, Not Polished
+            For Travelers Who Want Real, Not Polished
           </h1>
         </div>
       </div>
