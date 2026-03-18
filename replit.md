@@ -40,13 +40,21 @@ Preferred communication style: Simple, everyday language.
 - Blog posts are fully static React components (no CMS or database-driven content yet). Each post lives in `client/src/pages/blog/`.
 - The `Layout` component provides a responsive nav with a hamburger menu for mobile and a custom YinYang SVG logo.
 - Query client defaults to `staleTime: Infinity` and no refetch on window focus — suited for mostly static content.
+- **SEO**: All pages use `react-helmet-async` via a reusable `client/src/components/SEO.tsx` component. Each page has a unique title, description, canonical URL, Open Graph tags (including `og:image`), Twitter Card tags, and `article:published_time`/`article:author` for blog posts. The default OG image is `client/public/og-default.jpg`.
+
+**Adding a new blog post checklist**:
+1. Create the component in `client/src/pages/blog/NewPost.tsx` — include `<SEO>` with title, description, canonical, `ogType="article"`, `publishedTime`, and `author="Eden"`
+2. Register the route in `client/src/App.tsx`
+3. Add the post to `shared/sitemap-urls.ts` (sitemap auto-generates from this file)
+4. Add the post card to the `blogPosts` array in `client/src/pages/Blog.tsx`
+5. Update the navigation chain (`ArrowLeft`/`ArrowRight` links) in the adjacent posts
 
 ### Backend
 
 - **Framework**: Express 5 (with TypeScript via `tsx`)
 - **Server entry**: `server/index.ts` creates an HTTP server, registers routes, and serves static files in production
 - **Dev server**: Vite runs in middleware mode inside Express during development (HMR via WebSocket at `/vite-hmr`)
-- **Routes**: `server/routes.ts` — currently empty (placeholder only)
+- **Routes**: `server/routes.ts` — contains the `/sitemap.xml` dynamic generator route
 - **Storage**: `server/storage.ts` — `IStorage` interface with `MemStorage` implementation (in-memory Map). No database queries are active yet.
 
 ### Database
@@ -67,7 +75,8 @@ Preferred communication style: Simple, everyday language.
 
 ### Shared Code
 
-- `shared/schema.ts` is imported by both client and server (via `@shared/*` alias) for type safety across the stack
+- `shared/schema.ts` — Drizzle ORM schema, imported by both client and server
+- `shared/sitemap-urls.ts` — Single source of truth for all site URLs. The server reads this to generate `/sitemap.xml` dynamically. Add new pages/posts here.
 
 ---
 
@@ -83,6 +92,7 @@ Preferred communication style: Simple, everyday language.
 - **Recharts** — Charting (chart.tsx included but not actively used in current pages)
 - **Wouter** — Client-side routing
 - **TanStack React Query** — Server state management
+- **react-helmet-async** — Per-page SEO head management (title, meta, og:, twitter: tags)
 - **react-hook-form** + **@hookform/resolvers** — Form handling
 - **Lucide React** + **react-icons** — Icon sets
 - **clsx** + **tailwind-merge** — Conditional class utilities
