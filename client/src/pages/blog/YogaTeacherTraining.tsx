@@ -13,7 +13,7 @@ export default function YogaTeacherTraining() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="200-Hour Yoga Teacher Training in Rishikesh: Honest Review"
+        title="Yoga Teacher Training, Rishikesh"
         description="An honest, first-hand account of completing a 200-hour yoga teacher training in Rishikesh, India. The curriculum, the challenges, and whether it is worth it."
         canonical="/blog/yoga-teacher-training-rishikesh"
         ogType="article"

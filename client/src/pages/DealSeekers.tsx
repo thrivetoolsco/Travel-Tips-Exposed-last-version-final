@@ -444,8 +444,8 @@ export default function DealSeekers() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Budget Travel Deals: Flights, Stays, Hacks and More"
-        description="Every platform Eden personally uses to travel more for less. Cheap flights, affordable stays, housesitting, work exchange, and more. Real recommendations, no fluff."
+        title="Budget Travel Deals & Hacks"
+        description="Every platform Eden uses to travel more for less. Cheap flights, affordable stays, housesitting, work exchange, and more. Real picks, no fluff."
         canonical="/deal-seekers"
       />
       <div

@@ -8,7 +8,7 @@ export default function IndonesiaMoney() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="ATM Fees and Money Exchange in Indonesia: Avoid Getting Ripped Off"
+        title="ATM Fees in Indonesia: Avoid Ripoffs"
         description="ATM fees in Indonesia can cost you 6.5% per transaction. The honest guide to fee-free cards, trusted money changers in Bali, and avoiding exchange scams."
         canonical="/atm-fees-money-exchange-indonesia"
         ogType="article"

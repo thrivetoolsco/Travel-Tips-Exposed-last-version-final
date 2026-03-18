@@ -9,7 +9,7 @@ export default function HousesittingGuide() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Housesitting Guide: How to Travel the World for Free"
+        title="How to Travel Free via Housesitting"
         description="How to use housesitting to travel the world for free or close to it. The platforms that work, the profile tips, and how to land your first sit."
         canonical="/blog/housesitting-guide"
         ogType="article"

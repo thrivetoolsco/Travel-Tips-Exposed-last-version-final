@@ -7,7 +7,7 @@ export default function BalisOneLoveVibe() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Solo Female Travel in Bali: Why Ubud's Magic Is Still Alive"
+        title="Solo Female Travel in Bali"
         description="A solo female traveler's honest take on Bali in 2025. Why Ubud still delivers, three practical safety tips, and what the vibe is really like."
         canonical="/blog/balis-one-love-vibe"
         ogType="article"

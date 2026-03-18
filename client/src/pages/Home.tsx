@@ -112,8 +112,8 @@ export default function Home() {
   return (
     <div className="bg-background">
       <SEO
-        title="Honest Travel Stories, Budget Hacks &amp; Itineraries"
-        description="Real, unfiltered travel stories from 40 plus countries. Honest itineraries, budget hacks, plant medicine retreats, and tips from a solo traveler. Budget friendly. Good times guaranteed."
+        title="Stories, Hacks & Budget Travel"
+        description="Real, unfiltered travel stories from 40 plus countries. Honest itineraries, budget hacks, plant medicine, and tips from a solo traveler. Good times guaranteed."
         canonical="/"
       />
       <section

@@ -514,8 +514,8 @@ export default function VisualJourneys() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Visual Journeys: Travel Photography From 40 Countries"
-        description="Raw, unfiltered travel photography from 40 plus countries. Photo albums from Indonesia, India, Canada, Morocco, Peru, Jamaica, Gabon, and more. Click any album to explore."
+        title="Travel Photo Albums"
+        description="Raw, unfiltered travel photography from 40 plus countries. Albums from Indonesia, India, Canada, Morocco, Peru, Jamaica, Gabon and more."
         canonical="/visual-journeys"
       />
       <div

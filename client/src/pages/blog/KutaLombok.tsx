@@ -8,7 +8,7 @@ export default function KutaLombok() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Is Kuta Lombok Overrated? 6 Honest Reasons to Skip It"
+        title="Kuta Lombok: Honest Review"
         description="An honest review of Kuta Lombok, Indonesia. 6 reasons why this overhyped destination did not deliver, and where to go instead."
         canonical="/is-kuta-lombok-overrated"
         ogType="article"

@@ -31,7 +31,7 @@ export const sitemapUrls: SitemapUrl[] = [
   { path: "/tetebatu-lombok-honest-review",                      lastmod: "2026-01-07", changefreq: "monthly", priority: 0.8 },
   { path: "/gili-air-indonesia-travel-guide",                    lastmod: "2026-01-04", changefreq: "monthly", priority: 0.8 },
   { path: "/is-kuta-lombok-overrated",                           lastmod: "2026-03-15", changefreq: "monthly", priority: 0.8 },
-  { path: "/iboga-gabon-sacred-wood-la-cite-de-la-source",       lastmod: "2026-03-15", changefreq: "monthly", priority: 0.8 },
+  { path: "/blog/iboga-gabon-sacred-wood-la-cite-de-la-source",  lastmod: "2026-03-15", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/housesitting-guide",                            lastmod: "2026-03-14", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/rishikesh-to-dharamshala",                      lastmod: "2026-03-04", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/balis-one-love-vibe",                           lastmod: "2026-03-02", changefreq: "monthly", priority: 0.8 },

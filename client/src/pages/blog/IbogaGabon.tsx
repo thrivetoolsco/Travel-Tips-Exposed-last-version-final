@@ -9,9 +9,9 @@ export default function IbogaGabon() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Iboga in Gabon: A Bwiti Ceremony at La Cité de la Source"
+        title="Iboga in Gabon: Bwiti Ceremony"
         description="A first-hand account of undergoing Iboga initiation in Gabon with a traditional Bwiti healer at La Cité de la Source. The full, unfiltered experience."
-        canonical="/iboga-gabon-sacred-wood-la-cite-de-la-source"
+        canonical="/blog/iboga-gabon-sacred-wood-la-cite-de-la-source"
         ogType="article"
         publishedTime="2026-03-15"
         author="Eden"

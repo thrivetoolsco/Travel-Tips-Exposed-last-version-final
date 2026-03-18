@@ -11,7 +11,7 @@ export default function BaliDelhiBelly() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="How to Avoid Bali Belly and Delhi Belly"
+        title="Avoid Bali Belly & Delhi Belly"
         description="How to eat safely and confidently in Bali and India. The foods to watch out for, the ones that are fine, and how to recover fast if it hits you."
         canonical="/blog/bali-belly-delhi-belly"
         ogType="article"

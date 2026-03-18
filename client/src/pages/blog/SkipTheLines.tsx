@@ -8,7 +8,7 @@ export default function SkipTheLines() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Skip Airport Lines in Bali: 4 Ways to Fast-Track Entry into Indonesia"
+        title="Skip Bali Airport Lines: 4 Tips"
         description="How to avoid queuing for hours at Bali's Ngurah Rai Airport. Visa on Arrival tips, priority lanes, and the apps that cut airport wait times to near zero."
         canonical="/blog/skip-lines-bali"
         ogType="article"

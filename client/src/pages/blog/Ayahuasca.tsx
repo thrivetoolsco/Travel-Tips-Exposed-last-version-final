@@ -13,7 +13,7 @@ export default function Ayahuasca() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Ayahuasca Retreat in Peru: An Honest Account"
+        title="Ayahuasca in Peru: Honest Review"
         description="An honest, unfiltered account of attending an Ayahuasca retreat in Peru. What it is really like, how to prepare, and whether it is right for you."
         canonical="/blog/ayahuasca-retreats-peru"
         ogType="article"

@@ -15,7 +15,7 @@ export default function RishikeshDharamshala() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Rishikesh to Dharamshala: The Road Trip Nobody Warns You About"
+        title="Rishikesh to Dharamshala: Road Trip"
         description="Getting from Rishikesh to Dharamshala overland is an experience in itself. Honest guide to the roads, transport options, and what to actually expect."
         canonical="/blog/rishikesh-to-dharamshala"
         ogType="article"

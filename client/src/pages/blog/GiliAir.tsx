@@ -10,7 +10,7 @@ export default function GiliAir() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Gili Air Travel Guide: Indonesia's Best-Kept Secret"
+        title="Gili Air Guide: Indonesia's Secret"
         description="Is Gili Air worth visiting? After 2 weeks on the island, a traveler with 40 countries under her belt calls it Indonesia's best-kept secret. Full honest guide."
         canonical="/gili-air-indonesia-travel-guide"
         ogType="article"

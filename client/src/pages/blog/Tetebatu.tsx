@@ -9,7 +9,7 @@ export default function Tetebatu() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Tetebatu Lombok Review: Is This Hidden Gem Worth It?"
+        title="Tetebatu, Lombok: Honest Review"
         description="An honest review of Tetebatu, Lombok. Stunning scenery, a serious noise problem, and who should actually visit. What the Instagram influencers won't tell you."
         canonical="/tetebatu-lombok-honest-review"
         ogType="article"
