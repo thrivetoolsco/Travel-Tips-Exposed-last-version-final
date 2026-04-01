@@ -224,6 +224,13 @@ const sections: Section[] = [
         tag: "SEA Transport",
         tagColor: "bg-sky-100 text-sky-700",
       },
+      {
+        name: "Discover Cars",
+        description: "Compare car rental deals from hundreds of companies worldwide. Great rates and transparent pricing with no hidden fees.",
+        url: "https://discovercars.tpk.mx/egmc8qaB",
+        tag: "Best Car Rentals",
+        tagColor: "bg-blue-100 text-blue-700",
+      },
     ],
   },
   {
