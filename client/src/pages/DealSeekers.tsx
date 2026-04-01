@@ -245,7 +245,7 @@ const sections: Section[] = [
       {
         name: "GetYourGuide",
         description: "The biggest library of tours, activities and experiences worldwide. Great free cancellation policies.",
-        url: "https://getyourguide.stay22.com/traveltipsexposed/RBvXVVOing",
+        url: "https://getyourguide.tpk.mx/jyWJSHxS",
         tag: "Most Variety",
         tagColor: "bg-rose-100 text-rose-700",
       },
