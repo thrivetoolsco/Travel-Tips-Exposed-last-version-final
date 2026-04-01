@@ -2,8 +2,8 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-import imgHero from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
-import imgMid from "@assets/Kuta_lombok_scooter_rental_roads_indonesia_the_sho_delpmaspu_1773598699577.png";
+import imgHero from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.jpg";
+import imgMid from "@assets/Kuta_lombok_scooter_rental_roads_indonesia_the_sho_delpmaspu_1773598699577.jpg";
 
 export default function KutaLombok() {
   return (
@@ -79,6 +79,17 @@ export default function KutaLombok() {
 
           <p className="mb-8 leading-relaxed">
             If spotless, swimmable water is a non negotiable for you (as it should be), temper your expectations considerably before booking.
+          </p>
+
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Where the Better Beaches Are
+          </h3>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Mawun and Selong Belanak, both reachable by scooter in 20 to 40 minutes, are genuinely beautiful and far less impacted by the runoff problems closer to town. If you do come to Kuta Lombok, treat the town as a base, not a destination. The surrounding coastline rewards those willing to go further.{' '}
+            <a href="https://www.oceanhealthindex.org/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Ocean Health Index data
+            </a>{' '}ranks Indonesia's coastal waters highly overall, making the localised pollution around Kuta's main beach even more preventable.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
@@ -243,6 +254,16 @@ export default function KutaLombok() {
               </a>
             ))}
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Despite the disappointments, the Lombok landscape rewards those willing to move. If scooter riding is going to be your primary mode of transport for days at a time in tropical heat, look after your body.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Electrolytes, sun protection supplements, and gut health support at thrivetools.co
+            </a>{' '}make a real difference on an active island trip. And if the accommodation situation catches up with your sleep,{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              thrivetools.co's magnesium and sleep stack
+            </a>{' '}is worth having on hand.
+          </p>
 
           <div className="my-10 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground leading-relaxed italic">

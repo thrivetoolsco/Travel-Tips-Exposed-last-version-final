@@ -82,6 +82,17 @@ export default function Tetebatu() {
             I was that traveler. And the reality was something else entirely.
           </p>
 
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Who Tetebatu Is Actually Right For
+          </h3>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Tetebatu works well for trekkers doing Rinjani prep, photographers chasing rice paddy drone shots, and travelers with high noise tolerance or earplugs. If you go in expecting a silent wellness retreat, you will be disappointed. Go in expecting rugged, real Indonesian highland life, and you will leave with something genuine.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/29993758/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              A 2018 meta-analysis in Environmental Research
+            </a>{' '}confirms that time in natural, green environments significantly reduces cortisol and improves wellbeing, even when conditions are imperfect. Tetebatu delivers on nature. The rest is up to you.
+          </p>
+
           <div className="my-8 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground text-sm mb-2">Also reconsidering another Lombok stop? Read my take on Kuta:</p>
             <Link href="/is-kuta-lombok-overrated"
@@ -290,6 +301,16 @@ export default function Tetebatu() {
             </Link>
             <p className="text-muted-foreground text-sm mt-1">and I will help you find the right destination for your travel style.</p>
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            For trekkers heading into the Rinjani foothills, muscle recovery and sleep quality matter more than most packing lists suggest.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Magnesium glycinate and recovery supplements at thrivetools.co
+            </a>{' '}are worth the bag space. And if the noise situation gets too much,{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              thrivetools.co's sleep support formulas
+            </a>{' '}combined with wax earplugs will get you through the night.
+          </p>
 
           <div className="my-10 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground leading-relaxed italic">

@@ -92,6 +92,17 @@ export default function RishikeshDharamshala() {
             This was where the journey truly earned its stripes. It was a long, dark, and classically sketchy drive that only makes sense when you're traveling like this. Our driver was a man of unusual habits, shall we say. To ensure the road trip flowed more peacefully (for us at least), I dosed myself and my new homies with a couple of strong weed gummies. It was a shared, silent decision that we just had to surrender to the driver's dramatic swerving and the Himalayan hairpin turns. You have to roll with it. What can you say?!
           </p>
 
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            What to Pack for the Night Drive
+          </h3>
+
+          <p className="mb-6 leading-relaxed text-muted-foreground">
+            Weed gummies or not, the essentials for this drive are: a neck pillow, a hoodie (mountain air drops fast), snacks, and something to listen to. Book through a trusted guesthouse or hostel in Rishikesh rather than a street tout. Expect 8 to 12 hours depending on road conditions. Arrive ready to sleep, because you will not sleep in the car.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Magnesium glycinate from thrivetools.co
+            </a>{' '}is legitimately useful for overnight travel recovery.
+          </p>
+
           <img src={imgCarNight} alt="Loading luggage onto a taxi at night for the mountain drive" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-car-night" />
 
           <img src={imgGroupNight} alt="Group of travelers at night by a taxi" loading="lazy" className="w-full rounded-xl my-8" data-testid="img-group-night" />
@@ -180,6 +191,16 @@ export default function RishikeshDharamshala() {
               </div>
             </div>
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            The overland route from Rishikesh to Dharamshala is demanding but memorable. Supporting your body before and after long mountain travel is not optional.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/26231026/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research published in Frontiers in Psychology
+            </a>{' '}documents how meditation and mindfulness practice (abundant in Dharamshala) measurably alter brain structure and reduce stress markers.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Thrivetools.co's adaptogen and recovery range
+            </a>{' '}pairs well with the kind of intensive inner work India invites.
+          </p>
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg font-semibold text-foreground" style={{ fontFamily: "var(--font-serif)" }}>

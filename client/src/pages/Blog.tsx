@@ -4,16 +4,16 @@ import SEO from "@/components/SEO";
 import imgRishikeshThumb from "@assets/IMG-20230505-WA0006_Original_1773171507167.jpg";
 import imgYogaThumb from "@assets/IMG-20230522-WA0048_Original_1773171507059.jpg";
 import imgAyaThumb from "@assets/IMG_2330_1773173146748.JPG";
-import imgOneLoveThumb from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.png";
-import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.png";
-import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
-import imgBlogBg from "@assets/generated_images/blog-background.png";
-import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
+import imgOneLoveThumb from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.jpg";
+import imgSkipLinesThumb from "@assets/generated_images/skip-lines-airport.jpg";
+import imgBellyThumb from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.jpg";
+import imgBlogBg from "@assets/generated_images/blog-background.jpg";
+import imgHousesittingThumb from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.jpg";
 import imgIbogaThumb from "@assets/DSCN8758_(1)_1773173919513.JPG";
-import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.png";
+import imgKutaLombokThumb from "@assets/Kuta_lombok_beach_pollution_garbage_shoreline_the__delpmaspu_1773598699602.jpg";
 import imgGiliAirThumb from "@assets/Screenshot_20260315_142747_Instagram~2_1773599502923.jpg";
 import imgTetebatuThumb from "@assets/Screenshot_20260315_144016_Instagram~2_1773600228526.jpg";
-import imgIndonesiaMoneyThumb from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.png";
+import imgIndonesiaMoneyThumb from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.jpg";
 
 const blogPosts = [
   {

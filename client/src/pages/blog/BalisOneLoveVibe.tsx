@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-import imgOneLoveHero from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.png";
+import imgOneLoveHero from "@assets/Boho_chic_woman_with_long_brown_curly_hair_we_see__delpmaspu_1773324072037.jpg";
 
 export default function BalisOneLoveVibe() {
   return (
@@ -93,7 +93,10 @@ export default function BalisOneLoveVibe() {
           </p>
 
           <p className="mb-4 leading-relaxed">
-            But I know what you're wondering: is the "One Love" vibe still there? Short answer: <strong>Absolutely.</strong> The high frequency in Ubud is still very much alive and well. You feel it the second you walk into places like The Yoga Barn. And if you really want to vibrate on a higher plane, you have to hit the Pyramids of Chi. Getting lost in a sound healing session inside those massive structures is a total sensory reset: it's like hitting the 'refresh' button on your entire being. It's that deep, soulful, "we're all connected" energy that makes Ubud… well, Ubud.
+            But I know what you're wondering: is the "One Love" vibe still there? Short answer: <strong>Absolutely.</strong> The high frequency in Ubud is still very much alive and well. You feel it the second you walk into places like The Yoga Barn. And if you really want to vibrate on a higher plane, you have to hit the Pyramids of Chi. Getting lost in a sound healing session inside those massive structures is a total sensory reset. It's that deep, soulful, "we're all connected" energy that makes Ubud what it is. Before diving in, prime your system with{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              adaptogenic and nervous system support from thrivetools.co
+            </a>{' '}so you get the most out of each modality.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-6" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
@@ -137,6 +140,24 @@ export default function BalisOneLoveVibe() {
               </div>
             </div>
           </div>
+
+          <h3 className="text-xl font-bold mt-10 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Budget Reality: What 45 Days in Bali Actually Costs
+          </h3>
+
+          <p className="mb-6 leading-relaxed text-muted-foreground">
+            At roughly CAD $600 for 45 nights of accommodation using Agoda, you're looking at about $13 a night. Meals from warungs run $2 to $5. A scooter rental is $5 to $7 a day. Indonesia is genuinely one of the most budget friendly destinations on earth. The{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              wellness travel essentials at thrivetools.co
+            </a>{' '}are worth grabbing before you go so you spend your budget on experiences, not pharmacy runs.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/31551862/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research on breathwork and ecstatic movement
+            </a>{' '}shows significant reductions in anxiety and stress, which is basically what Ubud delivers naturally.
+          </p>
+
+          <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Verdict: Should You Come to Bali?
+          </h2>
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg leading-relaxed text-foreground" style={{ fontFamily: "var(--font-serif)" }}>

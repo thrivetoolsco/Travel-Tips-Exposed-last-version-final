@@ -82,6 +82,17 @@ export default function IbogaGabon() {
             Gabon takes this so seriously that Iboga is protected in the country's national constitution as a strategic national heritage. That's not a small thing.
           </p>
 
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Bwiti Tradition: What Science Is Starting to Confirm
+          </h3>
+
+          <p className="mb-6 leading-relaxed text-muted-foreground">
+            While this is a sacred ceremonial practice, not a clinical treatment, Western science has begun to study ibogaine (the principal alkaloid in iboga) intensively.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/29590819/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research published in the American Journal of Drug and Alcohol Abuse
+            </a>{' '}documents ibogaine's significant effects on opioid withdrawal and addiction interruption. The Bwiti understood this long before any lab did.
+          </p>
+
           <p className="mb-8 leading-relaxed">
             In the West, you may have heard about <strong>ibogaine</strong>, a single alkaloid extracted from the plant, and its remarkable results in treating opioid addiction. Researchers and clinicians are paying close attention. But those who have traveled to the source will tell you: extracting one molecule and calling it medicine is like pulling a single thread from a tapestry and calling it art. The whole plant, in full ceremonial context, is something else entirely.
           </p>
@@ -283,6 +294,17 @@ export default function IbogaGabon() {
               </a>
             ))}
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            If you are considering iboga initiation, preparation of the physical body matters as much as preparation of the mind. Supporting your system with clean nutrition, quality sleep, and supplementation in the months before is standard guidance from traditional healers and modern harm reduction advisors alike.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Thrivetools.co
+            </a>{' '}carries high-quality magnesium, adaptogens, and gut health supplements that are part of a thoughtful preparation protocol.{' '}
+            For post-ceremony integration, the same applies:{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              thrivetools.co integration support supplements
+            </a>{' '}can help stabilise the nervous system in the weeks and months after.
+          </p>
 
           <div className="my-10 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground leading-relaxed italic">

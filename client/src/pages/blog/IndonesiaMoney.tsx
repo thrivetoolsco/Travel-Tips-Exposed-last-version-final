@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-import imgHero from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.png";
+import imgHero from "@assets/Atm_indonesia_the_shot_looks_slightly_grainy_as_if_delpmaspu_1773601374499.jpg";
 import imgReceipt from "@assets/Screenshot_20260315_150022_Instagram_1773601374482.jpg";
 
 export default function IndonesiaMoney() {
@@ -76,6 +76,17 @@ export default function IndonesiaMoney() {
           <p className="mb-8 leading-relaxed">
             I say this because the numbers can be disorienting at first, and disorientation is exactly the condition that scammers exploit. Before you do anything with your money in Indonesia, get comfortable with the denominations. The notes you'll use most are the <strong>Rp 100,000 (pink/red)</strong> and <strong>Rp 50,000 (blue)</strong>. Know what they look like. Count your money carefully every single time.
           </p>
+
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Quick ID Guide: The Four Banknotes You Will Actually Use
+          </h3>
+
+          <div className="space-y-2 mb-8 pl-4">
+            <p className="leading-relaxed"><strong className="text-foreground">Rp 100,000</strong> <span className="text-muted-foreground">— Pink/red. Your workhorse note. Worth roughly USD $6.</span></p>
+            <p className="leading-relaxed"><strong className="text-foreground">Rp 50,000</strong> <span className="text-muted-foreground">— Blue. The smaller sibling. Use for markets and smaller purchases.</span></p>
+            <p className="leading-relaxed"><strong className="text-foreground">Rp 20,000</strong> <span className="text-muted-foreground">— Green. Good for street food, transport, and tips.</span></p>
+            <p className="leading-relaxed"><strong className="text-foreground">Rp 10,000</strong> <span className="text-muted-foreground">— Purple. Pocket change level, but useful for exact amounts.</span></p>
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
             ATM Fees in Indonesia: What Nobody Tells You Before You Land
@@ -303,6 +314,19 @@ export default function IndonesiaMoney() {
               </a>
             ))}
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            One underrated part of managing money abroad is managing your energy. When you're fatigued or stressed, you make worse financial decisions and miss things.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Travel supplements at thrivetools.co
+            </a>{' '}covering magnesium, adaptogenic mushrooms, and sleep support are worth adding to your budget alongside the fee-free card. A clear head is your best anti-scam weapon. Also check the{' '}
+            <a href="https://www.wise.com/gb/blog/money-in-indonesia" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Wise Indonesia money guide
+            </a>{' '}for up-to-date exchange rate benchmarks before you convert. And if you want the most convenient wallet setup, the{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              full travel prep stack at thrivetools.co
+            </a>{' '}covers the wellness side of a smooth trip.
+          </p>
 
           <div className="my-10 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground leading-relaxed italic">

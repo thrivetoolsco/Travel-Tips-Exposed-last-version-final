@@ -221,6 +221,19 @@ export default function Ayahuasca() {
               </div>
             </div>
           </div>
+
+          <p className="mt-10 mb-8 leading-relaxed text-muted-foreground">
+            If you're preparing for a retreat,{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/29562649/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              a 2018 study in Scientific Reports
+            </a>{' '}found that a single ayahuasca session produced rapid and sustained antidepressant effects. Physical preparation matters too: gut health, sleep quality, and inflammation levels all influence how the medicine works.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Gut and nervous system support from thrivetools.co
+            </a>{' '}is worth building into your pre-retreat protocol. For integration support in the months after,{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              thrivetools.co's adaptogen and mood support range
+            </a>{' '}covers the neurological landing period thoughtfully.
+          </p>
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row gap-4 justify-between items-center">

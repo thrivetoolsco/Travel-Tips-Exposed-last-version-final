@@ -2,9 +2,9 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-import imgHero from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.png";
-import imgRemoteWork from "@assets/A_man_sitting_in_front_of_a_laptop_with_a_cat_sitt_delpmaspu_1773503112520.png";
-import imgDogWalk from "@assets/A_boho_chic_woman_walking_with_a_golden_retriever__delpmaspu_1773503525976.png";
+import imgHero from "@assets/A_boho_chic_woman_sitting_on_a_porch_of_a_house_wi_delpmaspu_(_1773503112506.jpg";
+import imgRemoteWork from "@assets/A_man_sitting_in_front_of_a_laptop_with_a_cat_sitt_delpmaspu_1773503112520.jpg";
+import imgDogWalk from "@assets/A_boho_chic_woman_walking_with_a_golden_retriever__delpmaspu_1773503525976.jpg";
 
 export default function HousesittingGuide() {
   return (
@@ -423,6 +423,20 @@ export default function HousesittingGuide() {
             </p>
             <p className="text-foreground font-semibold">All you have to do is show up and bring your love of animals.</p>
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Housesitting often involves adapting to new climates, sleep schedules, and time zones rapidly.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/29562649/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research on travel and wellbeing
+            </a>{' '}consistently highlights sleep and immune resilience as the two biggest factors separating thriving slow travelers from burned-out ones.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Thrivetools.co's sleep and immune support range
+            </a>{' '}is worth adding to the housesitter's kit list, alongside the usual pet supplies and house keys.{' '}
+            If you want to make your profile even stronger, the{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              thrivetools.co energy and focus supplements
+            </a>{' '}will keep you sharp for the first few days in each new home while you find your rhythm.
+          </p>
 
           <div className="flex flex-wrap gap-4 justify-center my-8">
             <a href="https://www.trustedhousesitters.com" target="_blank" rel="noopener noreferrer"

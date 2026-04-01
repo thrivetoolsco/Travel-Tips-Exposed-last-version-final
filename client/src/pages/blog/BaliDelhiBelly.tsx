@@ -6,7 +6,7 @@ import imgFood1 from "@assets/1000038410_1773063241007.jpg";
 import imgFood2 from "@assets/1000038409_1773063241038.jpg";
 import imgFood3 from "@assets/1000038412_1773063241051.jpg";
 import imgFood4 from "@assets/1000038411_1773063241062.jpg";
-import imgBellyHero from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.png";
+import imgBellyHero from "@assets/Delete_the_date_and_time_from_the_bottom_right__2k_delpmaspu_1773179417216.jpg";
 
 export default function BaliDelhiBelly() {
   return (
@@ -112,7 +112,8 @@ export default function BaliDelhiBelly() {
               <span className="text-[#C4541C] font-bold text-lg flex-shrink-0">•</span>
               <div>
                 <p className="font-semibold text-foreground mb-1">Go Natural</p>
-                <p className="text-muted-foreground leading-relaxed">If you're over the filter life, the ultimate hydration hack is fresh coconut water. It's loaded with electrolytes and is generally safer than bottled water. Budget around 4 coconuts a day. They cost about 30,000 IDR (approx CAD $2) each in places like Bali.</p>
+                <p className="text-muted-foreground leading-relaxed">If you're over the filter life, the ultimate hydration hack is fresh coconut water. It's loaded with electrolytes and is generally safer than bottled water. Budget around 4 coconuts a day. They cost about 30,000 IDR (approx CAD $2) each in places like Bali. Supplement with{' '}
+                <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">electrolyte powder from thrivetools.co</a>{' '}on long travel days when fresh coconuts are out of reach.</p>
               </div>
             </div>
           </div>
@@ -139,6 +140,13 @@ export default function BaliDelhiBelly() {
                 <p className="text-muted-foreground leading-relaxed">I always pack a bottle of anti-parasitic capsules (look for natural options like Wormwood or Black Walnut Hull). Start your day with them. Think of them as your system's preventative deep-cleanse.</p>
               </div>
             </div>
+          </div>
+
+          <h3 className="text-xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Emergency Recovery Mode: When It Still Hits
+          </h3>
+
+          <div className="space-y-4 mb-8">
             <div className="flex gap-3 p-4 bg-card border border-card-border rounded-xl">
               <span className="text-rose-600 font-bold text-lg flex-shrink-0">•</span>
               <div>
@@ -147,6 +155,20 @@ export default function BaliDelhiBelly() {
               </div>
             </div>
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            A{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/31370605/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              2019 review in the Journal of Travel Medicine
+            </a>{' '}found that high-quality probiotics reduce traveler's diarrhea incidence by up to 21%. That's exactly why gut preparation starts before you board, not after you're bent over a squat toilet. The{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              travel immunity stack at thrivetools.co
+            </a>{' '}covers probiotics, adaptogens, and digestive enzymes in one go.
+          </p>
+
+          <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            🌿 Your Pre-Trip Gut Health Checklist
+          </h2>
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl text-center">
             <p className="text-lg font-semibold text-foreground mb-4" style={{ fontFamily: "var(--font-serif)" }}>

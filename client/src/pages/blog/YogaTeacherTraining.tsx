@@ -67,6 +67,10 @@ export default function YogaTeacherTraining() {
             I wanted an intensive training and I got just that at the Ashtanga school.
           </p>
 
+          <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Inside the Ashtanga School: A Day in the Life
+          </h2>
+
           <div className="my-6 p-6 border-l-4 border-[#C4541C] bg-[#C4541C]/30 rounded-r-xl">
             <p className="text-lg font-semibold text-foreground leading-relaxed" style={{ fontFamily: "var(--font-serif)" }}>
               The best way I can describe that experience is that it was like a military training but for yoga.
@@ -92,8 +96,12 @@ export default function YogaTeacherTraining() {
             <img src={imgNeti} alt="Student practicing nasal cleansing" loading="lazy" className="w-full h-56 object-cover rounded-xl" />
           </div>
 
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Curriculum: Theory, Teaching Practice, and Breathwork
+          </h3>
+
           <p className="mb-10 leading-relaxed text-muted-foreground italic">
-            Side note: the meals and accommodation were included in the school. The curriculum included theory and practice. It covered all the basics. We had many opportunities to practice holding space for others. Each student had the chance to guide breathwork and yoga classes while receiving valuable feedback from the teachers.
+            Meals and accommodation were included in the school. The curriculum covered theory and practice, all the basics, and gave every student multiple rounds of guiding breathwork and yoga classes with real-time feedback from the teachers.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-6" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
@@ -146,8 +154,12 @@ export default function YogaTeacherTraining() {
             </figcaption>
           </figure>
 
+          <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            Life Beyond the Mat: Exploring Rishikesh
+          </h2>
+
           <p className="mb-6 leading-relaxed">
-            Other than that we had 1 day a week off. That day allowed me and the other students to explore Rishikesh.
+            We had one day a week off, which allowed me and the other students to explore Rishikesh.
           </p>
 
           <p className="mb-6 leading-relaxed">
@@ -165,6 +177,16 @@ export default function YogaTeacherTraining() {
           </p>
 
           <img src={imgGroup} alt="Group photo with the yoga school community" loading="lazy" className="w-full rounded-xl object-cover my-8" style={{ maxHeight: "440px", objectPosition: "center" }} data-testid="img-group-photo" />
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            The physical demands of a 200-hour intensive are significant. Beyond the magnesium already mentioned, bringing{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              adaptogenic mushroom blends from thrivetools.co
+            </a>{' '}for cognitive clarity and immune resilience during the intensive weeks is worthwhile.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/27065561/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              A comprehensive review in the Journal of Clinical Psychology
+            </a>{' '}confirms that intensive yoga practice significantly reduces anxiety, depression, and cortisol levels, which checks out.
+          </p>
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl">
             <p className="text-foreground font-semibold mb-3" style={{ fontFamily: "var(--font-serif)" }}>

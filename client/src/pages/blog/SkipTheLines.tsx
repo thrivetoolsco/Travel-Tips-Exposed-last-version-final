@@ -2,8 +2,8 @@ import { Link } from "wouter";
 import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-import imgSkipLinesHero from "@assets/generated_images/skip-lines-airport.png";
-import imgVoaScreenshot from "@assets/generated_images/voa-app-screenshot.png";
+import imgSkipLinesHero from "@assets/generated_images/skip-lines-airport.jpg";
+import imgVoaScreenshot from "@assets/generated_images/voa-app-screenshot.jpg";
 
 export default function SkipTheLines() {
   return (
@@ -83,9 +83,9 @@ export default function SkipTheLines() {
 
           <div className="space-y-8 my-10">
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-[#C4541C]" style={{ fontFamily: "var(--font-serif)" }}>
+              <h2 className="text-2xl font-bold mb-4 text-[#C4541C]" style={{ fontFamily: "var(--font-serif)" }}>
                 1. The Digital VOA is Your Main Character Moment
-              </h3>
+              </h2>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
               <p className="mb-4 leading-relaxed">
                 Waiting in the "Visa On Arrival" payment line just to shuffle over to the "Immigration Stamp" line. It's giving bureaucracy overload.
@@ -105,9 +105,9 @@ export default function SkipTheLines() {
             </div>
 
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-amber-600" style={{ fontFamily: "var(--font-serif)" }}>
+              <h2 className="text-2xl font-bold mb-4 text-amber-600" style={{ fontFamily: "var(--font-serif)" }}>
                 2. Bali Added a Tourist Tax (and Yes, You Can Pre-Pay)
-              </h3>
+              </h2>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
               <p className="mb-4 leading-relaxed">
                 Landing in Denpasar (DPS) only to realize you have one more random fee to pay for supporting Bali's environment and culture. It's a worthy cause, but getting stuck finding the right counter? Hard pass.
@@ -127,9 +127,9 @@ export default function SkipTheLines() {
             </div>
 
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-rose-600" style={{ fontFamily: "var(--font-serif)" }}>
+              <h2 className="text-2xl font-bold mb-4 text-rose-600" style={{ fontFamily: "var(--font-serif)" }}>
                 3. That Customs Form? It's Digital.
-              </h3>
+              </h2>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
               <p className="mb-4 leading-relaxed">
                 Trying to find a pen, a flat surface, and the will to live as you try to fill out a paper Customs Declaration form while juggling your carry-on.
@@ -149,9 +149,9 @@ export default function SkipTheLines() {
             </div>
 
             <div className="p-6 bg-card border border-card-border rounded-xl">
-              <h3 className="text-xl font-bold mb-3 text-[#C4541C]" style={{ fontFamily: "var(--font-serif)" }}>
+              <h2 className="text-2xl font-bold mb-4 text-[#C4541C]" style={{ fontFamily: "var(--font-serif)" }}>
                 4. eSIM: Don't Be That Guy Buying a SIM at the Airport
-              </h3>
+              </h2>
               <p className="text-muted-foreground font-semibold mb-2">The Pain Point:</p>
               <p className="mb-4 leading-relaxed">
                 Walking out of the arrival hall, desperately needing an Uber/Grab, but realizing you have zero data and are now stuck negotiating with the first aggressive taxi driver you see.
@@ -164,8 +164,30 @@ export default function SkipTheLines() {
               <p className="text-muted-foreground leading-relaxed">
                 Check if your phone supports eSIM first! Most modern phones do.
               </p>
+              <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
+                Long-haul flights suppress immune function more than most travelers realise.{' '}
+                Before you fly, stock up on{' '}
+                <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+                  travel-ready immune support at thrivetools.co
+                </a>{' '}so you land feeling strong, not wrecked.
+              </p>
             </div>
           </div>
+
+          <h2 className="text-2xl font-bold mt-12 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Full Arrival Picture: Beyond the Paperwork
+          </h2>
+
+          <p className="mb-6 leading-relaxed text-muted-foreground">
+            Smooth paperwork is only half the battle. Landing in Bali with your VOA sorted, levy paid, customs cleared, and eSIM active is the move. Then your only job is to enjoy it.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/30956111/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research published in PLOS ONE
+            </a>{' '}confirms that long-haul flights measurably increase cortisol and disrupt sleep, which is exactly why arriving organised and rested matters.{' '}
+            Support your recovery with{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              high-quality travel wellness supplements from thrivetools.co
+            </a>.
+          </p>
 
           <div className="my-10 p-6 border border-[#C4541C]/20 bg-[#C4541C]/30 bg-orange-950/10 rounded-xl text-center">
             <h3 className="text-xl font-bold mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>

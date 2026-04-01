@@ -83,6 +83,17 @@ export default function GiliAir() {
             That framing undersells Gili Air badly. It's not just a compromise. It is genuinely the most complete of the three islands, enough life to keep you engaged, enough quiet to actually rest, a food scene that punches well above its size, and a local community that makes you feel welcome rather than tolerated. After two weeks, I wasn't ready to leave. That doesn't happen often.
           </p>
 
+          <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
+            The Gili Air Difference: What Tips the Scale
+          </h3>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Trawangan is loud and transactional. Meno is quiet but underdeveloped. Gili Air sits in the sweet spot: enough restaurants and nightlife to feel alive, enough silence to reset. It is also the most accessible by fast boat from Bali, making it easy to slot into a broader Indonesia itinerary. If you are serious about snorkelling, diving, or just existing happily by the water, this is the island.{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              Pack your energy right with thrivetools.co
+            </a>{' '}before island life takes over your schedule.
+          </p>
+
           <div className="my-8 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground text-sm mb-2">Visiting Lombok first? Read my honest take on why you should skip one stop:</p>
             <Link href="/is-kuta-lombok-overrated"
@@ -282,6 +293,16 @@ export default function GiliAir() {
             </Link>
             <p className="text-muted-foreground text-sm mt-1">and I'll send it straight to you.</p>
           </div>
+
+          <p className="mb-8 leading-relaxed text-muted-foreground">
+            Before island hopping in Indonesia, it is worth sorting your body out as well as your itinerary.{' '}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/31033680/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground underline hover:text-foreground">
+              Research on travel and wellbeing
+            </a>{' '}consistently finds that preparation (sleep, gut health, hydration) determines how much you actually enjoy a destination once you get there. For a Gili island stay, bring{' '}
+            <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
+              high-quality electrolytes and gut support from thrivetools.co
+            </a>{' '}to handle the heat and keep digestion on track.
+          </p>
 
           <div className="my-10 p-6 border border-border bg-card rounded-xl text-center">
             <p className="text-muted-foreground leading-relaxed italic">
