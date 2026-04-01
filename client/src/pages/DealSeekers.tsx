@@ -250,6 +250,13 @@ const sections: Section[] = [
         tagColor: "bg-amber-100 text-amber-700",
       },
       {
+        name: "TripAdvisor",
+        description: "The world's largest travel review platform. Read millions of real traveler reviews before committing to any hotel, restaurant, or experience.",
+        url: "https://tripadvisor.stay22.com/traveltipsexposed/JpSfgukwQA",
+        tag: "Best Reviews",
+        tagColor: "bg-green-100 text-green-700",
+      },
+      {
         name: "Airbnb Experiences",
         description: "Hosted by locals. For the authentic, off-the-beaten-path experiences that tour companies don't offer.",
         url: "https://www.airbnb.com/experiences",
