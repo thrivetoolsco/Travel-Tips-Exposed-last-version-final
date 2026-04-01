@@ -124,7 +124,7 @@ export default function BalisOneLoveVibe() {
             <div className="flex gap-4 p-5 bg-card border border-card-border rounded-xl">
               <span className="text-2xl font-bold text-amber-600" style={{ fontFamily: "var(--font-display)" }}>2.</span>
               <div>
-                <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Agoda is the MVP</p>
+                <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}><a href="https://agoda.stay22.com/traveltipsexposed/9uGLzioxIx" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] hover:underline">Agoda</a> is the MVP</p>
                 <p className="text-muted-foreground leading-relaxed">
                   They have the best deals and the most flexible cancellation policies. For 45 days, my accommodation came out to around CAD$ 600.
                 </p>
@@ -147,7 +147,7 @@ export default function BalisOneLoveVibe() {
           </h3>
 
           <p className="mb-6 leading-relaxed text-muted-foreground">
-            At roughly CAD $600 for 45 nights of accommodation using Agoda, you're looking at about $13 a night. Meals from warungs run $2 to $5. A scooter rental is $5 to $7 a day. Indonesia is genuinely one of the most budget friendly destinations on earth. The{' '}
+            At roughly CAD $600 for 45 nights of accommodation using <a href="https://agoda.stay22.com/traveltipsexposed/9uGLzioxIx" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">Agoda</a>, you're looking at about $13 a night. Meals from warungs run $2 to $5. A scooter rental is $5 to $7 a day. Indonesia is genuinely one of the most budget friendly destinations on earth. The{' '}
             <a href="https://thrivetools.co" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">
               wellness travel essentials at thrivetools.co
             </a>{' '}are worth grabbing before you go so you spend your budget on experiences, not pharmacy runs.{' '}

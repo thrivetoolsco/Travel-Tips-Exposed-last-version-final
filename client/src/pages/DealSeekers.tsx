@@ -75,7 +75,7 @@ const sections: Section[] = [
       {
         name: "Agoda",
         description: "The MVP for Southeast Asia. Best deals and the most flexible cancellation policies. For 45 days in Bali, accommodation came to around CAD $600.",
-        url: "https://www.agoda.com",
+        url: "https://agoda.stay22.com/traveltipsexposed/9uGLzioxIx",
         tag: "Best for SEA",
         tagColor: "bg-amber-100 text-amber-700",
       },
