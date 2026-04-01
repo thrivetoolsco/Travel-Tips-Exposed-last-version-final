@@ -94,6 +94,13 @@ const sections: Section[] = [
         tagColor: "bg-sky-100 text-sky-700",
       },
       {
+        name: "VRBO",
+        description: "Best for renting entire homes and villas. Great for longer stays or traveling with a group where you want your own space.",
+        url: "https://vrbo.stay22.com/traveltipsexposed/K9id8Vr5Rm",
+        tag: "Best for Homes",
+        tagColor: "bg-blue-100 text-blue-700",
+      },
+      {
         name: "Retreat Guru",
         description: "For the conscious travelers. Find yoga retreats, meditation centers, ayahuasca retreats, and spiritual escapes worldwide.",
         url: "https://retreat.guru",
