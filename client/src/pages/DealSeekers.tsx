@@ -263,6 +263,13 @@ const sections: Section[] = [
         tag: "Best for Asia",
         tagColor: "bg-red-100 text-red-700",
       },
+      {
+        name: "Tiqets",
+        description: "Instant mobile tickets to museums, attractions, and landmarks worldwide. Skip the line and go straight to the experience.",
+        url: "https://tiqets.tpk.mx/B9ijILsQ",
+        tag: "Skip the Line",
+        tagColor: "bg-violet-100 text-violet-700",
+      },
     ],
   },
   {
