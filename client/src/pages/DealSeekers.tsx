@@ -263,13 +263,6 @@ const sections: Section[] = [
         tag: "Best for Asia",
         tagColor: "bg-red-100 text-red-700",
       },
-      {
-        name: "Airbnb Experiences",
-        description: "Hosted by locals. For the authentic, off-the-beaten-path experiences that tour companies don't offer.",
-        url: "https://www.airbnb.com/experiences",
-        tag: "Local Experiences",
-        tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
-      },
     ],
   },
   {
