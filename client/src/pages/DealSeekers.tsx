@@ -252,7 +252,7 @@ const sections: Section[] = [
       {
         name: "Viator",
         description: "TripAdvisor's tour platform. Excellent reviews system for vetting tours before you book.",
-        url: "https://www.viator.com",
+        url: "https://viator.tpk.mx/HiyNlqHH",
         tag: "Trusted Reviews",
         tagColor: "bg-amber-100 text-amber-700",
       },
