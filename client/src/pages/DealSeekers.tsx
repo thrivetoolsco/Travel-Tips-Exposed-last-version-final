@@ -61,6 +61,13 @@ const sections: Section[] = [
         tag: "Multi-City",
         tagColor: "bg-rose-100 text-rose-700",
       },
+      {
+        name: "Trip.com",
+        description: "Strong for Asian routes and international flights. Often has exclusive deals you won't find elsewhere, especially for flights within Asia.",
+        url: "https://trip.tpk.mx/nrYHztPZ",
+        tag: "Best for Asia Routes",
+        tagColor: "bg-blue-100 text-blue-700",
+      },
     ],
   },
   {
