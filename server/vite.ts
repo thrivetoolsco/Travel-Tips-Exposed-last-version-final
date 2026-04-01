@@ -49,7 +49,37 @@ export async function setupVite(server: Server, app: Express) {
         `src="/src/main.tsx?v=${nanoid()}"`,
       );
       const page = await vite.transformIndexHtml(url, template);
-      res.status(200).set({ "Content-Type": "text/html" }).end(page);
+
+      // SSR: load the server entry and render the React tree to a string
+      let finalPage = page;
+      try {
+        const serverEntry = await vite.ssrLoadModule("/src/entry-server.tsx");
+        const { html: appHtml, helmet } = serverEntry.render(url);
+
+        const headTags = helmet
+          ? [
+              helmet.title.toString(),
+              helmet.priority.toString(),
+              helmet.meta.toString(),
+              helmet.link.toString(),
+              helmet.script.toString(),
+            ]
+              .filter(Boolean)
+              .join("\n    ")
+          : "";
+
+        finalPage = page
+          .replace("<!--head-outlet-->", headTags)
+          .replace("<!--ssr-outlet-->", appHtml);
+      } catch (ssrErr) {
+        // If SSR rendering fails, fall back to the client-only shell
+        console.error("[SSR] Render error, falling back to client shell:", ssrErr);
+        finalPage = page
+          .replace("<!--head-outlet-->", "")
+          .replace("<!--ssr-outlet-->", "");
+      }
+
+      res.status(200).set({ "Content-Type": "text/html" }).end(finalPage);
     } catch (e) {
       vite.ssrFixStacktrace(e as Error);
       next(e);

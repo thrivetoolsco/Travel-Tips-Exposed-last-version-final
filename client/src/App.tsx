@@ -1,4 +1,5 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, Router } from "wouter";
+import { useState, useEffect } from "react";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
@@ -25,7 +26,21 @@ import Tetebatu from "@/pages/blog/Tetebatu";
 import IndonesiaMoney from "@/pages/blog/IndonesiaMoney";
 import NotFound from "@/pages/not-found";
 
-function Router() {
+type LocationHook = () => [string, (to: string) => void];
+
+function ClientOnlyToaster() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
+  if (!mounted) return null;
+  return <Toaster />;
+}
+
+interface AppProps {
+  helmetContext?: Record<string, any>;
+  locationHook?: LocationHook;
+}
+
+function AppRoutes() {
   return (
     <Layout>
       <Switch>
@@ -53,13 +68,17 @@ function Router() {
   );
 }
 
-function App() {
+function App({ helmetContext, locationHook }: AppProps = {}) {
+  const routerProps = locationHook ? { hook: locationHook as any } : {};
+
   return (
-    <HelmetProvider>
+    <HelmetProvider context={helmetContext}>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
-          <Toaster />
-          <Router />
+          <Router {...routerProps}>
+            <AppRoutes />
+          </Router>
+          <ClientOnlyToaster />
         </TooltipProvider>
       </QueryClientProvider>
     </HelmetProvider>
