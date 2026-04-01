@@ -36,7 +36,7 @@ const sections: Section[] = [
       {
         name: "Kayak",
         description: "My go-to for finding deals. Book 4 months out for the best prices on long-haul flights.",
-        url: "https://www.kayak.com",
+        url: "https://kayak.stay22.com/traveltipsexposed/X6-eqWFO1k",
         tag: "Best for Long Haul",
         tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
       },

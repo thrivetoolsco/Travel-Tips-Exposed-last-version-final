@@ -135,7 +135,8 @@ export default function BalisOneLoveVibe() {
               <div>
                 <p className="font-bold text-foreground mb-2" style={{ fontFamily: "var(--font-display)" }}>Download Grab</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  It's the Uber of SE Asia. You can schedule your airport lift in advance, and the driver stays updated on your flight arrival time through the app. Life. Saver. I booked 4 months out to snag a deal on Kayak.com.
+                  It's the Uber of SE Asia. You can schedule your airport lift in advance, and the driver stays updated on your flight arrival time through the app. Life. Saver. I booked 4 months out to snag a deal on{' '}
+                  <a href="https://kayak.stay22.com/traveltipsexposed/X6-eqWFO1k" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">Kayak</a>.
                 </p>
               </div>
             </div>
