@@ -78,7 +78,7 @@ export default function KutaLombok() {
           </p>
 
           <p className="mb-8 leading-relaxed">
-            If spotless, swimmable water is a non negotiable for you (as it should be), temper your expectations considerably before booking.
+            If spotless, swimmable water is a non negotiable for you (as it should be), temper your expectations considerably before <a href="https://booking.stay22.com/traveltipsexposed/7B5sBcxoXw" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">booking</a>.
           </p>
 
           <h3 className="text-xl font-bold mt-8 mb-3" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>

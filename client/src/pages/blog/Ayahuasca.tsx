@@ -78,7 +78,7 @@ export default function Ayahuasca() {
           </p>
 
           <p className="mb-6 leading-relaxed">
-            <strong>The psychonaut in me</strong>, the one constantly chasing the next paradigm shift, didn't hesitate. You could call it a calling; I called it booking a ferry ticket and praying I hadn't lost my damn mind.
+            <strong>The psychonaut in me</strong>, the one constantly chasing the next paradigm shift, didn't hesitate. You could call it a calling; I called it <a href="https://booking.stay22.com/traveltipsexposed/7B5sBcxoXw" target="_blank" rel="noopener noreferrer" className="text-[#C4541C] font-semibold hover:underline">booking</a> a ferry ticket and praying I hadn't lost my damn mind.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-serif)", color: "hsl(var(--foreground))" }}>
