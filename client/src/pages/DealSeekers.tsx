@@ -101,6 +101,13 @@ const sections: Section[] = [
         tagColor: "bg-blue-100 text-blue-700",
       },
       {
+        name: "Hotels.com",
+        description: "Great rewards program — every 10 nights you earn a free night. Solid for frequent travelers who want to stack up rewards.",
+        url: "https://hotelscom.stay22.com/traveltipsexposed/od1SPVLozn",
+        tag: "Best Rewards",
+        tagColor: "bg-red-100 text-red-700",
+      },
+      {
         name: "Retreat Guru",
         description: "For the conscious travelers. Find yoga retreats, meditation centers, ayahuasca retreats, and spiritual escapes worldwide.",
         url: "https://retreat.guru",
