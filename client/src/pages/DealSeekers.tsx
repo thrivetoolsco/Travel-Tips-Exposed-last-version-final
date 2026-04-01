@@ -41,10 +41,10 @@ const sections: Section[] = [
         tagColor: "bg-[#C4541C]/10 text-[#D4855A]",
       },
       {
-        name: "Skyscanner",
-        description: "The best for flexible date searches. The 'Whole Month' view is a game-changer for finding the cheapest day to fly.",
-        url: "https://www.skyscanner.com",
-        tag: "Best for Flexibility",
+        name: "Expedia",
+        description: "Great for bundling flights and hotels together. The package deals can save serious money, especially for longer trips.",
+        url: "https://expedia.stay22.com/traveltipsexposed/D-8R8OgAXS",
+        tag: "Best for Bundles",
         tagColor: "bg-amber-100 text-amber-700",
       },
       {
