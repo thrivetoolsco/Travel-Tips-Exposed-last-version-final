@@ -57,7 +57,7 @@ const sections: Section[] = [
       {
         name: "Kiwi.com",
         description: "Smart routing, finds creative combinations to get you there for less. Great for multi-city trips.",
-        url: "https://www.kiwi.com",
+        url: "https://kiwi.tpk.mx/fHYfS9lj",
         tag: "Multi-City",
         tagColor: "bg-rose-100 text-rose-700",
       },
