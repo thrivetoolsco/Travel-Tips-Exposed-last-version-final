@@ -284,6 +284,13 @@ const sections: Section[] = [
         tag: "Skip the Line",
         tagColor: "bg-violet-100 text-violet-700",
       },
+      {
+        name: "Trusted Tours and Attractions",
+        description: "Handpicked, vetted tours and attraction tickets from trusted local operators. Quality guaranteed experiences in top destinations worldwide.",
+        url: "https://www.jdoqocy.com/click-101718734-10552430",
+        tag: "Vetted Quality",
+        tagColor: "bg-teal-100 text-teal-700",
+      },
     ],
   },
   {
