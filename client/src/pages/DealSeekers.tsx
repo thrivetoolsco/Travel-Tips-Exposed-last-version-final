@@ -96,7 +96,7 @@ const sections: Section[] = [
       {
         name: "Booking.com",
         description: "Massive inventory, trustworthy reviews, and great free cancellation options.",
-        url: "https://booking.stay22.com/traveltipsexposed/7B5sBcxoXw",
+        url: "https://booking.tpk.mx/CIj0Ohp5",
         tag: "Best Selection",
         tagColor: "bg-sky-100 text-sky-700",
       },
