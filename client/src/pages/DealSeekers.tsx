@@ -257,6 +257,13 @@ const sections: Section[] = [
         tagColor: "bg-green-100 text-green-700",
       },
       {
+        name: "Klook",
+        description: "The go-to for Asia activities and experiences. Great prices on day trips, city passes, and attraction tickets across Southeast and East Asia.",
+        url: "https://klook.tpk.mx/oUYqDzqy",
+        tag: "Best for Asia",
+        tagColor: "bg-red-100 text-red-700",
+      },
+      {
         name: "Airbnb Experiences",
         description: "Hosted by locals. For the authentic, off-the-beaten-path experiences that tour companies don't offer.",
         url: "https://www.airbnb.com/experiences",
