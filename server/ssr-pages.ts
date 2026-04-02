@@ -377,7 +377,7 @@ export function registerSsrPages(app: Express) {
 
       let rendered = html
         .replace("<!--head-outlet-->", outletTags)
-        .replace("<!--ssr-outlet-->", `<div id="ssr-content" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">${post.bodyHtml}</div>`);
+        .replace("<!--ssr-outlet-->", post.bodyHtml);
 
       rendered = rendered.replace(
         /<title>[^<]*<\/title>/,
