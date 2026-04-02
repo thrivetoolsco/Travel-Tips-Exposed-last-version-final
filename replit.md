@@ -48,6 +48,22 @@ Preferred communication style: Simple, everyday language.
 3. Add the post to `shared/sitemap-urls.ts` (sitemap auto-generates from this file)
 4. Add the post card to the `blogPosts` array in `client/src/pages/Blog.tsx`
 5. Update the navigation chain (`ArrowLeft`/`ArrowRight` links) in the adjacent posts
+6. **Add a `PostMeta` entry to `server/ssr-pages.ts`** — this is required for the SEO fix; without it, crawlers will not see H1 or article text for the new post
+
+### SEO Fix: Server-Side Rendering for Crawlers
+
+**Problem**: In production, the app serves a static `index.html` shell via `serveStatic`. Search engine crawlers see an empty page with 0 words and no H1, because the React content only renders in the browser after JavaScript loads.
+
+**Solution**: `server/ssr-pages.ts` registers Express GET routes for all 12 blog posts BEFORE `serveStatic` is called. When a crawler (or browser) requests a blog post route in production:
+1. The handler reads `dist/public/index.html` (cached in memory)
+2. It replaces `<!--head-outlet-->` with post-specific canonical, OG, Twitter, and JSON-LD tags
+3. It replaces `<!--ssr-outlet-->` with a hidden `<div>` containing the H1 and article text (hundreds of words)
+4. It also replaces the default `<title>` and `<meta name="description">` inline
+5. Returns the complete HTML with full article content in the initial response
+
+The hidden `<div id="ssr-content">` is overwritten when React hydrates in the browser, so users never see duplicate content. Crawlers read the full text on first load.
+
+All 12 blog posts are covered, including the 4 with non-`/blog/` paths: `/is-kuta-lombok-overrated`, `/gili-air-indonesia-travel-guide`, `/tetebatu-lombok-honest-review`, `/atm-fees-money-exchange-indonesia`.
 
 ### Backend
 

@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { BASE_URL, sitemapUrls } from "../shared/sitemap-urls";
+import { registerSsrPages } from "./ssr-pages";
 
 export async function registerRoutes(
   httpServer: Server,
@@ -12,6 +13,11 @@ export async function registerRoutes(
 
   // use storage to perform CRUD operations on the storage interface
   // e.g. storage.insertUser(user) or storage.getUserByUsername(username)
+
+  // SSR routes for blog posts (must be before the static catch-all)
+  if (process.env.NODE_ENV === "production") {
+    registerSsrPages(app);
+  }
 
   app.get('/sitemap.xml', (_req, res) => {
     const urlEntries = sitemapUrls
