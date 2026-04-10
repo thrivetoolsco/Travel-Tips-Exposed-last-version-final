@@ -312,7 +312,7 @@ const sections: Section[] = [
       {
         name: "World Nomads",
         description: "Solid adventure travel insurance for the more extreme activities. Surfing, trekking, scuba diving, etc.",
-        url: "https://www.worldnomads.com",
+        url: "https://www.anrdoezrs.net/click-101718734-15736546",
         tag: "Adventure Coverage",
         tagColor: "bg-amber-100 text-amber-700",
       },
