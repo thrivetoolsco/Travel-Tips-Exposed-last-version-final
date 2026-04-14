@@ -1,81 +1,7 @@
 import { Link } from "wouter";
-import { Calendar, User, ArrowLeft, ArrowRight, Copy, Check } from "lucide-react";
-import { useState } from "react";
+import { Calendar, User, ArrowLeft, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
 import ShareButton from "@/components/ShareButton";
-
-function DealCopyButton() {
-  const [copied, setCopied] = useState(false);
-  const code = "TRAVELTIPS";
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(code).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
-    });
-  };
-
-  return (
-    <div
-      className="my-10 rounded-2xl overflow-hidden border border-[#C4541C]/20"
-      data-testid="cta-deal-block"
-    >
-      <div className="bg-[#1A1008] px-8 py-10 text-center">
-        <p
-          className="text-xs font-semibold tracking-[0.2em] uppercase text-amber-400 mb-3"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Bali Budget Hack
-        </p>
-        <h2
-          className="text-2xl md:text-3xl font-bold text-white mb-3"
-          style={{ fontFamily: "var(--font-serif)" }}
-        >
-          Want the Cheapest Prices for Your Bali Trip?
-        </h2>
-        <p className="text-white/60 mb-6 max-w-md mx-auto">
-          Every flight, hotel, and activity platform I personally use. One page, no fluff.
-        </p>
-        <Link
-          href="/deal-seekers"
-          data-testid="link-deal-seekers-cta"
-          className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#C4541C] hover:bg-[#A83F10] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200 mb-6"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          View All Bali Deals <ArrowRight size={15} />
-        </Link>
-        <div className="mt-6 flex items-center justify-center gap-3 bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 max-w-xs mx-auto">
-          <span
-            className="text-xs text-white/50 font-medium"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Agoda discount code:
-          </span>
-          <code
-            className="flex-1 text-sm font-mono font-bold text-amber-400 tracking-widest select-all"
-            data-testid="code-discount-TRAVELTIPS"
-          >
-            {code}
-          </code>
-          <button
-            onClick={handleCopy}
-            data-testid="button-copy-TRAVELTIPS"
-            className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-200 ${
-              copied
-                ? "bg-[#1D4A38] text-white"
-                : "bg-[#C4541C] hover:bg-[#A83F10] text-white"
-            }`}
-            style={{ fontFamily: "var(--font-display)" }}
-            title="Copy discount code"
-          >
-            {copied ? <Check size={11} /> : <Copy size={11} />}
-            {copied ? "Copied!" : "Copy"}
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export default function LegianBali() {
   return (
@@ -466,8 +392,6 @@ export default function LegianBali() {
               </details>
             ))}
           </div>
-
-          <DealCopyButton />
 
           <p className="text-xs text-muted-foreground text-center italic mt-4">
             Travel Tips Exposed is an independent travel blog. All recommendations are based on
