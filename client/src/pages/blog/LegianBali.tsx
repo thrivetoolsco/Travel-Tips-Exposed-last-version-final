@@ -393,6 +393,37 @@ export default function LegianBali() {
             ))}
           </div>
 
+          <div
+            className="my-10 rounded-2xl overflow-hidden border border-[#C4541C]/20"
+            data-testid="cta-deal-block"
+          >
+            <div className="bg-[#1A1008] px-8 py-10 text-center">
+              <p
+                className="text-xs font-semibold tracking-[0.2em] uppercase text-amber-400 mb-3"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Bali Budget Hack
+              </p>
+              <h2
+                className="text-2xl md:text-3xl font-bold text-white mb-3"
+                style={{ fontFamily: "var(--font-serif)" }}
+              >
+                Want the Cheapest Prices for Your Bali Trip?
+              </h2>
+              <p className="text-white/60 mb-6 max-w-md mx-auto">
+                Every flight, hotel, and activity platform I personally use. One page, no fluff.
+              </p>
+              <Link
+                href="/deal-seekers"
+                data-testid="link-deal-seekers-cta"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#C4541C] hover:bg-[#A83F10] text-white font-semibold text-sm tracking-wider uppercase rounded-md transition-all duration-200"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                View All Bali Deals <ArrowRight size={15} />
+              </Link>
+            </div>
+          </div>
+
           <p className="text-xs text-muted-foreground text-center italic mt-4">
             Travel Tips Exposed is an independent travel blog. All recommendations are based on
             personal experience. Some links may be affiliate links. I only recommend services I'd
