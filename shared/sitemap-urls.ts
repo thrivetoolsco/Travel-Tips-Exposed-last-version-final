@@ -39,4 +39,5 @@ export const sitemapUrls: SitemapUrl[] = [
   { path: "/blog/skip-lines-bali",                               lastmod: "2026-01-17", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/bali-belly-delhi-belly",                        lastmod: "2026-01-05", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/yoga-teacher-training-rishikesh",               lastmod: "2025-12-15", changefreq: "monthly", priority: 0.8 },
+  { path: "/blog/legian-bali-first-stop",                        lastmod: "2025-12-08", changefreq: "monthly", priority: 0.8 },
 ];

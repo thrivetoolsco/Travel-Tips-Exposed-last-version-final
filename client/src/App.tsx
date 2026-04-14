@@ -24,6 +24,7 @@ import KutaLombok from "@/pages/blog/KutaLombok";
 import GiliAir from "@/pages/blog/GiliAir";
 import Tetebatu from "@/pages/blog/Tetebatu";
 import IndonesiaMoney from "@/pages/blog/IndonesiaMoney";
+import LegianBali from "@/pages/blog/LegianBali";
 import NotFound from "@/pages/not-found";
 
 type LocationHook = () => [string, (to: string) => void];
@@ -62,6 +63,7 @@ function AppRoutes() {
         <Route path="/gili-air-indonesia-travel-guide" component={GiliAir} />
         <Route path="/tetebatu-lombok-honest-review" component={Tetebatu} />
         <Route path="/atm-fees-money-exchange-indonesia" component={IndonesiaMoney} />
+        <Route path="/blog/legian-bali-first-stop" component={LegianBali} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

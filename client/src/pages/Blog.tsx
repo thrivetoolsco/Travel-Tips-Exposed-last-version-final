@@ -136,6 +136,16 @@ const blogPosts = [
     author: "Eden",
     href: "/blog/ayahuasca-retreats-peru",
   },
+  {
+    id: "legian-bali-first-stop",
+    title: "Why Legian Should Be Your First Stop in Bali (Not Canggu, Not Ubud)",
+    excerpt: "Most first-timers land in Ngurah Rai and immediately commit to Canggu or Ubud. They spend their first 48 hours exhausted, disoriented, and overpaying for everything before they've even got their bearings. There is a better approach...",
+    image: "/images/legian-beach-sunset.jpg",
+    categories: ["Bali", "Budget Hacks"],
+    date: "December 8, 2025",
+    author: "Eden",
+    href: "/blog/legian-bali-first-stop",
+  },
 ];
 
 const categoryColors: Record<string, string> = {
@@ -150,6 +160,7 @@ const categoryColors: Record<string, string> = {
   "Wellness": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Spirituality": "bg-[#1D4A38]/20 text-[#1D4A38] border border-[#1D4A38]/30",
   "Music": "bg-[#C4541C]/10 text-[#C4541C] border border-[#C4541C]/25",
+  "Bali": "bg-sky-100 text-sky-700",
 };
 
 export default function Blog() {
